@@ -22,6 +22,19 @@ public class SudokuVerifier {
 		
 		// R2: All digits appear only once in a sub-grid, i.e. they cannot repeat
 		
+		// R3: A digit can appear only once in the rows of the global grid
+		for (int i = 0; i < 9; i++) {
+			int beginIndex = i * 9;
+			String row = candidateSolution.substring(beginIndex, beginIndex + 9);
+			
+			for (int number = 1; number < 10; number++) {
+				if (!row.contains(Integer.toString(number))) {
+					return -3;
+				}
+			}
+		}
+		
+		// R4: A digit can appear only once in the columns of the global grid
 		
 		// Return 0 if the candidate solution is correct
 		return 0;

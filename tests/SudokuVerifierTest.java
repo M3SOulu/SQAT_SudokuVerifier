@@ -30,7 +30,8 @@ public class SudokuVerifierTest {
 		int verification = SudokuVerifier.verify(solution);
 		
 		// Assert
-		assertEquals("Correct solution", 1, verification);
+		//assertEquals("Incorrect solution", -3, verification);
+		fail("Incorrect solution test not yet implemented");
 	}
 	
 	@Test (expected = IllegalArgumentException.class)
