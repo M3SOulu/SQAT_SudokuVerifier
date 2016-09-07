@@ -43,6 +43,16 @@ public class SudokuVerifierTest {
 		int verification = SudokuVerifier.verify(solution);
 	}
 	
+	@Test (expected = IllegalArgumentException.class)
+	public void testVerify_TooLongSolution() throws IllegalArgumentException {
+		// Arrange
+		String solution = "4173698256321589479587243168254371697915864323469127582896435715732916841648752931";
+		SudokuVerifier SudokuVerifier = new SudokuVerifier();
+		
+		// Act, should raise an exception
+		int verification = SudokuVerifier.verify(solution);
+	}
+	
 	@Test
 	public void testVerify_IncorrectNumbers() throws IllegalArgumentException {
 		// Arrange
