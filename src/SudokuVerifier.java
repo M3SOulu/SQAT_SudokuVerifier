@@ -7,7 +7,12 @@ public class SudokuVerifier {
 	 * @param candidateSolution All 81 digits
 	 * @return 0 if solution is correct, 1 if incorrect
 	 */
-	public int verify(String candidateSolution) {
+	public int verify(String candidateSolution) throws IllegalArgumentException {
+		// Initial rule: There has to be 81 digits
+		if (candidateSolution.length() != 81) {
+			throw new IllegalArgumentException("A Sudoku solution's length has to be 81 digits.");
+		}
+		
 		// R1: A cell can only store positive digits, i.e. 1...9
 		Pattern illegalCharsPattern = Pattern.compile("[^1-9]");
 		boolean illegalCharsFound = illegalCharsPattern.matcher(candidateSolution).find();
