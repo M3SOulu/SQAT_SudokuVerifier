@@ -41,6 +41,7 @@ public class SudokuVerifier {
 				for(int s = 0; s < gridsize; s++) {
 					validate = input.substring(g + i * 9 + s*9, g + i * 9 + gridsize + s* 9);
 					for(int j = 0; j < 9; j++) {
+						System.out.println(validate);
 						int index = Character.getNumericValue(validate.charAt(j));
 						
 						if(validated[index - 1]) {
