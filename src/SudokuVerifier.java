@@ -8,11 +8,11 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if (verifyRows(candidateSolution) != 0) {
+		else if (verifyRows(candidateSolution) != 0) {
 			return -3;
 		}
 		
-		if(verifyCols(candidateSolution) != 0) {
+		else if(verifyCols(candidateSolution) != 0) {
 			return -4;
 		}
 		
