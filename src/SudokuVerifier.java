@@ -5,9 +5,6 @@ public class SudokuVerifier {
 		if (isStringLenghtCorrect(candidateSolution) == 0) {
 			return 0;
 		}
-		//else if (splitStringToRows(candidateSolution) == 0)
-			//return 0;
-		
 		return -1;
 		
 		//check
