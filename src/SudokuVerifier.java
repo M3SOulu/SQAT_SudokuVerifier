@@ -79,7 +79,7 @@ public class SudokuVerifier {
 			while ((i < 81) && (colOk)) {
 				aux = Character.getNumericValue(candidateSolution.charAt(i));
 				col[aux - 1] = true;
-				i=+9;
+				i=i+9;
 			}
 			for (int j = 0; j < 9; j++) {
 				if (!col[j]) {
@@ -87,7 +87,7 @@ public class SudokuVerifier {
 					return -4;
 				}
 			}
-			i=-80;
+			i=i-80;
 		}
 		return 0;
 
