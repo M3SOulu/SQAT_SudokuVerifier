@@ -19,6 +19,7 @@ public class SudokuVerifier {
 			validate = input.substring(i * 9, i * 9 + 9);
 			for(int j = 0; j < 9; j++) {
 				int index = (int)validate.charAt(j);
+				System.out.println(validate.charAt(j));
 				if(validated[index - 1]) {
 					return -2;
 				}
