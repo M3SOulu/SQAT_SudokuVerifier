@@ -21,9 +21,9 @@ public class SudokuVerifier {
 		return error;
 	}
 	
-	public int verifySubGrid(String candidateSolution) {
+	/*public int verifySubGrid(String candidateSolution) {
 		return checkSubGrid(candidateSolution);
-	}
+	}*/
 	
 	public int verifyGlobalRow(String candidateSolution) {
 		return checkGlobalRow(candidateSolution);
