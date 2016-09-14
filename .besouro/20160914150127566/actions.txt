@@ -563,3 +563,6 @@ RefactoringAction 1473858046477 SudokuVerifierTest.java RENAME testCandidateCont
 EditAction 1473858056351 SudokuVerifierTest.java 2238 5 16 5
 EditAction 1473858064680 SudokuVerifier.java 1194 1 6 0
 EditAction 1473858076117 SudokuVerifierTest.java 2245 5 16 5
+UnitTestCaseAction 1473858081442 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473858081442 SudokuVerifierTest.java OK
+EditAction 1473858109912 SudokuVerifierTest.java 2620 6 19 6

@@ -22,7 +22,22 @@ public class SudokuVerifierTest {
 				+ "164875293";;
 		assertEquals(-1, verifier.verify(candidate));
 	}
-	
+
+	@Test
+	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidate = 
+				  "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "79158a432" // a
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
+		assertEquals(-1, verifier.verify(candidate));
+	}
 	@Test
 	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
