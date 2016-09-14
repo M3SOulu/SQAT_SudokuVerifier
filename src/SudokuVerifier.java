@@ -24,8 +24,8 @@ public class SudokuVerifier {
 	}
 	
 	private int checkSubGrid(String candidateSolution){
-		int error = 0;
 		boolean debug = false;
+		int error = 0;
 		int[] testSet = new int[SUB_GRID_SIZE];
 		
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
