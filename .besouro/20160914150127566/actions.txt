@@ -665,3 +665,13 @@ CompilationAction 1473858764859 SudokuVerifierTest.java
 CompilationAction 1473858776665 SudokuVerifierTest.java
 CompilationAction 1473858776830 SudokuVerifierTest.java
 EditAction 1473858796035 SudokuVerifierTest.java 3053 7 22 7
+CompilationAction 1473858796272 SudokuVerifierTest.java
+CompilationAction 1473858804593 SudokuVerifierTest.java
+CompilationAction 1473858804754 SudokuVerifierTest.java
+RefactoringAction 1473858811218 SudokuVerifierTest.java RENAME import org.hamcrest.core.*=>import org.hamcrest.CoreMatchers.* IMPORT
+CompilationAction 1473858811735 SudokuVerifierTest.java
+CompilationAction 1473858811899 SudokuVerifierTest.java
+CompilationAction 1473858821585 SudokuVerifierTest.java
+UnitTestCaseAction 1473858824527 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473858824527 SudokuVerifierTest.java OK
+EditAction 1473858976234 SudokuVerifierTest.java 3436 8 25 8
