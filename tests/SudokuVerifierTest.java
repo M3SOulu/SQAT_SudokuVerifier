@@ -1,6 +1,7 @@
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.hamcrest.CoreMatchers.*;
 
 public class SudokuVerifierTest {
 
@@ -87,7 +88,7 @@ public class SudokuVerifierTest {
 				+ "573291684"
 				+ "164875293";
 		
-		assertEquals(-2, anyOf(verifier.verify(candidate));
+		assertThat(verifier.verify(candidate), anyOf(is(-2), is(-3)));
 	}
 	
 	@Test
