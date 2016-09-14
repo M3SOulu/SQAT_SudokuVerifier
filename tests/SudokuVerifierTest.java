@@ -8,7 +8,7 @@ public class SudokuVerifierTest {
 // An incorrect Sudoku string: 123456789912345678891234567789123456678912345567891234456789123345678912234567891
 
 	@Test
-	public void testCandidateContains_Zero_1() throws Exception {
+	public void testCandidateContains_Zero_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -20,11 +20,11 @@ public class SudokuVerifierTest {
 				+ "289643571"
 				+ "573291684"
 				+ "164875293";;
-		assertEquals(1, verifier.verify(candidate));
+		assertEquals(-1, verifier.verify(candidate));
 	}
 	
 	@Test
-	public void testCandidateContains_InvalidCharacter_1() throws Exception {
+	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -36,11 +36,11 @@ public class SudokuVerifierTest {
 				+ "289643571"
 				+ "573291684"
 				+ "164875293";
-		assertEquals(1, verifier.verify(candidate));
+		assertEquals(-1, verifier.verify(candidate));
 	}
 
 	@Test
-	public void testCandidate_Err0() throws Exception {
+	public void testCandidate_Succ0() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"

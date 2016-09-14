@@ -555,3 +555,9 @@ RefactoringAction 1473858023412 SudokuVerifierTest.java RENAME testCandidate_Col
 RefactoringAction 1473858024420 SudokuVerifierTest.java RENAME testCandidate_Row_Duplicates_3()=>void testCandidate_Row_Duplicates_E3() METHOD
 RefactoringAction 1473858025424 SudokuVerifierTest.java RENAME testCandidate_Row_Duplicates_E3()=>void testCandidate_Row_Duplicates_Err3() METHOD
 EditAction 1473858031058 SudokuVerifierTest.java 2229 5 16 5
+RefactoringAction 1473858032429 SudokuVerifierTest.java RENAME testCandidate_Err0()=>void testCandidate_0() METHOD
+RefactoringAction 1473858037948 SudokuVerifierTest.java RENAME testCandidateContains_InvalidCharacter_1()=>void testCandidateContains_InvalidCharacter_Err1() METHOD
+RefactoringAction 1473858039958 SudokuVerifierTest.java RENAME testCandidate_0()=>void testCandidate_S() METHOD
+RefactoringAction 1473858043467 SudokuVerifierTest.java RENAME testCandidate_S()=>void testCandidate_Succ0() METHOD
+RefactoringAction 1473858046477 SudokuVerifierTest.java RENAME testCandidateContains_Zero_1()=>void testCandidateContains_Zero_Err1() METHOD
+EditAction 1473858056351 SudokuVerifierTest.java 2238 5 16 5
