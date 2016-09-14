@@ -58,7 +58,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testR4_verifyWithIncorrectColumns() {
 		Setup();
-		int result = verifier.verify("417369825432158947458724316825437169791586432346912758289643571573291684164875293");
+		int result = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684464875293");
 		assertThat(result, anyOf(is(-2), is(-3)));	
 	}
 	
