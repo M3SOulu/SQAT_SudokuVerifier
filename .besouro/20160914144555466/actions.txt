@@ -210,3 +210,6 @@ UnitTestCaseAction 1473856956736 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473856956736 SudokuVerifierTest.java FAIL
 RefactoringAction 1473856986160 SudokuVerifier.java ADD import java.util.Arrays IMPORT
 EditAction 1473856987981 SudokuVerifier.java 771 4 10 0
+UnitTestCaseAction 1473856991401 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856991401 SudokuVerifierTest.java FAIL
+EditAction 1473856998401 SudokuVerifier.java 687 4 8 0
