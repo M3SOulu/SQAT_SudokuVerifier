@@ -8,3 +8,6 @@ RefactoringAction 1473853955844 SudokuVerifierTest.java RENAME testVerify_SameNu
 UnitTestCaseAction 1473854190023 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473854190025 SudokuVerifierTest.java FAIL
 EditAction 1473854299379 SudokuVerifierTest.java 4350 8 30 5
+UnitTestCaseAction 1473854302509 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473854302510 SudokuVerifierTest.java FAIL
+EditAction 1473854956839 SudokuVerifier.java 1914 1 8 0

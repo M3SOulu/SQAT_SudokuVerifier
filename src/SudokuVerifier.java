@@ -23,6 +23,12 @@ public class SudokuVerifier {
 		}
 		
 		// R2: All digits appear only once in a sub-grid, i.e. they cannot repeat
+		for (int i = 0; i < 9; i++) {
+			for (int j = 0; j < 3; j++) {
+				int beginIndex = (i * 3 * Math.floor(i / 3)) + j * 9;
+				String numbers = candidateSolution.substring(beginIndex, beginIndex + 3);				
+			}
+		}
 		
 		// R3: A digit can appear only once in the rows of the global grid
 		for (int i = 0; i < 9; i++) {
