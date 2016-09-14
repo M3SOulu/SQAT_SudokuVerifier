@@ -12,7 +12,7 @@ public class SudokuVerifier {
 		
 		//Check R3
 		int helper = 0;
-		for(int i = 0; i < 81; i=+9) {
+		for(int i = 0; i < 81; i=+8) {
 			String subset = verifiable.substring(i, i+9);
 			for(int j = 0; i < 9; i++) {
 				if(i != subset.charAt(helper) && subset.contains(subset.substring(helper, helper))) {
