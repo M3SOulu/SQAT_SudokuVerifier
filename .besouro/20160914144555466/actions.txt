@@ -375,3 +375,8 @@ RefactoringAction 1473859511684 SudokuVerifier.java RENAME rowContainss(String)=
 EditAction 1473859513637 SudokuVerifier.java 1037 5 13 0
 CompilationAction 1473859513744 SudokuVerifier.java
 EditAction 1473859545789 SudokuVerifier.java 1036 5 11 0
+CompilationAction 1473859545889 SudokuVerifier.java
+CompilationAction 1473859545889 SudokuVerifier.java
+CompilationAction 1473859556078 SudokuVerifier.java
+CompilationAction 1473859556251 SudokuVerifier.java
+EditAction 1473859566332 SudokuVerifier.java 1040 5 12 0

@@ -37,7 +37,8 @@ public class SudokuVerifier {
 			String tempRow = rows[1];
 			if (tempRow.contains("-") == true)
 				return -1;
-		return -1;
+		 }
+		return 0;
 	}
 	
 }
