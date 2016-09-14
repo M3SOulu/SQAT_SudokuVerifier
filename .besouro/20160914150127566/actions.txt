@@ -278,3 +278,4 @@ CompilationAction 1473855873808 SudokuVerifier.java
 CompilationAction 1473855873809 SudokuVerifier.java
 RefactoringAction 1473855882010 SudokuVerifierTest.java ADD void testCandidateValid() METHOD
 EditAction 1473855886173 SudokuVerifierTest.java 1238 3 9 3
+EditAction 1473855888696 SudokuVerifierTest.java 1238 3 9 3
