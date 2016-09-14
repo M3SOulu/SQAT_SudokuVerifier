@@ -258,3 +258,4 @@ EditAction 1473857468916 SudokuVerifierTest.java 1404 4 12 4
 EditAction 1473857479346 SudokuVerifierTest.java 1400 4 12 4
 RefactoringAction 1473857522824 SudokuVerifier.java REMOVE isRowLengthRight(String) METHOD
 EditAction 1473857523410 SudokuVerifier.java 534 3 7 0
+EditAction 1473857528567 SudokuVerifier.java 534 3 7 0
