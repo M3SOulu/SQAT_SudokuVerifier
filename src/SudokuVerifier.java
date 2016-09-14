@@ -66,16 +66,10 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
-			testSet = getSubgrid(candidateSolution);
-			
-			membersUnique(testSet);
-			
-			
-			
-			
-			
-			if (NO_ERROR != error)
-				break;
+			testSet = getSubgrid(candidateSolution, i);
+
+			if (!membersUnique(testSet))
+				return SUBGRID_ERROR;
 		}
 
 		return error;
@@ -102,9 +96,9 @@ public class SudokuVerifier {
 	}
 	
 	/* subgrid nums
-	 * 1 2 3
-	 * 4 5 6
-	 * 7 8 9
+	 * 0 1 2
+	 * 3 4 5
+	 * 6 7 8
 	 */
 	private int[] getSubgrid(String candidateSolution, int subgridNum) {
 		int[] subgridCellValues = new int[SUB_GRID_SIZE]; 
