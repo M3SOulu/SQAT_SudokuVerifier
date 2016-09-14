@@ -41,4 +41,9 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public static int digitAppearsOnceInRow(String candidateSolution){
+		String[] rows = splitStringToRows(candidateSolution);
+		return 0;
+	}
+	
 }
