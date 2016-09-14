@@ -33,17 +33,15 @@ public class SudokuVerifier {
 			
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
 				if (k != testSet[k]) {
-					error = SUBGRID_ERROR
+					error = SUBGRID_ERROR;
+					break;
 				}
 			}
 			
 			if (NO_ERROR != error)
 				break;
 		}
-		
-		
-		
-		
+
 		return error;
 	}
 }
