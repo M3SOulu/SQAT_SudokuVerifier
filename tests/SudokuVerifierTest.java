@@ -14,11 +14,6 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify() {
-		fail("Not yet implemented");
-	}
-	
-	@Test
 	public void testVerify_withCorrectLength() {
 		Setup();
 		int result = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
@@ -40,17 +35,17 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testR1_verifyCorrect() {
-		Setup();
-		int result = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals(result, 0);
-	}
-	
-	@Test
 	public void testR1_verifyWithIncorrectSymbols() {
 		Setup();
 		int result = verifier.verify("41a369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		assertEquals(result, -1);
+	}
+	
+	@Test
+	public void testR2_verifyWithIncorrectSubgrids() {
+		Setup();
+		int result = verifier.verify("417777775632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertEquals(result, -2);
 	}
 
 	

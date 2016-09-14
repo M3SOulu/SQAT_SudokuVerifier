@@ -59,3 +59,17 @@ EditAction 1473856302872 SudokuVerifier.java 569 2 7 0
 CompilationAction 1473856304783 SudokuVerifier.java
 CompilationAction 1473856316907 SudokuVerifier.java
 EditAction 1473856388784 SudokuVerifier.java 620 2 8 0
+CompilationAction 1473856390667 SudokuVerifier.java
+RefactoringAction 1473856398751 SudokuVerifier.java ADD int verifyCorrectSubgrids FIELD
+RefactoringAction 1473856402764 SudokuVerifier.java RENAME verifyCorrectSubgrids=>int verifyCorrectSubgrids(String) METHOD
+CompilationAction 1473856406382 SudokuVerifier.java
+RefactoringAction 1473856420566 SudokuVerifierTest.java ADD void testR2_ FIELD
+RefactoringAction 1473856428081 SudokuVerifierTest.java RENAME testR2_=>void testR2_verifyWithIncorrectSub FIELD
+RefactoringAction 1473856429604 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectSub=>void testR2_verifyWithIncorrectSubgrids FIELD
+RefactoringAction 1473856431627 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectSubgrids=>void testR2_verifyWithIncorrectSubgrids() METHOD
+RefactoringAction 1473856618296 SudokuVerifierTest.java RENAME testR1_verifyCorrect()=>void verifyCorrect() METHOD
+RefactoringAction 1473856629322 SudokuVerifierTest.java REMOVE verifyCorrect() METHOD
+RefactoringAction 1473856635347 SudokuVerifierTest.java REMOVE testVerify() METHOD
+UnitTestCaseAction 1473856641183 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856641184 SudokuVerifierTest.java FAIL
+EditAction 1473856661386 SudokuVerifier.java 687 3 9 0

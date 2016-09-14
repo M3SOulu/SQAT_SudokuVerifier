@@ -12,6 +12,10 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
+	public int verifyCorrectSubgrids(String input) {
+		return 0;
+	}
+	
 	public int verify(String candidateSolution) {
 		
 		if(candidateSolution.length() != 81) {
