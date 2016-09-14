@@ -259,3 +259,11 @@ EditAction 1473857479346 SudokuVerifierTest.java 1400 4 12 4
 RefactoringAction 1473857522824 SudokuVerifier.java REMOVE isRowLengthRight(String) METHOD
 EditAction 1473857523410 SudokuVerifier.java 534 3 7 0
 EditAction 1473857528567 SudokuVerifier.java 534 3 7 0
+UnitTestCaseAction 1473857530754 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473857530754 SudokuVerifierTest.java OK
+RefactoringAction 1473857572398 SudokuVerifierTest.java ADD void test_ FIELD
+RefactoringAction 1473857574410 SudokuVerifierTest.java RENAME test_=>void testVerify FIELD
+RefactoringAction 1473857579924 SudokuVerifierTest.java RENAME testVerify=>void testVerify_ FIELD
+RefactoringAction 1473857583935 SudokuVerifierTest.java RENAME testVerify_=>void test FIELD
+RefactoringAction 1473857585946 SudokuVerifierTest.java RENAME test=>void testVerify_ FIELD
+EditAction 1473857717492 SudokuVerifierTest.java 1433 4 12 4
