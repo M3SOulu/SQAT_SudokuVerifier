@@ -10,7 +10,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testCandidateContains_Zero_1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidate = "417309825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(verifier.verify(candidate), 1);
 	}
 	
