@@ -34,10 +34,23 @@ public class SudokuVerifier {
 	
 	public int verifyCorrectSubgrids(String input) {
 		int gridsize = 3;
+		String validate;
+		boolean [] validated = new boolean[9];
 		for (int i = 0; i < 9; i ++) {
 			for (int g = 0; g < gridsize; g++) {
 				for(int s = 0; s < gridsize; s++) {
 					validate = input.substring(g + i * 9 + s*9, g + i * 9 + gridsize + s* 9);
+					for(int j = 0; j < 9; j++) {
+						int index = Character.getNumericValue(validate.charAt(j));
+						
+						if(validated[index - 1]) {
+							return -1;
+						}
+						else {
+							validated[index - 1] = true;
+						}
+					}
+					validated = new boolean[9];
 				}
 			}
 		}

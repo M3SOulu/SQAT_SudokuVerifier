@@ -107,3 +107,6 @@ RefactoringAction 1473857604716 SudokuVerifier.java ADD int verify FIELD
 RefactoringAction 1473857606730 SudokuVerifier.java RENAME verify=>int verifyCor FIELD
 RefactoringAction 1473857613246 SudokuVerifier.java RENAME verifyCor=>int verifyCorrectSubgrids(String) METHOD
 EditAction 1473857783606 SudokuVerifier.java 1363 4 15 0
+CompilationAction 1473857785498 SudokuVerifier.java
+CompilationAction 1473857791659 SudokuVerifier.java
+EditAction 1473857833965 SudokuVerifier.java 1685 4 17 0
