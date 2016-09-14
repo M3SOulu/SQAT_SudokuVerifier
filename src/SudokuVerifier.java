@@ -40,18 +40,6 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		/*
-		for (int i = 0; i < 9; i++) {
-			for (int j = 0; j < 3; j++) {
-				int beginIndex = (i * 3 * ((int) i / 3) * 9) + j * 9;
-				
-				StringBuilder numbersBuilder = new StringBuilder();
-				numbersBuilder.append(candidateSolution.substring(beginIndex, beginIndex + 3));
-				numbersBuilder.append(candidateSolution.substring(beginIndex + 3, beginIndex + 3));
-				numbersBuilder.append(candidateSolution.substring(beginIndex, beginIndex + 3));
-			}
-		}
-		*/
 		
 		// R3: A digit can appear only once in the rows of the global grid
 		for (int i = 0; i < 9; i++) {
