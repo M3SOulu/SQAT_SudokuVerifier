@@ -43,7 +43,7 @@ public class SudokuVerifier {
 						validate += input.substring(x * 3 + y * 3 * 9 + s * 9, x * 3 + 3 + y * 3 * 9 + s * 9);
 						
 					}
-					System.out.println(validate);
+					
 					for(int k = 0; k < 9; k++) {
 					
 						int index = Character.getNumericValue(validate.charAt(k));
