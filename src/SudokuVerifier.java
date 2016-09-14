@@ -18,8 +18,10 @@ public class SudokuVerifier {
 					for (int sX = 0; sX < 3; sX++) {
 						char c = candidateSolution.charAt(
 								(sY + gY * 3) * 3 + (sX + gY * 3));
+						
 						if (reserved.indexOf(c) != -1)
 							return 2;
+						
 						reserved += c;
 					}
 				}
