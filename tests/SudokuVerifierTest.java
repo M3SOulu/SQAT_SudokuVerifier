@@ -37,7 +37,7 @@ public class SudokuVerifierTest {
 				+ "289643571"
 				+ "573291684"
 				+ "1648752931";
-		assertEquals(-1, verifier.verify(candidate));
+		verifier.verify(candidate);
 	}
 	
 	@Test(expected=Exception.class)
@@ -53,7 +53,7 @@ public class SudokuVerifierTest {
 				+ "289643571"
 				+ "573291684"
 				+ "16487521";
-		assertEquals(-1, verifier.verify(candidate));
+		verifier.verify(candidate);
 	}
 
 	@Test
