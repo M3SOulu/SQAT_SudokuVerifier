@@ -129,15 +129,15 @@ public class SudokuVerifierTest {
 	public void testVerify_SameNumbersInARow() throws IllegalArgumentException {
 		// Arrange
 		String solution = ""
-				+ "123356789" // two 3's
-				+ "912345678"
-				+ "891234567"
-				+ "789123456"
-				+ "678912345"
-				+ "567891234"
-				+ "456789123"
-				+ "345678912"
-				+ "234567891";
+				+ "617369825" // Two 6's
+				+ "432158947" // Two 4's
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act
