@@ -8,7 +8,7 @@ public class SudokuVerifier {
 		
 		while ((i < 81) && (!negative)) {
 			solution = candidateSolution.toCharArray();
-			if (solution[i] < 0) {
+			if (solution[i] < 1) {
 				return -1;
 			}
 			i++;
