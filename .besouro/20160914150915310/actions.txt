@@ -195,3 +195,26 @@ CompilationAction 1473859147006 SudokuVerifier.java
 EditAction 1473859183612 SudokuVerifier.java 1211 3 16 0
 CompilationAction 1473859185249 SudokuVerifier.java
 EditAction 1473859192521 SudokuVerifier.java 1221 3 16 0
+CompilationAction 1473859194687 SudokuVerifier.java
+RefactoringAction 1473859249617 SudokuVerifier.java ADD String sudokuRow1 FIELD
+RefactoringAction 1473859249619 SudokuVerifier.java ADD String sudokuRow2 FIELD
+RefactoringAction 1473859249621 SudokuVerifier.java ADD String sudokuRow3 FIELD
+RefactoringAction 1473859249623 SudokuVerifier.java ADD String sudokuRow4 FIELD
+RefactoringAction 1473859249626 SudokuVerifier.java ADD String sudokuRow5 FIELD
+RefactoringAction 1473859249627 SudokuVerifier.java ADD String sudokuRow6 FIELD
+RefactoringAction 1473859249629 SudokuVerifier.java ADD String sudokuRow7 FIELD
+RefactoringAction 1473859249631 SudokuVerifier.java ADD String sudokuRow8 FIELD
+RefactoringAction 1473859249632 SudokuVerifier.java ADD String sudokuRow9 FIELD
+RefactoringAction 1473859258668 SudokuVerifier.java REMOVE sudokuRow7 FIELD
+RefactoringAction 1473859258670 SudokuVerifier.java REMOVE sudokuRow9 FIELD
+RefactoringAction 1473859258672 SudokuVerifier.java REMOVE checkSudokuLength(String) METHOD
+RefactoringAction 1473859258673 SudokuVerifier.java REMOVE sudokuRow3 FIELD
+RefactoringAction 1473859258675 SudokuVerifier.java REMOVE sudokuRow5 FIELD
+RefactoringAction 1473859258677 SudokuVerifier.java REMOVE sudokuRow1 FIELD
+RefactoringAction 1473859258678 SudokuVerifier.java REMOVE sudokuRow6 FIELD
+RefactoringAction 1473859258680 SudokuVerifier.java REMOVE sudokuRow8 FIELD
+RefactoringAction 1473859258681 SudokuVerifier.java REMOVE sudokuRow2 FIELD
+RefactoringAction 1473859258683 SudokuVerifier.java REMOVE sudokuRow4 FIELD
+RefactoringAction 1473859270208 SudokuVerifier.java ADD static int checkSudokuLength(String) METHOD
+CompilationAction 1473859271366 SudokuVerifier.java
+EditAction 1473859499761 SudokuVerifier.java 1311 3 4 0
