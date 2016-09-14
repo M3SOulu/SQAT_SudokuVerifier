@@ -596,3 +596,9 @@ RefactoringAction 1473858376827 SudokuVerifierTest.java RENAME testCandidate_Suc
 RefactoringAction 1473858378837 SudokuVerifierTest.java REMOVE testCandidateContains_Zero_Err1()/2 METHOD
 CompilationAction 1473858379255 SudokuVerifierTest.java
 EditAction 1473858388800 SudokuVerifierTest.java 2981 7 22 7
+CompilationAction 1473858389048 SudokuVerifierTest.java
+RefactoringAction 1473858395383 SudokuVerifierTest.java RENAME testCandidate_Succ0()/2=>void testCandidate_Duplicated() METHOD
+RefactoringAction 1473858396892 SudokuVerifierTest.java RENAME testCandidate_Duplicated()=>void testCandidate_Duplicated_() METHOD
+RefactoringAction 1473858398403 SudokuVerifierTest.java RENAME testCandidate_Duplicated_()=>void testCandidate_() METHOD
+CompilationAction 1473858403305 SudokuVerifierTest.java
+EditAction 1473858403831 SudokuVerifierTest.java 2996 7 22 7

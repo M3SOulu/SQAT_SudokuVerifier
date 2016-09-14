@@ -73,9 +73,8 @@ public class SudokuVerifierTest {
 		assertEquals(0, verifier.verify(candidate));
 	}
 
-
 	@Test
-	public void testCandidate_Succ0() throws Exception {
+	public void testCandidate_Subset_Duplicated_0() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -90,6 +89,7 @@ public class SudokuVerifierTest {
 		
 		assertEquals(0, verifier.verify(candidate));
 	}
+	
 	@Test
 	public void testCandidate_Row_Duplicates_Err3() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
