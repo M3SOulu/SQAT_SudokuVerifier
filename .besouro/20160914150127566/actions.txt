@@ -205,3 +205,10 @@ RefactoringAction 1473855735554 SudokuVerifierTest.java RENAME test=>void testSt
 RefactoringAction 1473855740065 SudokuVerifierTest.java RENAME testStringContains=>void testCandidateContains FIELD
 RefactoringAction 1473855741575 SudokuVerifierTest.java RENAME testCandidateContains=>void testCandidateContains_ FIELD
 EditAction 1473855743706 SudokuVerifierTest.java 451 0 0 0
+CompilationAction 1473855743949 SudokuVerifierTest.java
+CompilationAction 1473855743949 SudokuVerifierTest.java
+CompilationAction 1473855743950 SudokuVerifierTest.java
+RefactoringAction 1473855747595 SudokuVerifierTest.java RENAME testCandidateContains_Zeros=>void testCandidateContains_Zeros() METHOD
+CompilationAction 1473855750535 SudokuVerifierTest.java
+CompilationAction 1473855750536 SudokuVerifierTest.java
+EditAction 1473855751062 SudokuVerifierTest.java 464 1 0 0
