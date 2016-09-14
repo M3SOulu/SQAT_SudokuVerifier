@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 // An incorrect Sudoku string: 123456789912345678891234567789123456678912345567891234456789123345678912234567891
 
 	@Test(expected=Exception.class)
-	public void testCandidateContains_LongString_Exception() throws Exception {
+	public void testVerify_LongString_Exception() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -25,7 +25,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test(expected=Exception.class)
-	public void testCandidateContains_ShortString_Exception() throws Exception {
+	public void testVerify_ShortString_Exception() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -41,7 +41,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testCandidateContains_Zero_Err1() throws Exception {
+	public void testVerify_Zero_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -57,7 +57,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
+	public void testVerify_InvalidCharacter_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -72,7 +72,7 @@ public class SudokuVerifierTest {
 		assertEquals(-1, verifier.verify(candidate));
 	}
 	@Test
-	public void testCandidateContains_SpaceCharacter_Err1() throws Exception {
+	public void testVerify_SpaceCharacter_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -88,7 +88,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidateContains_Incorrect_ErrAny() throws Exception {
+	public void testVerify_Incorrect_ErrAny() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "123456789"
@@ -105,7 +105,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidate_Succ0() throws Exception {
+	public void testVerify_Succ0() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -122,7 +122,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidate_Subset_Duplicated_Err2() throws Exception {
+	public void testVerify_Subset_Duplicated_Err2() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "117369825"
@@ -139,11 +139,11 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testCandidate_Row_Duplicates_Err3() throws Exception {
+	public void testVerify_Row_Duplicates_Err3() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate =
 				  "111111111"
-				+ "222222222"
+				+ "222222222" 
 				+ "333333333"
 				+ "444444444"
 				+ "555555555" // Duplicate = 6
@@ -156,7 +156,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testCandidate_Column_Duplicates_Err4() throws Exception {
+	public void testVerify_Column_Duplicates_Err4() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "123456789"
