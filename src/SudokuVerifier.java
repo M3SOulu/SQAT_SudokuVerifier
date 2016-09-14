@@ -27,11 +27,11 @@ public class SudokuVerifier {
 			for (int j = 0; j < 3; j++) {
 				int beginIndex = i * 27 + j * 3;
 				
-				StringBuilder numbersBuilder = new StringBuilder();
-				numbersBuilder.append(candidateSolution.substring(beginIndex, beginIndex + 3));
-				numbersBuilder.append(candidateSolution.substring(beginIndex + 9, beginIndex + 12));
-				numbersBuilder.append(candidateSolution.substring(beginIndex + 18, beginIndex + 21));
-				String numbers = numbersBuilder.toString();
+				StringBuilder subgridBuilder = new StringBuilder();
+				subgridBuilder.append(candidateSolution.substring(beginIndex, beginIndex + 3));
+				subgridBuilder.append(candidateSolution.substring(beginIndex + 9, beginIndex + 12));
+				subgridBuilder.append(candidateSolution.substring(beginIndex + 18, beginIndex + 21));
+				String numbers = subgridBuilder.toString();
 				
 				for (int number = 1; number < 10; number++) {
 					if (!numbers.contains(Integer.toString(number))) {
