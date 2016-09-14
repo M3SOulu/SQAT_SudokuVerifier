@@ -33,6 +33,12 @@ public class SudokuVerifier {
 				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 			}
 			
+			for (int k = 0; k < SUB_GRID_SIZE; k++) {
+				System.out.print(testSet[k]);
+			}
+			
+			System.out.print("\n");
+			
 			Arrays.sort(testSet);
 			
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
