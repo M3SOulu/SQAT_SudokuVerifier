@@ -17,6 +17,11 @@ public class SudokuVerifier {
 	}
 	
 	public static int checkRow(String candidateSolution){
+		int start = 0;
+		int stop = 8;
+		String sudokuRowN = candidateSolution.substring(int start, int stop);
+		
+		
 		String sudokuRow1 = candidateSolution.substring(0, 8);
 		String sudokuRow2 = candidateSolution.substring(9, 17);
 		String sudokuRow3 = candidateSolution.substring(18, 26);
