@@ -13,8 +13,8 @@ public class SudokuVerifierTest {
 		//Arrange
 		SudokuVerifier sudoku = new SudokuVerifier();
 		String candidateSolution = "1234567899123456788912345677891234566789123455678912344567891233456789122345678912";
-		sudoku.checkSudokuLength(candidateSolution);
-		
+		int length = sudoku.checkSudokuLength(candidateSolution);
+		assertEquals("Length of the string is too long", 0, length);
 		
 
 	}
