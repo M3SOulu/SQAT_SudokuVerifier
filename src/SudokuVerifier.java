@@ -27,7 +27,15 @@ public class SudokuVerifier {
 				}
 			}
 		}
-		
+
+		for (int y = 0; y < 9; y++) {
+			String row = candidateSolution.substring(y * 9, y * 9 + 9);
+			String reserved = "";
+			for (int x = 0; x < 9; x++) {
+				if (reserved.indexOf(row.charAt(x)) != -1)
+					return 3;
+			}
+		}
 		for (int y = 0; y < 9; y++) {
 			String row = candidateSolution.substring(y * 9, y * 9 + 9);
 			String reserved = "";
