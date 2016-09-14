@@ -12,6 +12,10 @@ public class SudokuVerifier {
 			return -3;
 		}
 		
+		if(verifyCols(candidateSolution) != 0) {
+			return -4;
+		}
+		
 		// returns 0 if the candidate solution is correct
 		return 0;
 		//check
@@ -69,7 +73,6 @@ public class SudokuVerifier {
 		int i = 0;
 		boolean [] col = new boolean [9];
 		int aux;
-		int count = 1;
 		i = 0;
 		while ((i < 81) && (colOk)) {
 			Arrays.fill(col, false);
@@ -84,8 +87,7 @@ public class SudokuVerifier {
 					return -4;
 				}
 			}
-			count++;
-			
+			i=-80;
 		}
 		return 0;
 
