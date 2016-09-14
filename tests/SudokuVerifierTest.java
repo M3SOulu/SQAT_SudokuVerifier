@@ -23,7 +23,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void rule2CorrectForCorrectSudoku() {
 		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
-		assertEquals("Rule 2 did not pass for correct sudoku",
+		assertEquals("Failed when checking global rowfor correct sudoku",
 				verifier.NO_ERROR, verifier.verifyGlobalRow(correctSudoku));
 	}
 	
