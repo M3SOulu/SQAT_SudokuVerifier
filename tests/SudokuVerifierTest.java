@@ -23,6 +23,22 @@ public class SudokuVerifierTest {
 				+ "1648752931";
 		verifier.verify(candidate);
 	}
+
+	@Test(expected=Exception.class)
+	public void testCandidateContains_LongString_Exception() throws Exception {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidate = 
+				  "417369825"
+				+ "632150947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "1648752931";
+		verifier.verify(candidate);
+	}
 	
 	@Test(expected=Exception.class)
 	public void testCandidateContains_ShortString_Exception() throws Exception {
