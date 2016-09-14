@@ -17,3 +17,11 @@ RefactoringAction 1473854565001 SudokuVerifier.java RENAME isRowLengthRight()=>s
 RefactoringAction 1473854571032 SudokuVerifier.java RENAME isRowLengthRight(string)=>static int isRowLengthRight(tring) METHOD
 RefactoringAction 1473854572045 SudokuVerifier.java RENAME isRowLengthRight(tring)=>static int isRowLengthRight(String) METHOD
 EditAction 1473854765888 SudokuVerifier.java 557 3 8 0
+RefactoringAction 1473854782586 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473854785602 SudokuVerifierTest.java RENAME test=>void testVerify_ FIELD
+RefactoringAction 1473854789118 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_firs FIELD
+RefactoringAction 1473854790627 SudokuVerifierTest.java RENAME testVerify_firs=>void testVerify_ FIELD
+RefactoringAction 1473854794149 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_splitOneWor FIELD
+RefactoringAction 1473854797664 SudokuVerifierTest.java RENAME testVerify_splitOneWor=>void testVerify_splitOneRow FIELD
+RefactoringAction 1473854799679 SudokuVerifierTest.java RENAME testVerify_splitOneRow=>void testVerify_splitOneRow() METHOD
+EditAction 1473854854961 SudokuVerifierTest.java 1386 4 12 4
