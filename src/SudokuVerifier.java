@@ -49,6 +49,8 @@ public class SudokuVerifier {
 			String tempRow2 = rows3[j];
 			for (int k=0; k<9; k++){
 				char tempDigit = tempRow2.charAt(k);
+					
+				}
 			}
 		 }
 		return 0;
