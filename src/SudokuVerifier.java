@@ -28,7 +28,9 @@ public class SudokuVerifier {
 			}
 		}
 		
-		for (int row = 0; row < 9)
+		for (int y = 0; y < 9; y++) {
+			String row = 
+		}
 		
 		return 0;
 	}
