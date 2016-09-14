@@ -66,8 +66,9 @@ public class SudokuVerifier {
 		String validate;
 		boolean [] validated = new boolean[9];
 		for (int x = 0; x < 9; x++) {
+			validate = "";
 			for (int y = 0; y < 9; y++) {
-				validate = "";
+				
 				validate += input.charAt(x + y * 9);
 				
 			}
