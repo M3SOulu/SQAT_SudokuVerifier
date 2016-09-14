@@ -6,3 +6,8 @@ EditAction 1473859524714 SudokuVerifierTest.java 4207 10 31 8
 EditAction 1473859533042 SudokuVerifierTest.java 4587 11 34 8
 CompilationAction 1473859533129 SudokuVerifierTest.java
 EditAction 1473859537523 SudokuVerifierTest.java 4587 11 34 8
+CompilationAction 1473859537780 SudokuVerifierTest.java
+UnitTestCaseAction 1473859542276 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859542276 SudokuVerifierTest.java OK
+RefactoringAction 1473859547348 SudokuVerifierTest.java ADD void testCandidateContains_ShortString_Exception()/2 METHOD
+EditAction 1473859550004 SudokuVerifierTest.java 4596 11 34 8
