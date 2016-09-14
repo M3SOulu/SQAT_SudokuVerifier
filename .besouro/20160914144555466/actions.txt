@@ -349,3 +349,6 @@ UnitTestSessionAction 1473858891967 SudokuVerifierTest.java FAIL
 EditAction 1473858898661 SudokuVerifier.java 962 4 9 0
 RefactoringAction 1473858909426 SudokuVerifier.java ADD static int checkNumbersInLines(String) METHOD
 EditAction 1473858923194 SudokuVerifier.java 945 5 13 0
+UnitTestCaseAction 1473858924698 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473858924698 SudokuVerifierTest.java OK
+EditAction 1473858959069 SudokuVerifier.java 1014 5 13 0
