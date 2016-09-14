@@ -15,11 +15,11 @@ public class SudokuVerifierTest {
 				+ "632158947"
 				+ "958724316"
 				+ "825437169"
-				+ "791586032"
+				+ "791586032" // Zero
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "164875293";;
+				+ "164875293";
 		assertEquals(1, verifier.verify(candidate));
 	}
 	
