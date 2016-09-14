@@ -46,9 +46,9 @@ public class SudokuVerifier {
 	public static int digitAppearsOnceInRow(String candidateSolution){
 		String[] rows3 = splitStringToRows(candidateSolution);
 		for (int j=0; j<9; j++){
-			String tempRow2 = rows3[0];
+			String tempRow2 = rows3[j];
 			for (int k=0; k<9; k++){
-				int tempDigit = tempRow2.charAt(0);
+				int tempDigit = tempRow2.charAt(k);
 				System.out.print(tempDigit);
 			}
 		 }
