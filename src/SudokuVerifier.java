@@ -31,7 +31,10 @@ public class SudokuVerifier {
 			// next 9 numbers to test set
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
 				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
+				System.out.print(testSet[k]);
 			}
+			
+			System..out.print("\n");
 			
 			Arrays.sort(testSet);
 			
