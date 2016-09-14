@@ -99,3 +99,18 @@ UnitTestSessionAction 1473857181986 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1473857215233 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473857215233 SudokuVerifierTest.java FAIL
 EditAction 1473857269873 SudokuVerifier.java 847 1 12 0
+RefactoringAction 1473857270735 SudokuVerifier.java ADD int FIELD
+UnitTestCaseAction 1473857281980 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857281980 SudokuVerifierTest.java FAIL
+RefactoringAction 1473857443353 SudokuVerifier.java REMOVE rowsOrCols FIELD
+RefactoringAction 1473857473375 SudokuVerifier.java ADD import java.lang.reflect.Array IMPORT
+UnitTestCaseAction 1473857534410 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857534410 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857590058 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857590058 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857690184 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857690185 SudokuVerifierTest.java FAIL
+RefactoringAction 1473857855734 SudokuVerifier.java ADD import java.util.Arrays IMPORT
+UnitTestCaseAction 1473858035260 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858035261 SudokuVerifierTest.java FAIL
+EditAction 1473858096149 SudokuVerifier.java 817 1 9 0

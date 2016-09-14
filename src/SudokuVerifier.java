@@ -1,14 +1,13 @@
+import java.util.Arrays;
 
 public class SudokuVerifier {
 	
-	private static int [] rowsOrCols;
-
 	public static int verify(String candidateSolution) {
 		boolean negativeOrLetter = false;
 		boolean rowOk = true;
 		int i = 0;
-		char [] solution;
-		rowsOrCols = null;
+		boolean [] rowsOrCols = new boolean [9];
+		
 		while ((i < 81) && (!negativeOrLetter)) {
 			if (!Character.isDigit(candidateSolution.charAt(i))) {
 				negativeOrLetter = true;
@@ -16,24 +15,25 @@ public class SudokuVerifier {
 			}
 			i++;
 		}
-		/////////////////////////////
-		solution = candidateSolution.toCharArray();
-		i = 0;
+		
 		int aux;
 		int count = 1;
 		while ((i < 81) && (rowOk)) {
+			Arrays.fill(rowsOrCols, false);
 			while ((i < 9 * count) && (rowOk)) {
-				aux = solution[i];
-				rowsOrCols[aux] = aux;
+				aux = candidateSolution.indexOf(i);
+				rowsOrCols[aux] = true;
 			}
 			for (int j = 0; j < 9; j++) {
-				if (rowsOrCols[j] != j) {
+				if (!rowsOrCols[j]) {
 					rowOk = false;
 					return -2;
 				}
 			}
 			count++;
+			i++;
 		}
+		
 		// returns 0 if the candidate solution is correct
 		return 0;
 		//check
