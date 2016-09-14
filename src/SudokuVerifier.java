@@ -91,15 +91,12 @@ public class SudokuVerifier {
 		final int SUBGRID_ROW_AMOUNT = 3;
 		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
 			int k = 0;
-			cellIndex = (i * 9) + (3 * subgridNum);
+			int cellIndex = (i *8) + (3 * subgridNum);
 			
 			while (k < 3) {
 				
 				cellIndex++;
 				k++;
-			}
-			for (; k < ; k++) {
-				
 			}
 			//use subgrid num in right way instead of int
 			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
