@@ -425,3 +425,4 @@ RefactoringAction 1473860104974 SudokuVerifier.java REMOVE checkSubGrid(String) 
 RefactoringAction 1473860104976 SudokuVerifier.java REMOVE checkGlobalRow(String) METHOD
 RefactoringAction 1473860104978 SudokuVerifier.java REMOVE membersUnique(int METHOD
 EditAction 1473860149838 SudokuVerifier.java 2722 9 25 0
+EditAction 1473860243184 SudokuVerifier.java 2754 9 26 0
