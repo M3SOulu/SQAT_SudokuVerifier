@@ -189,3 +189,4 @@ RefactoringAction 1473859402302 SudokuVerifier.java RENAME Verify=>int VerifyCor
 RefactoringAction 1473859411816 SudokuVerifier.java RENAME VerifyCorre=>int verifyCorrectColumns() METHOD
 RefactoringAction 1473859415830 SudokuVerifier.java RENAME verifyCorrectColumns()=>int verifyCorrectColumns(String) METHOD
 EditAction 1473859761274 SudokuVerifier.java 2369 5 22 0
+EditAction 1473859774124 SudokuVerifier.java 2369 5 22 0

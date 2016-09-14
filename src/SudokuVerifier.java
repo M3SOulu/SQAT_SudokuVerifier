@@ -74,7 +74,7 @@ public class SudokuVerifier {
 					int index = Character.getNumericValue(validate.charAt(k));
 					
 					if(validated[index - 1]) {
-						return -1;
+						return -4;
 					}
 					else {
 						validated[index - 1] = true;
