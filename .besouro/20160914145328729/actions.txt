@@ -159,3 +159,10 @@ CompilationAction 1473859248192 SudokuVerifier.java
 UnitTestCaseAction 1473859249424 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473859249424 SudokuVerifierTest.java FAIL
 EditAction 1473859281207 SudokuVerifier.java 1175 3 15 0
+RefactoringAction 1473859303387 SudokuVerifier.java ADD static int verifyRows(String)/2 METHOD
+RefactoringAction 1473859310900 SudokuVerifier.java RENAME verifyRows(String)/2=>static int verifyRos(String) METHOD
+RefactoringAction 1473859313403 SudokuVerifier.java RENAME verifyRos(String)=>static int verifySubs(String) METHOD
+RefactoringAction 1473859314906 SudokuVerifier.java RENAME verifySubs(String)=>static int verifySubGrids(String) METHOD
+RefactoringAction 1473859320410 SudokuVerifier.java ADD static int verifySubGrids(String)/2 METHOD
+RefactoringAction 1473859325416 SudokuVerifier.java RENAME verifySubGrids(String)/2=>static int verifyCols(String) METHOD
+EditAction 1473859334986 SudokuVerifier.java 1333 5 17 0

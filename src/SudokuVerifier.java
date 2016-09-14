@@ -56,4 +56,14 @@ public class SudokuVerifier {
 		}
 		return 0;
 	}
+	
+	public static int verifySubGrids (String candidateSolution) {
+		return 0;
+
+	}
+	
+	public static int verifyCols (String candidateSolution) {
+		return 0;
+
+	}
 }
