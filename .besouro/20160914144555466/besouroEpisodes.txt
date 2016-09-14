@@ -27,3 +27,17 @@
 1473855703172 refactoring 2A 95 true
 1473855812702 regression 2 97 true
 1473855819540 regression 1 0 true
+1473856427525 refactoring 3 602 true
+1473856427526 refactoring 3 602 true
+1473856427527 refactoring 3 602 true
+1473856427528 refactoring 3 602 true
+1473856427529 refactoring 3 602 true
+1473856427530 refactoring 3 602 true
+1473856427531 refactoring 3 602 true
+1473856427532 refactoring 3 602 true
+1473856427533 refactoring 3 602 true
+1473856427534 refactoring 3 602 true
+1473856427535 refactoring 3 602 true
+1473856427536 refactoring 3 602 true
+1473856427537 refactoring 3 602 true
+1473856427538 refactoring 3 602 true

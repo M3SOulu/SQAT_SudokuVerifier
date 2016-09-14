@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerify_TooShortString() {
-		String testString = 417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String testString = "123";
 		SudokuVerifier.verify(testString);
 		assertEquals("String is too short", -1,SudokuVerifier.verify(testString));
 	}
@@ -18,14 +18,14 @@ public class SudokuVerifierTest {
 	public void testVerify_StringLengthIsEnough() {
 		String testString = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier.verify(testString);
-		assertEquals("String lenght is incorrect", -1,SudokuVerifier.verify(testString));
+		assertEquals("String lenght is incorrect", 0,SudokuVerifier.verify(testString));
 	}
 	
 	@Test
 	public void testVerify_StringIsTooLong() {
 		String testString = "41736982563215894795872431682543716979158643234691275828964312313123123312571573291684164875293";
 		SudokuVerifier.verify(testString);
-		assertEquals("String is too long", 0,SudokuVerifier.verify(testString));
+		assertEquals("String is too long", -1,SudokuVerifier.verify(testString));
 	}
 	
 	@Test
