@@ -225,3 +225,9 @@ EditAction 1473857165592 SudokuVerifier.java 689 4 9 0
 UnitTestCaseAction 1473857166914 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473857166914 SudokuVerifierTest.java FAIL
 EditAction 1473857224477 SudokuVerifier.java 697 4 9 0
+UnitTestCaseAction 1473857225811 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857225811 SudokuVerifierTest.java FAIL
+RefactoringAction 1473857267204 SudokuVerifierTest.java RENAME testVerify_splitOneRow()=>void testVerify_splitInto() METHOD
+RefactoringAction 1473857268713 SudokuVerifierTest.java RENAME testVerify_splitInto()=>void testVerify_splitIntoRows() METHOD
+RefactoringAction 1473857272224 SudokuVerifierTest.java RENAME testVerify_splitIntoRows()=>void testVerify_splitIntoRowsOfNine() METHOD
+EditAction 1473857281834 SudokuVerifierTest.java 1404 4 12 4
