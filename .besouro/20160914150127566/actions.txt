@@ -607,3 +607,6 @@ RefactoringAction 1473858405925 SudokuVerifierTest.java RENAME testCandidate_Sub
 RefactoringAction 1473858407935 SudokuVerifierTest.java RENAME testCandidate_Subset_Duplicated_()=>void testCandidate_Subset_Duplicated_Err() METHOD
 EditAction 1473858418719 SudokuVerifierTest.java 2999 7 22 7
 EditAction 1473858425790 SudokuVerifierTest.java 2999 7 22 7
+UnitTestCaseAction 1473858427630 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858427630 SudokuVerifierTest.java FAIL
+EditAction 1473858437447 SudokuVerifierTest.java 2999 7 22 7
