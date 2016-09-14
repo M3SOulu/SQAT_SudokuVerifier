@@ -1,2 +1,63 @@
 FileOpenedAction 1473854955580 SudokuVerifierTest.java 390 1 1 0
 EditAction 1473855452794 SudokuVerifier.java 262 1 3 0
+CompilationAction 1473855454501 SudokuVerifier.java
+CompilationAction 1473855466564 SudokuVerifier.java
+RefactoringAction 1473855765107 SudokuVerifier.java ADD void main FIELD
+RefactoringAction 1473855768627 SudokuVerifier.java RENAME main=>static void main() METHOD
+RefactoringAction 1473855772143 SudokuVerifier.java REMOVE main() METHOD
+RefactoringAction 1473856004695 SudokuVerifier.java ADD I give FIELD
+RefactoringAction 1473856009225 SudokuVerifier.java REMOVE give FIELD
+RefactoringAction 1473856016748 SudokuVerifier.java ADD I give FIELD
+RefactoringAction 1473856023772 SudokuVerifier.java ADD exercise.For me FIELD
+RefactoringAction 1473856023774 SudokuVerifier.java ADD it needs FIELD
+RefactoringAction 1473856028802 SudokuVerifier.java ADD lots more FIELD
+RefactoringAction 1473856028804 SudokuVerifier.java ADD mite to FIELD
+RefactoringAction 1473856033335 SudokuVerifier.java ADD actually figure FIELD
+RefactoringAction 1473856033337 SudokuVerifier.java ADD out the FIELD
+RefactoringAction 1473856038849 SudokuVerifier.java ADD way arrays FIELD
+RefactoringAction 1473856038851 SudokuVerifier.java ADD work in FIELD
+RefactoringAction 1473856047378 SudokuVerifier.java ADD Java that FIELD
+RefactoringAction 1473856047380 SudokuVerifier.java ADD is possible FIELD
+RefactoringAction 1473856047382 SudokuVerifier.java ADD to achieve FIELD
+RefactoringAction 1473856051924 SudokuVerifier.java ADD with the/2 FIELD
+RefactoringAction 1473856056447 SudokuVerifier.java REMOVE the/2 FIELD
+RefactoringAction 1473856074100 SudokuVerifier.java ADD Javthat is FIELD
+RefactoringAction 1473856074102 SudokuVerifier.java ADD possible to/2 FIELD
+RefactoringAction 1473856074103 SudokuVerifier.java ADD achieve today FIELD
+RefactoringAction 1473856075624 SudokuVerifier.java ADD Java that FIELD
+RefactoringAction 1473856075626 SudokuVerifier.java ADD is possible FIELD
+RefactoringAction 1473856075637 SudokuVerifier.java ADD to achieve FIELD
+CompilationAction 1473856078775 SudokuVerifier.java
+CompilationAction 1473856078777 SudokuVerifier.java
+CompilationAction 1473856078778 SudokuVerifier.java
+CompilationAction 1473856078779 SudokuVerifier.java
+CompilationAction 1473856078780 SudokuVerifier.java
+CompilationAction 1473856078781 SudokuVerifier.java
+CompilationAction 1473856078782 SudokuVerifier.java
+CompilationAction 1473856078782 SudokuVerifier.java
+CompilationAction 1473856078783 SudokuVerifier.java
+CompilationAction 1473856078784 SudokuVerifier.java
+CompilationAction 1473856078785 SudokuVerifier.java
+CompilationAction 1473856078786 SudokuVerifier.java
+CompilationAction 1473856078787 SudokuVerifier.java
+CompilationAction 1473856078788 SudokuVerifier.java
+CompilationAction 1473856078789 SudokuVerifier.java
+CompilationAction 1473856078789 SudokuVerifier.java
+CompilationAction 1473856078790 SudokuVerifier.java
+CompilationAction 1473856078791 SudokuVerifier.java
+CompilationAction 1473856078792 SudokuVerifier.java
+CompilationAction 1473856078793 SudokuVerifier.java
+CompilationAction 1473856078794 SudokuVerifier.java
+RefactoringAction 1473856287207 SudokuVerifier.java REMOVE more FIELD
+RefactoringAction 1473856287209 SudokuVerifier.java REMOVE that FIELD
+RefactoringAction 1473856287211 SudokuVerifier.java REMOVE possible FIELD
+RefactoringAction 1473856287213 SudokuVerifier.java REMOVE arrays FIELD
+RefactoringAction 1473856287215 SudokuVerifier.java REMOVE figure FIELD
+RefactoringAction 1473856287216 SudokuVerifier.java REMOVE achieve FIELD
+RefactoringAction 1473856287218 SudokuVerifier.java REMOVE to FIELD
+RefactoringAction 1473856287220 SudokuVerifier.java REMOVE give FIELD
+RefactoringAction 1473856287222 SudokuVerifier.java REMOVE in FIELD
+RefactoringAction 1473856287224 SudokuVerifier.java REMOVE need FIELD
+RefactoringAction 1473856287226 SudokuVerifier.java REMOVE the FIELD
+RefactoringAction 1473856463843 SudokuVerifierTest.java ADD void testStringLengthIsTooLong() METHOD
+EditAction 1473856466485 SudokuVerifierTest.java 452 2 1 0
