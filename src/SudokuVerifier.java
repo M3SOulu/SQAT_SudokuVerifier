@@ -29,14 +29,14 @@ public class SudokuVerifier {
 		return -1;
 	}
 	
-	/*public static int checkNumbersInLines(String candidateSolution){
+	public static int checkNumbersInLines(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
 		//for (int i=0; i<9; i++){
-			String tempRow = candidateSolution[1];
+			String tempRow = rows[0];
 			System.out.print(tempRow);
 		//}
 		
 		return -1;
-	}*/
+	}
 	
 }
