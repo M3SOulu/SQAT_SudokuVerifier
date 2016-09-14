@@ -40,14 +40,14 @@ public class SudokuVerifierTest {
 		assertEquals(-1, verifier.verify(candidate));
 	}
 	@Test
-	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
+	public void testCandidateContains_SpaceCharacter_Err1() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
 				+ "632158947"
 				+ "958724316"
 				+ "825437169"
-				+ "79158a432" // a
+				+ "79158 432" // a
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
