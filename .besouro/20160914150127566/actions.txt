@@ -282,3 +282,4 @@ EditAction 1473855888696 SudokuVerifierTest.java 1238 3 9 3
 RefactoringAction 1473855893051 SudokuVerifierTest.java REMOVE testCandidateContains_InvalidCharacter_1() METHOD
 EditAction 1473855893470 SudokuVerifierTest.java 1238 3 9 3
 EditAction 1473855898638 SudokuVerifierTest.java 1235 3 9 3
+EditAction 1473855910532 SudokuVerifierTest.java 1230 3 9 3

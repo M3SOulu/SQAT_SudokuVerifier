@@ -32,7 +32,4 @@ public class SudokuVerifierTest {
 	//public void testVerify() {
 	//	fail("Not yet implemented");
 	//}
-	
-	
-
 }
