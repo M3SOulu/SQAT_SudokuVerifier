@@ -22,7 +22,7 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		// R2: All digits appear only once in a sub-grid, i.e. they cannot repeat
+		// R2: All digits appear only once in a sub-grid
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
 				int beginIndex = i * 27 + j * 3;
@@ -41,7 +41,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		// R3: A digit can appear only once in the rows of the global grid
+		// R3: A digit can appear only once in a row
 		for (int i = 0; i < 9; i++) {
 			int beginIndex = i * 9;
 			String row = candidateSolution.substring(beginIndex, beginIndex + 9);
@@ -53,7 +53,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		// R4: A digit can appear only once in the columns of the global grid
+		// R4: A digit can appear only once in a column
 		for (int i = 0; i < 9; i++) {
 			List<Integer> columnNumbers = new ArrayList<Integer>();
 			
