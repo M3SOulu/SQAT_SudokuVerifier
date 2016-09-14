@@ -571,3 +571,4 @@ RefactoringAction 1473858117535 SudokuVerifierTest.java RENAME testCandidateCont
 CompilationAction 1473858120848 SudokuVerifierTest.java
 RefactoringAction 1473858122038 SudokuVerifierTest.java RENAME testCandidateContains_Incorrect_ErrAn()=>void testCandidateContains_Incorrect_ErrAny() METHOD
 EditAction 1473858122051 SudokuVerifierTest.java 2615 6 19 6
+EditAction 1473858130032 SudokuVerifierTest.java 2618 6 19 6
