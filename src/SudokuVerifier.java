@@ -21,6 +21,7 @@ public class SudokuVerifier {
 	}
 	
 	public static int isRowLengthRight(String row){
+		System.out.print(row);
 		if (row.length() == 9) 
 			return 1;
 		return 0;
