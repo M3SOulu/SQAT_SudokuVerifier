@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class SudokuVerifier {
 	
@@ -21,6 +20,12 @@ public class SudokuVerifier {
 		String[] rows = candidateSolution.split("(?<=\\G.{9})");
 		if (rows.length == 9)
 			return 0;
+		return -1;
+	}
+	
+	public static int checkNumberOfLines(String[] rows){
+		
+		
 		return -1;
 	}
 	

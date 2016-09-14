@@ -267,3 +267,17 @@ RefactoringAction 1473857579924 SudokuVerifierTest.java RENAME testVerify=>void 
 RefactoringAction 1473857583935 SudokuVerifierTest.java RENAME testVerify_=>void test FIELD
 RefactoringAction 1473857585946 SudokuVerifierTest.java RENAME test=>void testVerify_ FIELD
 EditAction 1473857717492 SudokuVerifierTest.java 1433 4 12 4
+CompilationAction 1473857717583 SudokuVerifierTest.java
+CompilationAction 1473857717584 SudokuVerifierTest.java
+CompilationAction 1473857717584 SudokuVerifierTest.java
+RefactoringAction 1473857723476 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_rowsHave FIELD
+RefactoringAction 1473857726982 SudokuVerifierTest.java RENAME testVerify_rowsHave=>void testVerify_rowsHaveDifferentNumber FIELD
+RefactoringAction 1473857731023 SudokuVerifierTest.java RENAME testVerify_rowsHaveDifferentNumber=>void testVerify_ FIELD
+RefactoringAction 1473857766037 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_rowsHaveDifferentNumber FIELD
+RefactoringAction 1473857769546 SudokuVerifierTest.java REMOVE testVerify_rowsHaveDifferentNumber FIELD
+UnitTestCaseAction 1473857776152 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473857776153 SudokuVerifierTest.java OK
+RefactoringAction 1473857786912 SudokuVerifier.java ADD int check FIELD
+RefactoringAction 1473857795927 SudokuVerifier.java RENAME check=>static int checkNumberOfLines() METHOD
+RefactoringAction 1473857806964 SudokuVerifier.java RENAME checkNumberOfLines()=>static int checkNumberOfLines(String METHOD
+EditAction 1473857821453 SudokuVerifier.java 587 4 8 0
