@@ -1,3 +1,10 @@
 FileOpenedAction 1473853619155 SudokuVerifierTest.java 2780 6 22 3
 RefactoringAction 1473853658248 SudokuVerifierTest.java RENAME testVerify_=>void testVerify_SameNumbersInARow() METHOD
 EditAction 1473853834968 SudokuVerifierTest.java 3293 7 26 4
+UnitTestCaseAction 1473853840925 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473853840929 SudokuVerifierTest.java FAIL
+RefactoringAction 1473853950820 SudokuVerifierTest.java ADD void testVerify_SameNumbersInARow()/2 METHOD
+RefactoringAction 1473853955844 SudokuVerifierTest.java RENAME testVerify_SameNumbersInARow()/2=>void testVerify_SameNumbersInAColumn() METHOD
+UnitTestCaseAction 1473854190023 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473854190025 SudokuVerifierTest.java FAIL
+EditAction 1473854299379 SudokuVerifierTest.java 4350 8 30 5

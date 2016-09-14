@@ -10,7 +10,16 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify_CorrectSolution() throws IllegalArgumentException {
 		// Arrange
-		String solution = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String solution = ""
+				+ "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act
@@ -23,7 +32,16 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify_IncorrectSolution() throws IllegalArgumentException {
 		// Arrange
-		String solution = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
+		String solution = ""
+				+ "123456789"
+				+ "912345678"
+				+ "891234567"
+				+ "789123456"
+				+ "678912345"
+				+ "567891234"
+				+ "456789123"
+				+ "345678912"
+				+ "234567891";
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act
@@ -47,7 +65,16 @@ public class SudokuVerifierTest {
 	@Test (expected = IllegalArgumentException.class)
 	public void testVerify_TooLongSolution() throws IllegalArgumentException {
 		// Arrange
-		String solution = "4173698256321589479587243168254371697915864323469127582896435715732916841648752931";
+		String solution = ""
+				+ "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "1648752931"; // Extra number
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act, should raise an exception
@@ -57,27 +84,45 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify_IncorrectNumbers() throws IllegalArgumentException {
 		// Arrange
-		String solution = "003456789912345678891234567789123456678912345567891234456789123345678912234567890";
+		String solution = ""
+				+ "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875290"; // 0 at the end
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act
 		int verification = SudokuVerifier.verify(solution);
 		
 		// Assert
-		assertEquals("Correct solution", -1, verification);
+		assertEquals("Incorrect numbers", -1, verification);
 	}
 	
 	@Test
 	public void testVerify_IncorrectCharacters() throws IllegalArgumentException {
 		// Arrange
-		String solution = "1234567899123456788912345677891234566789123455678912344567891233456789122345abCD-";
+		String solution = ""
+				+ "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875abc"; // "abc" at the end
 		SudokuVerifier SudokuVerifier = new SudokuVerifier();
 		
 		// Act
 		int verification = SudokuVerifier.verify(solution);
 		
 		// Assert
-		assertEquals("Correct solution", -1, verification);
+		assertEquals("Incorrect characters", -1, verification);
 	}
 	
 	@Test
@@ -99,6 +144,28 @@ public class SudokuVerifierTest {
 		int verification = SudokuVerifier.verify(solution);
 		
 		// Assert
-		assertEquals("Correct solution", -3, verification);
+		assertEquals("Same numbers in a row", -3, verification);
+	}
+	
+	@Test
+	public void testVerify_SameNumbersInAColumn() throws IllegalArgumentException {
+		// Arrange
+		String solution = ""
+				+ "417369825" // 5 at the end
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912785" // 5 at the end
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
+		SudokuVerifier SudokuVerifier = new SudokuVerifier();
+		
+		// Act
+		int verification = SudokuVerifier.verify(solution);
+		
+		// Assert
+		assertEquals("Same numbers in a column", -4, verification);
 	}
 }
