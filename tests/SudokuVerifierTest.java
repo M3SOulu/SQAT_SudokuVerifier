@@ -9,7 +9,7 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void testCandidateContains_Zero() {
-		SudokuVerifier verifier = new SudokuVerifier;
+		SudokuVerifier verifier = new SudokuVerifier();
 		
 	}
 	
