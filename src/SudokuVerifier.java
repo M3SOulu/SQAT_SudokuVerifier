@@ -89,11 +89,11 @@ public class SudokuVerifier {
 		int resultIndex = 0;
 		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
 		
-		final int SUBGRID_ROW_AMOUNT = 3;
+		final int SUBGRID_CELL_AMOUNT = 3;
 		final int ROW_INDEX_AMOUNT = 9;
 		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
 			int k = 0;
-			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_ROW_AMOUNT * subgridNum);
+			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_CELL_AMOUNT * subgridNum);
 			
 			while (k < 3) {
 				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex)));
