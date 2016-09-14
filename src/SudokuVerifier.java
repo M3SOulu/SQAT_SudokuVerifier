@@ -9,14 +9,14 @@ public class SudokuVerifier {
 			throw new Exception("Invalid board dimensions");
 		
 		for (char c : candidateSolution.toCharArray())
-			if (c < '1' || c > '9') return 1;
+			if (c < '1' || c > '9') return -1;
 
 		for (int y = 0; y < 9; y++) {
 			String reserved = "";
 			for (int x = 0; x < 9; x++) {
 				char c = candidateSolution.charAt(y * 9 + x);
 				if (reserved.indexOf(c) != -1)
-					return 3;
+					return -3;
 				reserved += c;
 			}
 		}
@@ -26,7 +26,7 @@ public class SudokuVerifier {
 			for (int y = 0; y < 9; y++) {
 				char c = candidateSolution.charAt(y * 9 + x);
 				if (reserved.indexOf(c) != -1)
-					return 4;
+					return -4;
 				reserved += c;
 			}
 		}
@@ -40,7 +40,7 @@ public class SudokuVerifier {
 								(sY + gY * 3) * 9 + (sX + gX * 3));
 						
 						if (reserved.indexOf(c) != -1)
-							return 2;
+							return -2;
 						
 						reserved += c;
 					}
