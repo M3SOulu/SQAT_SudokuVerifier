@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class SudokuVerifier {
 	
@@ -20,6 +21,9 @@ public class SudokuVerifier {
 		
 		String[] row = candidateSolution.split("(?<=\\G.{9})");
 		System.out.print(row);
+		System.out.println(Arrays.toString(
+			    candidateSolution.split("(?<=\\G.{4})")
+			));
 		//if (isRowLengthRight(row) == 0)
 			//return 0;
 		return -1;
