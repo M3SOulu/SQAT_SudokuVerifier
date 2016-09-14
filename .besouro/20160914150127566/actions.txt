@@ -256,3 +256,9 @@ CompilationAction 1473855843780 SudokuVerifierTest.java
 CompilationAction 1473855843781 SudokuVerifierTest.java
 CompilationAction 1473855843781 SudokuVerifierTest.java
 EditAction 1473855850237 SudokuVerifierTest.java 971 2 3 1
+CompilationAction 1473855850485 SudokuVerifierTest.java
+CompilationAction 1473855850485 SudokuVerifierTest.java
+CompilationAction 1473855850486 SudokuVerifierTest.java
+CompilationAction 1473855850486 SudokuVerifierTest.java
+CompilationAction 1473855856518 SudokuVerifierTest.java
+EditAction 1473855859381 SudokuVerifierTest.java 1246 3 9 3
