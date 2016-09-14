@@ -20,8 +20,9 @@ public class SudokuVerifier {
 								(sY + gY * 3) * 3 + (sX + gX * 3));
 
 						System.out.println(reserved);
-						if (reserved.indexOf(c) != -1)
-							return 2;
+						if (reserved.indexOf(c) != -1){
+							System.out.println(reserved);
+							return 2;}
 						
 						
 						reserved += c;
