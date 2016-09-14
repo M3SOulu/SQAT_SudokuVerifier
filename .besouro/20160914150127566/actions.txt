@@ -212,3 +212,4 @@ RefactoringAction 1473855747595 SudokuVerifierTest.java RENAME testCandidateCont
 CompilationAction 1473855750535 SudokuVerifierTest.java
 CompilationAction 1473855750536 SudokuVerifierTest.java
 EditAction 1473855751062 SudokuVerifierTest.java 464 1 0 0
+EditAction 1473855767259 SudokuVerifierTest.java 510 1 0 0
