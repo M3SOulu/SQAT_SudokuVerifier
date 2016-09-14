@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class SudokuVerifier {
 	private final int GLOBAL_GRID_SIZE = 81;
-	private final int SUB_GRID_SIZE = 9;
+	private final int SUBGRID_AND_ROW_SIZE = 9;
 
 	public final int NO_ERROR = 0;
 	public final int SUBGRID_ERROR = -2;
@@ -83,21 +83,28 @@ public class SudokuVerifier {
 	 * 6 7 8
 	 */
 	private int[] getSubgrid(String candidateSolution, int subgridNum) {
-		int[] subgridCellValues = new int[SUB_GRID_SIZE]; 
+		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE]; 
 		
-		for (int k = 0; k < SUB_GRID_SIZE; k++) {
-			testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
+		for (int k = 0; k < SUBGRID_AND_ROW_SIZE; k++) {
+			//use subgrid num in right way instead of int
+			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 		}
 		
 		return subgridCellValues;
 	}
 	
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
+		int[] globalRowNums = new int[SUBGRID_AND_ROW_SIZE];
 		
+		for (int i = 0; i < SUBGRID_AND_ROW_SIZE; i++) {
+			globalRowNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt( + i)));
+		}
+		
+		return globalRowNums;
 	}
 	
 	private void subgridDebug(int[] testSet) {
-		for (int k = 0; k < SUB_GRID_SIZE; k++) {
+		for (int k = 0; k < SUBGRID_AND_ROW_SIZE; k++) {
 			System.out.print(testSet[k]);
 		}
 		
