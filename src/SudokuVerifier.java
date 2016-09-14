@@ -6,7 +6,7 @@ public class SudokuVerifier {
 			return 0;
 		else if (amountOfRows(candidateSolution) == 0)
 			return 0;
-		else if (checkNumbersInLines(candidateSolution) == 0)
+		else if (rowContainsOnlyPositiveDigits(candidateSolution) == 0)
 			return 0;
 		return -1;
 		
