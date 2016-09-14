@@ -24,14 +24,14 @@ public class SudokuVerifierTest {
 	public void rule2CorrectForCorrectSudoku() {
 		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals("Rule 2 did not pass for correct sudoku",
-				verifier.NO_ERROR, verifier.verifySubGrid(correctSudoku));
+				verifier.NO_ERROR, verifier.verifyGlobalRow(correctSudoku));
 	}
 	
 	@Test
 	public void rule2CatchesError() {
 		String incorrectSudoku = "123456789912345678891234567789123456678912345567891234456782123345678912234567891";
-		assertEquals("Subgrid error was not found when it exists",
-				verifier.SUBGRID_ERROR, verifier.verifySubGrid(incorrectSudoku));
+		assertEquals("Global row error was not found when it exists",
+				verifier.SUBGRID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
 	}
 
 }
