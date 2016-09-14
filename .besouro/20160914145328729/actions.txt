@@ -195,3 +195,31 @@ UnitTestCaseAction 1473860196213 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473860196213 SudokuVerifierTest.java FAIL
 RefactoringAction 1473860210927 SudokuVerifierTest.java REMOVE testVerify() METHOD
 EditAction 1473860211872 SudokuVerifierTest.java 1331 5 10 5
+UnitTestCaseAction 1473860212814 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860212814 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860232724 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860232724 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860266880 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860266880 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860357534 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860357534 SudokuVerifierTest.java FAIL
+RefactoringAction 1473860393171 SudokuVerifierTest.java ADD void testValidRows()/2 METHOD
+RefactoringAction 1473860396683 SudokuVerifierTest.java RENAME testValidRows()/2=>void testValidCols() METHOD
+UnitTestCaseAction 1473860439841 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860439841 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860478802 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860478802 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860496245 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860496245 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860678303 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860678304 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473860769016 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860769017 SudokuVerifierTest.java FAIL
+RefactoringAction 1473860774778 SudokuVerifierTest.java RENAME testInvalidCols()=>String test FIELD
+RefactoringAction 1473860775798 SudokuVerifierTest.java REMOVE test FIELD
+RefactoringAction 1473860776813 SudokuVerifierTest.java REMOVE assertEquals() METHOD
+UnitTestCaseAction 1473860780915 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860780915 SudokuVerifierTest.java FAIL
+RefactoringAction 1473860797397 SudokuVerifierTest.java ADD void testInvalidCols() METHOD
+UnitTestCaseAction 1473860800521 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860800522 SudokuVerifierTest.java FAIL
