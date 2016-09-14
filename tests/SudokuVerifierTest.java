@@ -77,15 +77,15 @@ public class SudokuVerifierTest {
 	public void testCandidate_Column_Duplicates_4() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
-				  "417369825"
-				+ "632158947"
-				+ "958724316"
-				+ "825437169"
-				+ "791586439"
-				+ "346912758"
-				+ "289643571"
-				+ "573291684"
-				+ "164875293";
+				  "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789"
+				+ "123456789";
 		
 		assertEquals(4, verifier.verify(candidate));
 	}
