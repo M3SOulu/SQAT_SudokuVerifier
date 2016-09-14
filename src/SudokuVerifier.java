@@ -16,6 +16,8 @@ public class SudokuVerifier {
 		
 		error = checkSubGrid(candidateSolution);
 		
+		error = 
+		
 		return error;
 	}
 	
@@ -30,9 +32,7 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
-			for (int k = 0; k < SUB_GRID_SIZE; k++) {
-				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
-			}
+			testSet = getSubgrid(candidateSolution);
 			
 			if (debug)
 				subgridDebug(testSet);
@@ -54,6 +54,12 @@ public class SudokuVerifier {
 		}
 
 		return error;
+	}
+	
+	private int[] getSubgrid(String candidateSolution) {
+		for (int k = 0; k < SUB_GRID_SIZE; k++) {
+			testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
+		}
 	}
 	
 	private void subgridDebug(int[] testSet) {

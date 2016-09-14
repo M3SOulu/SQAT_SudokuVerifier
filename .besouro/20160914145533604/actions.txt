@@ -173,3 +173,6 @@ EditAction 1473858231350 SudokuVerifier.java 1374 4 11 0
 UnitTestCaseAction 1473858246526 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473858246528 SudokuVerifierTest.java FAIL
 EditAction 1473858313542 SudokuVerifier.java 1374 4 11 0
+RefactoringAction 1473858454273 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1473858474849 SudokuVerifier.java RENAME getSubgrid()=>int METHOD
+EditAction 1473858475408 SudokuVerifier.java 1488 5 9 0
