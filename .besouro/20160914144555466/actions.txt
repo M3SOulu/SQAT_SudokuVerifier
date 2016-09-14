@@ -490,3 +490,18 @@ EditAction 1473860551430 SudokuVerifier.java 1432 6 16 0
 EditAction 1473860565456 SudokuVerifier.java 1432 6 16 0
 EditAction 1473860643391 SudokuVerifier.java 1400 6 16 0
 EditAction 1473860815672 SudokuVerifier.java 1412 6 15 0
+CompilationAction 1473860815748 SudokuVerifier.java
+RefactoringAction 1473860829585 SudokuVerifier.java REMOVE digitAppearsOnceInRow(String) METHOD
+CompilationAction 1473860832970 SudokuVerifier.java
+UnitTestCaseAction 1473860834614 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860834614 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473860919934 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860919934 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473860923740 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860923740 SudokuVerifierTest.java OK
+RefactoringAction 1473860933013 SudokuVerifierTest.java REMOVE testVerify_StringLengthIsEnough() METHOD
+RefactoringAction 1473860933014 SudokuVerifierTest.java REMOVE testVerify_StringIsTooLong() METHOD
+RefactoringAction 1473860933015 SudokuVerifierTest.java REMOVE testVerify_splitIntoRowsOfNine() METHOD
+RefactoringAction 1473860935025 SudokuVerifierTest.java ADD void testVerify_StringIsTooLong() METHOD
+RefactoringAction 1473860935026 SudokuVerifierTest.java ADD void testVerify_splitIntoRowsOfNine() METHOD
+EditAction 1473860935737 SudokuVerifierTest.java 1395 3 9 3

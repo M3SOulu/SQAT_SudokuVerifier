@@ -8,8 +8,8 @@ public class SudokuVerifier {
 			return -1;
 		else if (rowContainsOnlyPositiveDigits(candidateSolution) == -1)
 			return -1;
-		if (digitAppearsOnceInRow(candidateSolution) == -1)
-			return -1;
+		//if (digitAppearsOnceInRow(candidateSolution) == -1)
+			//return -1;
 		return 0;
 		
 		//check
@@ -43,7 +43,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public static int digitAppearsOnceInRow(String candidateSolution){
+	/*public static int digitAppearsOnceInRow(String candidateSolution){
 		String[] rows3 = splitStringToRows(candidateSolution);
 		for (int j=0; j<9; j++){
 			String tempRow2 = rows3[j];
@@ -54,6 +54,6 @@ public class SudokuVerifier {
 			}
 		 }
 		return 0;
-	}
+	}*/
 	
 }
