@@ -31,7 +31,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testVerify_splitOneRow() {
 		String testString = "12";
-		SudokuVerifier.verify(testString);
+		SudokuVerifier.splitStringToRows(testString);
 		assertEquals("Row is not correct length", 1,SudokuVerifier.verify(testString));
 	}
 
