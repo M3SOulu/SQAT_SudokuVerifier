@@ -12,7 +12,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testPositiveNumbers() {
+	public void testPositiveNumbersOrCointainsALetter() {
 		String negativeError = "41736-1825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(0, SudokuVerifier.verify(negativeError));
 	}

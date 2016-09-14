@@ -42,3 +42,8 @@ UnitTestCaseAction 1473855484225 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473855484225 SudokuVerifierTest.java OK
 RefactoringAction 1473855495247 SudokuVerifierTest.java ADD void testVerify() METHOD
 EditAction 1473855497020 SudokuVerifierTest.java 606 2 3 1
+UnitTestCaseAction 1473855541141 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473855541142 SudokuVerifierTest.java FAIL
+RefactoringAction 1473855795305 SudokuVerifierTest.java RENAME testPositiveNumbers()=>void testPositiveNumbersOr() METHOD
+RefactoringAction 1473855800619 SudokuVerifierTest.java RENAME testPositiveNumbersOr()=>void testPositiveNumbersOrCointainsALetter() METHOD
+EditAction 1473855801344 SudokuVerifierTest.java 624 2 3 1

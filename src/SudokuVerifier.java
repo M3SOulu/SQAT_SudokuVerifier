@@ -2,13 +2,12 @@
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
-		boolean negative = false;
-		char [] solution;
+		boolean negativeOrLetter = false;
 		int i = 0;
 		
-		while ((i < 81) && (!negative)) {
-			solution = candidateSolution.toCharArray();
-			if (solution[i] < 1) {
+		while ((i < 81) && (!negativeOrLetter)) {
+			if (Character.isDigit(candidateSolution.charAt(i))) {
+				negativeOrLetter = true;
 				return -1;
 			}
 			i++;
