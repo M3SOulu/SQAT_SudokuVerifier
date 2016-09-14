@@ -92,3 +92,10 @@ EditAction 1473857066602 SudokuVerifierTest.java 1205 5 9 4
 UnitTestCaseAction 1473857067679 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473857067679 SudokuVerifierTest.java FAIL
 EditAction 1473857088934 SudokuVerifierTest.java 1205 5 9 4
+UnitTestCaseAction 1473857156874 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857156875 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857181985 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857181986 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857215233 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857215233 SudokuVerifierTest.java FAIL
+EditAction 1473857269873 SudokuVerifier.java 847 1 12 0

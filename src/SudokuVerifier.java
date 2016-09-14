@@ -1,12 +1,14 @@
 
 public class SudokuVerifier {
 	
+	private static int [] rowsOrCols;
+
 	public static int verify(String candidateSolution) {
 		boolean negativeOrLetter = false;
-		boolean rowOk = false;
+		boolean rowOk = true;
 		int i = 0;
 		char [] solution;
-		int [] rowsOrCols = null;
+		rowsOrCols = null;
 		while ((i < 81) && (!negativeOrLetter)) {
 			if (!Character.isDigit(candidateSolution.charAt(i))) {
 				negativeOrLetter = true;
