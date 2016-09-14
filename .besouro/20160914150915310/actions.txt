@@ -79,3 +79,23 @@ CompilationAction 1473856767587 SudokuVerifier.java
 CompilationAction 1473856767588 SudokuVerifier.java
 RefactoringAction 1473856805195 SudokuVerifier.java ADD static void checkSudokuLength(String) METHOD
 EditAction 1473856806199 SudokuVerifier.java 386 1 0 0
+CompilationAction 1473856807830 SudokuVerifier.java
+CompilationAction 1473856807832 SudokuVerifier.java
+CompilationAction 1473856807833 SudokuVerifier.java
+CompilationAction 1473856807834 SudokuVerifier.java
+CompilationAction 1473856807835 SudokuVerifier.java
+CompilationAction 1473856807835 SudokuVerifier.java
+CompilationAction 1473856814594 SudokuVerifier.java
+CompilationAction 1473856814734 SudokuVerifier.java
+CompilationAction 1473856814735 SudokuVerifier.java
+CompilationAction 1473856814736 SudokuVerifier.java
+CompilationAction 1473856814736 SudokuVerifier.java
+CompilationAction 1473856842566 SudokuVerifier.java
+CompilationAction 1473856842568 SudokuVerifier.java
+CompilationAction 1473856842569 SudokuVerifier.java
+CompilationAction 1473856842570 SudokuVerifier.java
+CompilationAction 1473856842768 SudokuVerifier.java
+CompilationAction 1473856842769 SudokuVerifier.java
+CompilationAction 1473856842770 SudokuVerifier.java
+CompilationAction 1473856842771 SudokuVerifier.java
+EditAction 1473856855441 SudokuVerifier.java 426 1 0 0

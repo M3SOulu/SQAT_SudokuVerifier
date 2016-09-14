@@ -14,10 +14,13 @@ public class SudokuVerifier {
 		
 		//check
 		
-		public static void checkSudokuLength(String candidateSolution){
+		public static int checkSudokuLength(String candidateSolution){
 			int sudokuLength = candidateSolution.length();
-			if sudokuLength != 81 {
-				
+			if (sudokuLength != 81) {
+				return -1;
+			}
+			else {
+				return 0;
 			}
 			
 		}
