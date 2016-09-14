@@ -29,13 +29,22 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidate_Row2_Duplicates() throws Exception {
+	public void testCandidate_Row_Duplicates() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		String candidate = "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
 		assertEquals(0, verifier.verify(candidate));
 	}
+	
 	@Test
-	public void testCandidate_Row2_Duplicates() throws Exception {
+	public void testCandidate_Column_Duplicates() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(0, verifier.verify(candidate));
