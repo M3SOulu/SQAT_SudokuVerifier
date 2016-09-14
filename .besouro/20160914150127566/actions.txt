@@ -580,3 +580,5 @@ UnitTestSessionAction 1473858195768 SudokuVerifierTest.java OK
 EditAction 1473858289431 SudokuVerifierTest.java 2632 6 19 6
 EditAction 1473858293645 SudokuVerifierTest.java 2631 6 19 6
 EditAction 1473858298710 SudokuVerifierTest.java 2631 6 19 6
+RefactoringAction 1473858304706 SudokuVerifierTest.java ADD void testCandidate_Row_Duplicates_Err3()/2 METHOD
+EditAction 1473858304730 SudokuVerifierTest.java 3011 7 22 7

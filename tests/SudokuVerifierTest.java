@@ -89,6 +89,22 @@ public class SudokuVerifierTest {
 		
 		assertEquals(-3, verifier.verify(candidate));
 	}
+	@Test
+	public void testCandidate_Row_Duplicates_Err3() throws Exception {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidate =
+				  "111111111"
+				+ "222222222"
+				+ "333333333"
+				+ "444444444"
+				+ "555555555" // Duplicate = 6
+				+ "666666666"
+				+ "777777777"
+				+ "888888888"
+				+ "999999999";
+		
+		assertEquals(-3, verifier.verify(candidate));
+	}
 	
 	@Test
 	public void testCandidate_Column_Duplicates_Err4() throws Exception {
