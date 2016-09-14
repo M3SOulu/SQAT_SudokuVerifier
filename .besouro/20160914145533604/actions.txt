@@ -5,3 +5,28 @@ EditAction 1473855567475 SudokuVerifier.java 257 1 2 0
 RefactoringAction 1473855607917 SudokuVerifier.java ADD void checkSubGrid() METHOD
 RefactoringAction 1473855610936 SudokuVerifier.java RENAME checkSubGrid()=>void checkSubGrid(String) METHOD
 EditAction 1473855628371 SudokuVerifier.java 342 2 3 0
+CompilationAction 1473855630147 SudokuVerifier.java
+RefactoringAction 1473855691984 SudokuVerifier.java ADD int SUB_ FIELD
+RefactoringAction 1473855700509 SudokuVerifier.java RENAME SUB_=>int SUB_GRID_SIZE FIELD
+RefactoringAction 1473855823550 SudokuVerifier.java ADD int GLOBAL_GRID_SIZE FIELD
+CompilationAction 1473855823806 SudokuVerifier.java
+CompilationAction 1473855824000 SudokuVerifier.java
+CompilationAction 1473855824001 SudokuVerifier.java
+CompilationAction 1473855824002 SudokuVerifier.java
+CompilationAction 1473855856597 SudokuVerifier.java
+CompilationAction 1473855856599 SudokuVerifier.java
+CompilationAction 1473855856600 SudokuVerifier.java
+CompilationAction 1473855856807 SudokuVerifier.java
+CompilationAction 1473855856809 SudokuVerifier.java
+CompilationAction 1473855856810 SudokuVerifier.java
+CompilationAction 1473855856811 SudokuVerifier.java
+CompilationAction 1473855888162 SudokuVerifier.java
+CompilationAction 1473855888164 SudokuVerifier.java
+CompilationAction 1473855888166 SudokuVerifier.java
+CompilationAction 1473855888168 SudokuVerifier.java
+CompilationAction 1473855888409 SudokuVerifier.java
+CompilationAction 1473855907625 SudokuVerifier.java
+CompilationAction 1473855907818 SudokuVerifier.java
+CompilationAction 1473855938836 SudokuVerifier.java
+CompilationAction 1473855939043 SudokuVerifier.java
+EditAction 1473855945043 SudokuVerifier.java 739 2 7 0
