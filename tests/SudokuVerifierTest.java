@@ -28,29 +28,6 @@ public class SudokuVerifierTest {
 		// Assert
 		assertEquals("Correct solution", 0, verification);
 	}
-
-	@Test
-	public void testVerify_IncorrectSolution() throws IllegalArgumentException {
-		// Arrange
-		String solution = ""
-				+ "123456789"
-				+ "912345678"
-				+ "891234567"
-				+ "789123456"
-				+ "678912345"
-				+ "567891234"
-				+ "456789123"
-				+ "345678912"
-				+ "234567891";
-		SudokuVerifier SudokuVerifier = new SudokuVerifier();
-		
-		// Act
-		int verification = SudokuVerifier.verify(solution);
-		
-		// Assert
-		//assertEquals("Incorrect solution", -3, verification);
-		fail("Incorrect solution test not yet implemented");
-	}
 	
 	@Test (expected = IllegalArgumentException.class)
 	public void testVerify_TooShortSolution() throws IllegalArgumentException {
