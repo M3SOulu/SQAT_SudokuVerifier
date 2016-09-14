@@ -31,3 +31,5 @@ EditAction 1473855435766 SudokuVerifierTest.java 538 1 2 1
 UnitTestCaseAction 1473855436906 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855436907 SudokuVerifierTest.java FAIL
 EditAction 1473855442837 SudokuVerifierTest.java 538 1 2 1
+RefactoringAction 1473855447197 SudokuVerifierTest.java ADD void testVerify() METHOD
+EditAction 1473855448976 SudokuVerifierTest.java 606 2 3 1
