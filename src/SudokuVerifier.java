@@ -22,7 +22,9 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < 9; i++){
 		String sudokuRow = candidateSolution.substring(start, stop);
-			for (int j = start)
+			for (int j = start){
+				break;
+			}
 		}
 		
 		
