@@ -505,3 +505,7 @@ RefactoringAction 1473860933015 SudokuVerifierTest.java REMOVE testVerify_splitI
 RefactoringAction 1473860935025 SudokuVerifierTest.java ADD void testVerify_StringIsTooLong() METHOD
 RefactoringAction 1473860935026 SudokuVerifierTest.java ADD void testVerify_splitIntoRowsOfNine() METHOD
 EditAction 1473860935737 SudokuVerifierTest.java 1395 3 9 3
+UnitTestCaseAction 1473860936574 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860936575 SudokuVerifierTest.java OK
+RefactoringAction 1473860941033 SudokuVerifierTest.java ADD void testVerify_StringLengthIsEnough() METHOD
+EditAction 1473860941978 SudokuVerifierTest.java 1391 4 12 4
