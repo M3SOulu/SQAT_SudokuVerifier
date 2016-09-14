@@ -25,3 +25,6 @@ UnitTestCaseAction 1473855387168 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855387170 SudokuVerifierTest.java FAIL
 RefactoringAction 1473855411110 SudokuVerifierTest.java REMOVE testVerify() METHOD
 EditAction 1473855413509 SudokuVerifierTest.java 539 1 2 1
+UnitTestCaseAction 1473855415407 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473855415407 SudokuVerifierTest.java OK
+EditAction 1473855435766 SudokuVerifierTest.java 538 1 2 1
