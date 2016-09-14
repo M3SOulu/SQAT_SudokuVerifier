@@ -68,7 +68,7 @@ public class SudokuVerifierTest {
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "164875293";
+				+ "164875294";
 		
 		assertEquals(3, verifier.verify(candidate));
 	}
