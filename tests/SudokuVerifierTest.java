@@ -15,7 +15,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify_StringContainsLetters_Return_-1() {
+	public void testVerify_StringContainsLetters_Return_minus_1() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		int x = verifier.verify("4173698256a2158947958724316825437169791586432346912758289643571573291684164875293");
 		assertEquals("-1", -1, x);		

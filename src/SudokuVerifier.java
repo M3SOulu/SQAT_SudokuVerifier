@@ -4,9 +4,13 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) {
 		String verifiable = candidateSolution;
 		
-		if(!(verifiable.matches("[0-9]+") && verifiable.length() > 2)) {
+		//Check R1
+		if(!(verifiable.matches("[0-9]+") && verifiable.length() == 81)) {
 			return -1;
 		}
+		
+		//Check R2
+		
 		return 0;
 		
 	}
