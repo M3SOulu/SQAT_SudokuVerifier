@@ -19,6 +19,10 @@ public class SudokuVerifier {
 		return error;
 	}
 	
+	public int verifySubGrid(String candidateSolution) {
+		return checkSubGrid(candidateSolution);
+	}
+	
 	private int checkSubGrid(String candidateSolution){
 		int error = 0;
 		int[] testSet = new int[SUB_GRID_SIZE];
