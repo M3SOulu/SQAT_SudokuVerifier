@@ -19,7 +19,11 @@ public class SudokuVerifier {
 	public static int checkRow(String candidateSolution){
 		int start = 0;
 		int stop = 8;
-		String sudokuRowN = candidateSolution.substring(int start, int stop);
+		
+		for (int i = 0; i < 9; i++){
+		String sudokuRow = candidateSolution.substring(start, stop);
+			for (int j = start)
+		}
 		
 		
 		String sudokuRow1 = candidateSolution.substring(0, 8);
