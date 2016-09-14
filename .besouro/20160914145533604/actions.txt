@@ -117,3 +117,21 @@ RefactoringAction 1473857595693 SudokuVerifierTest.java RENAME rule2Catcheserror
 RefactoringAction 1473857598705 SudokuVerifierTest.java RENAME rule2CatchesError=>void rule2CatchesError() METHOD
 RefactoringAction 1473857618232 SudokuVerifierTest.java RENAME rule2Correct()=>void rule2CorrectFor() METHOD
 EditAction 1473857621862 SudokuVerifierTest.java 785 3 4 1
+CompilationAction 1473857623838 SudokuVerifierTest.java
+CompilationAction 1473857623840 SudokuVerifierTest.java
+RefactoringAction 1473857665408 SudokuVerifierTest.java ADD import org.junit.Be IMPORT
+RefactoringAction 1473857666924 SudokuVerifierTest.java RENAME import org.junit.Be=>import org.junit.Before IMPORT
+RefactoringAction 1473857682491 SudokuVerifierTest.java ADD void setup() METHOD
+RefactoringAction 1473857706561 SudokuVerifierTest.java ADD SudokuVerifier verifier FIELD
+CompilationAction 1473857712578 SudokuVerifierTest.java
+CompilationAction 1473857712581 SudokuVerifierTest.java
+CompilationAction 1473857712778 SudokuVerifierTest.java
+CompilationAction 1473857712780 SudokuVerifierTest.java
+CompilationAction 1473857712781 SudokuVerifierTest.java
+CompilationAction 1473857820759 SudokuVerifierTest.java
+CompilationAction 1473857820760 SudokuVerifierTest.java
+CompilationAction 1473857820763 SudokuVerifierTest.java
+CompilationAction 1473857820966 SudokuVerifierTest.java
+CompilationAction 1473857830938 SudokuVerifierTest.java
+CompilationAction 1473857831132 SudokuVerifierTest.java
+EditAction 1473857846472 SudokuVerifierTest.java 1101 4 6 2
