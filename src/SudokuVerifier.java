@@ -19,16 +19,22 @@ public class SudokuVerifier {
 		return -1;
 	}
 	
+	public static String[] splitStringToRows(String candidatesolution){
+		String[] rows = candidatesolution.split("(?<=\\G.{9})");
+		return rows;
+	}
+	
 	public static int splitStringToRows(String candidateSolution){
-		String[] rows = candidateSolution.split("(?<=\\G.{9})");
+		 String[] rows = splitStringToRows(candidateSolution);
 		if (rows.length == 9)
 			return 0;
 		return -1;
 	}
 	
-	public static int checkNumbersInLines(String[] rows){
+	public static int checkNumbersInLines(String candidateSolution){
+		String[] rows = candidateSolution.split("(?<=\\G.{9})");
 		//for (int i=0; i<9; i++){
-			String tempRow = rows[1];
+			String tempRow = candidateSolution[1];
 			System.out.print(tempRow);
 		//}
 		

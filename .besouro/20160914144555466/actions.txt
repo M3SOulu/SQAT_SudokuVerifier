@@ -292,3 +292,14 @@ EditAction 1473858070608 SudokuVerifier.java 741 4 10 0
 UnitTestCaseAction 1473858074035 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473858074035 SudokuVerifierTest.java OK
 EditAction 1473858129100 SudokuVerifier.java 811 4 10 0
+CompilationAction 1473858129201 SudokuVerifier.java
+RefactoringAction 1473858131913 SudokuVerifier.java RENAME checkNumbersInLines(String=>static int checkNumbersInLines(String) METHOD
+RefactoringAction 1473858166594 SudokuVerifier.java ADD String split FIELD
+RefactoringAction 1473858168104 SudokuVerifier.java RENAME split=>String splitRows FIELD
+RefactoringAction 1473858171616 SudokuVerifier.java RENAME splitRows=>String splitRowsTo FIELD
+RefactoringAction 1473858179125 SudokuVerifier.java RENAME splitRowsTo=>String splitRowsToRows FIELD
+RefactoringAction 1473858180135 SudokuVerifier.java RENAME splitRowsToRows=>String splitRowsToRowsOf FIELD
+RefactoringAction 1473858187645 SudokuVerifier.java RENAME splitRowsToRowsOf=>String splitStringTo FIELD
+RefactoringAction 1473858190155 SudokuVerifier.java RENAME splitStringTo=>static String splitStringToRows() METHOD
+RefactoringAction 1473858197166 SudokuVerifier.java RENAME splitStringToRows()=>static int splitStringToRows(String)/2 METHOD
+EditAction 1473858280322 SudokuVerifier.java 1040 5 13 0
