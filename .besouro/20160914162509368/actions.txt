@@ -2,3 +2,4 @@ FileOpenedAction 1473859509432 SudokuVerifier.java 1194 1 6 0
 FileOpenedAction 1473859511674 StringCalculator.java 171 1 1 0
 FileOpenedAction 1473859514489 StringCalculatorException.java 63 0 0 0
 EditAction 1473859523407 SudokuVerifierTest.java 4208 10 31 8
+EditAction 1473859524714 SudokuVerifierTest.java 4207 10 31 8
