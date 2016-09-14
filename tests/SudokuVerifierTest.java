@@ -52,7 +52,7 @@ public class SudokuVerifierTest {
 	public void testR2_verifyWithIncorrectSubgrids() {
 		Setup();
 		int result = verifier.verify("444369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals(result, -3);
+		assertEquals(result, -2);
 	}
 
 
