@@ -24,8 +24,8 @@ public class SudokuVerifierTest {
 		assertEquals(-1, verifier.verify(candidate));
 	}
 
-	@Test
-	public void testCandidateContains_Zero_Err1() throws Exception {
+	@Test(expected=Exception.class)
+	public void testCandidateContains_LongString_Exception() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
@@ -36,7 +36,7 @@ public class SudokuVerifierTest {
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "164875293";;
+				+ "1648752931";
 		assertEquals(-1, verifier.verify(candidate));
 	}
 
