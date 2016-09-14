@@ -509,3 +509,6 @@ UnitTestCaseAction 1473860936574 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473860936575 SudokuVerifierTest.java OK
 RefactoringAction 1473860941033 SudokuVerifierTest.java ADD void testVerify_StringLengthIsEnough() METHOD
 EditAction 1473860941978 SudokuVerifierTest.java 1391 4 12 4
+UnitTestCaseAction 1473860943408 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860943409 SudokuVerifierTest.java OK
+EditAction 1473861131860 SudokuVerifier.java 1420 5 12 0
