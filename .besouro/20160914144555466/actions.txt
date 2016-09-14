@@ -234,3 +234,6 @@ EditAction 1473857281834 SudokuVerifierTest.java 1404 4 12 4
 RefactoringAction 1473857307200 SudokuVerifier.java ADD static long METHOD
 RefactoringAction 1473857308840 SudokuVerifier.java REMOVE rows(int) METHOD
 EditAction 1473857355897 SudokuVerifier.java 726 4 10 0
+UnitTestCaseAction 1473857357028 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857357028 SudokuVerifierTest.java FAIL
+EditAction 1473857400815 SudokuVerifier.java 681 4 9 0
