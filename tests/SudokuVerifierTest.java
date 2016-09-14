@@ -16,7 +16,8 @@ public class SudokuVerifierTest {
 	public void rule2Correct() {
 		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		SudokuVerifier verifier = new SudokuVerifier();
-		assertEquals("", verifier.verifySubGrid(candidateSolution), verifier.NO_ERROR);
+		assertEquals("Rule 2 did not pass for correct sudoku",
+				verifier.NO_ERROR, verifier.verifySubGrid(correctSudoku));
 	}
 
 }

@@ -59,3 +59,8 @@ RefactoringAction 1473856822714 SudokuVerifier.java ADD void verifySubGrid() MET
 RefactoringAction 1473856829765 SudokuVerifier.java RENAME verifySubGrid()=>void verifySubGrid(String) METHOD
 EditAction 1473856852786 SudokuVerifier.java 1095 3 8 0
 EditAction 1473856873373 SudokuVerifierTest.java 674 2 4 1
+CompilationAction 1473856875687 SudokuVerifierTest.java
+CompilationAction 1473856908456 SudokuVerifierTest.java
+UnitTestCaseAction 1473856917269 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856917271 SudokuVerifierTest.java FAIL
+EditAction 1473856956686 SudokuVerifierTest.java 712 2 4 1
