@@ -4,3 +4,4 @@ RefactoringAction 1473854202387 SudokuVerifierTest.java RENAME testVerify_number
 RefactoringAction 1473854205407 SudokuVerifierTest.java RENAME testVerify_numbersAreCorre()=>void testVerify_numbersAre() METHOD
 RefactoringAction 1473854211434 SudokuVerifierTest.java RENAME testVerify_numbersAre()=>void testVerify_StringIsNumerical() METHOD
 EditAction 1473854315768 SudokuVerifier.java 229 1 3 0
+EditAction 1473854316005 SudokuVerifierTest.java 568 1 3 1
