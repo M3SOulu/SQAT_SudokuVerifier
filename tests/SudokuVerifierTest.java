@@ -29,7 +29,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidate_Row_Duplicates() throws Exception {
+	public void testCandidate_Row_Duplicates_3() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate =
 				  "417369825"
