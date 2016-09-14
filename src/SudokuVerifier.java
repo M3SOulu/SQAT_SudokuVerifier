@@ -3,10 +3,10 @@ public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
 		if (candidateSolution.length() < 81 || candidateSolution.length() > 81) {
-			return 1;
+			return 0;
 		}
-		if else (splitStringToRows(candidateSolution) == 1)
-			return 1;
+		else if (splitStringToRows(candidateSolution) == 1)
+			return 0;
 		
 		return 0;
 		
