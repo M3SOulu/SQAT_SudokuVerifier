@@ -589,3 +589,10 @@ CompilationAction 1473858319528 SudokuVerifierTest.java
 RefactoringAction 1473858333259 SudokuVerifierTest.java REMOVE testCandidateContains_Zero_Err1()/2 METHOD
 RefactoringAction 1473858338284 SudokuVerifierTest.java ADD void testCandidate_Succ0()/2 METHOD
 EditAction 1473858338364 SudokuVerifierTest.java 2982 7 22 7
+CompilationAction 1473858338602 SudokuVerifierTest.java
+RefactoringAction 1473858369305 SudokuVerifierTest.java REMOVE testCandidate_Succ0()/2 METHOD
+RefactoringAction 1473858371317 SudokuVerifierTest.java ADD void testCandidate_Succ0()/2 METHOD
+RefactoringAction 1473858376827 SudokuVerifierTest.java RENAME testCandidate_Succ0()/2=>void testCandidateContains_Zero_Err1()/2 METHOD
+RefactoringAction 1473858378837 SudokuVerifierTest.java REMOVE testCandidateContains_Zero_Err1()/2 METHOD
+CompilationAction 1473858379255 SudokuVerifierTest.java
+EditAction 1473858388800 SudokuVerifierTest.java 2981 7 22 7

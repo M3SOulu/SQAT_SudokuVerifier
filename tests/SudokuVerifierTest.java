@@ -55,23 +55,6 @@ public class SudokuVerifierTest {
 		
 		assertNotEquals(0, verifier.verify(candidate));
 	}
-	
-	@Test
-	public void testCandidate_Succ0() throws Exception {
-		SudokuVerifier verifier = new SudokuVerifier();
-		String candidate = 
-				  "417369825"
-				+ "632158947"
-				+ "958724316"
-				+ "825437169"
-				+ "791586432"
-				+ "346912758"
-				+ "289643571"
-				+ "573291684"
-				+ "164875293";
-		
-		assertEquals(0, verifier.verify(candidate));
-	}
 
 	@Test
 	public void testCandidate_Succ0() throws Exception {
@@ -90,6 +73,23 @@ public class SudokuVerifierTest {
 		assertEquals(0, verifier.verify(candidate));
 	}
 
+
+	@Test
+	public void testCandidate_Succ0() throws Exception {
+		SudokuVerifier verifier = new SudokuVerifier();
+		String candidate = 
+				  "417369825"
+				+ "632158947"
+				+ "958724316"
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
+		
+		assertEquals(0, verifier.verify(candidate));
+	}
 	@Test
 	public void testCandidate_Row_Duplicates_Err3() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
