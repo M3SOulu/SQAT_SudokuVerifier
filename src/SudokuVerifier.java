@@ -3,6 +3,9 @@ import java.util.Arrays;
 public class SudokuVerifier {
 	private final int GLOBAL_GRID_SIZE = 81;
 	private final int SUB_GRID_SIZE = 9;
+
+	private final int NO_ERROR = 0;
+	private final int SUBGRID_ERROR = -2;
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
@@ -23,10 +26,19 @@ public class SudokuVerifier {
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
-				testSet[k] = Integer.parseInt(candidateSolution.charAt(i + k).toString());
+				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 			}
 			
 			Arrays.sort(testSet);
+			
+			for (int k = 0; k < SUB_GRID_SIZE; k++) {
+				if (k != testSet[k]) {
+					error = SUBGRID_ERROR
+				}
+			}
+			
+			if (NO_ERROR != error)
+				break;
 		}
 		
 		

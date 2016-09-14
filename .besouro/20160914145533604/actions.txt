@@ -34,3 +34,9 @@ CompilationAction 1473855947055 SudokuVerifier.java
 CompilationAction 1473856007949 SudokuVerifier.java
 CompilationAction 1473856008152 SudokuVerifier.java
 EditAction 1473856129321 SudokuVerifier.java 757 2 7 0
+CompilationAction 1473856131116 SudokuVerifier.java
+CompilationAction 1473856265305 SudokuVerifier.java
+RefactoringAction 1473856386707 SudokuVerifier.java ADD int SUBGRID_ERROR FIELD
+RefactoringAction 1473856418869 SudokuVerifier.java ADD int NO FIELD
+RefactoringAction 1473856424890 SudokuVerifier.java RENAME NO=>int NO_ERROR FIELD
+EditAction 1473856432712 SudokuVerifier.java 994 2 3 0
