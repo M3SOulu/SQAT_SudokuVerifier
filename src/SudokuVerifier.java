@@ -31,8 +31,8 @@ public class SudokuVerifier {
 		*/
 		
 		String sudokuRow1 = candidateSolution.substring(0, 8);
-		for (int i = 0; i < 9; i++){
-			number1 
+		
+			
 		}
 		String sudokuRow2 = candidateSolution.substring(9, 17);
 		String sudokuRow3 = candidateSolution.substring(18, 26);

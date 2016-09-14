@@ -218,3 +218,11 @@ RefactoringAction 1473859258683 SudokuVerifier.java REMOVE sudokuRow4 FIELD
 RefactoringAction 1473859270208 SudokuVerifier.java ADD static int checkSudokuLength(String) METHOD
 CompilationAction 1473859271366 SudokuVerifier.java
 EditAction 1473859499761 SudokuVerifier.java 1311 3 4 0
+CompilationAction 1473859501396 SudokuVerifier.java
+CompilationAction 1473859501397 SudokuVerifier.java
+CompilationAction 1473859501398 SudokuVerifier.java
+CompilationAction 1473859510401 SudokuVerifier.java
+CompilationAction 1473859510402 SudokuVerifier.java
+CompilationAction 1473859510403 SudokuVerifier.java
+CompilationAction 1473859510567 SudokuVerifier.java
+EditAction 1473859692207 SudokuVerifier.java 1275 3 5 0
