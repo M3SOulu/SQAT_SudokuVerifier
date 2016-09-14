@@ -470,3 +470,5 @@ EditAction 1473860103911 SudokuVerifier.java 1188 6 14 0
 RefactoringAction 1473860285011 SudokuVerifier.java ADD static String tempRow2(int) METHOD
 RefactoringAction 1473860287063 SudokuVerifier.java REMOVE tempRow2(int) METHOD
 EditAction 1473860448658 SudokuVerifier.java 1420 6 15 0
+CompilationAction 1473860448744 SudokuVerifier.java
+EditAction 1473860460552 SudokuVerifier.java 1437 6 15 0
