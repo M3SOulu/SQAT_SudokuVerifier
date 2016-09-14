@@ -243,3 +243,16 @@ CompilationAction 1473855831496 SudokuVerifierTest.java
 CompilationAction 1473855831497 SudokuVerifierTest.java
 CompilationAction 1473855831497 SudokuVerifierTest.java
 EditAction 1473855833855 SudokuVerifierTest.java 959 2 3 1
+CompilationAction 1473855834097 SudokuVerifierTest.java
+CompilationAction 1473855834097 SudokuVerifierTest.java
+CompilationAction 1473855834097 SudokuVerifierTest.java
+CompilationAction 1473855834097 SudokuVerifierTest.java
+CompilationAction 1473855834098 SudokuVerifierTest.java
+RefactoringAction 1473855836858 SudokuVerifierTest.java RENAME testCandidateContains_Zero_1()/2=>void testCandidateContains__1() METHOD
+RefactoringAction 1473855840881 SudokuVerifierTest.java RENAME testCandidateContains__1()=>void testCandidateContains_Invalid_1() METHOD
+CompilationAction 1473855843615 SudokuVerifierTest.java
+CompilationAction 1473855843780 SudokuVerifierTest.java
+CompilationAction 1473855843780 SudokuVerifierTest.java
+CompilationAction 1473855843781 SudokuVerifierTest.java
+CompilationAction 1473855843781 SudokuVerifierTest.java
+EditAction 1473855850237 SudokuVerifierTest.java 971 2 3 1
