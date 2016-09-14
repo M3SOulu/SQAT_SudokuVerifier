@@ -28,7 +28,7 @@ public class SudokuVerifier {
 			}
 		}
 		
-		for (int row = 0; )
+		for (int row = 0;)
 		
 		return 0;
 	}
