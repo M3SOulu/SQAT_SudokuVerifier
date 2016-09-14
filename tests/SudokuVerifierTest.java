@@ -38,6 +38,7 @@ public class SudokuVerifierTest {
 				+ "164875293";
 		assertEquals(-1, verifier.verify(candidate));
 	}
+	
 	@Test
 	public void testCandidateContains_Incorrect_ErrAny() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
