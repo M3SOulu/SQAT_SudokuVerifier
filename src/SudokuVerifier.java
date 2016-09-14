@@ -2,13 +2,13 @@
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
-	/*	if (checkStringLength(candidateSolution) == -1) 
+		if (checkStringLength(candidateSolution) == -1) 
 			return -1;
 		else if (amountOfRows(candidateSolution) == -1)
 			return -1;
 		else if (rowContainsOnlyPositiveDigits(candidateSolution) == -1)
 			return -1;
-		*/if (digitAppearsOnceInRow(candidateSolution) == -1)
+		if (digitAppearsOnceInRow(candidateSolution) == -1)
 			return -1;
 		return 0;
 		
