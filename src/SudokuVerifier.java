@@ -2,17 +2,7 @@ import java.util.ArrayList;
 
 public class SudokuVerifier {
 	
-	public int verify(String 
-
-			for (int x = 0; x < 9; x++) {
-				String reserved = "";
-				for (int y = 0; y < 9; y++) {
-					char c = candidateSolution.charAt(y * 9 + x);
-					if (reserved.indexOf(c) != -1)
-						return 4;
-					reserved += c;
-				}
-			}) throws Exception {
+	public int verify(String candidateSolution) throws Exception {
 		// returns 0 if the candidate solution is correct
 		
 		if (candidateSolution.length() != 81)
@@ -27,6 +17,16 @@ public class SudokuVerifier {
 				char c = candidateSolution.charAt(y * 9 + x);
 				if (reserved.indexOf(c) != -1)
 					return 3;
+				reserved += c;
+			}
+		}
+
+		for (int x = 0; x < 9; x++) {
+			String reserved = "";
+			for (int y = 0; y < 9; y++) {
+				char c = candidateSolution.charAt(y * 9 + x);
+				if (reserved.indexOf(c) != -1)
+					return 4;
 				reserved += c;
 			}
 		}

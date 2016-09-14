@@ -542,3 +542,11 @@ EditAction 1473857764686 SudokuVerifierTest.java 2224 5 16 5
 EditAction 1473857782350 SudokuVerifierTest.java 2225 5 16 5
 EditAction 1473857786949 SudokuVerifierTest.java 2225 5 16 5
 EditAction 1473857791139 SudokuVerifier.java 1182 1 0 0
+CompilationAction 1473857791388 SudokuVerifier.java
+CompilationAction 1473857791389 SudokuVerifier.java
+CompilationAction 1473857791389 SudokuVerifierTest.java
+RefactoringAction 1473857792552 SudokuVerifier.java RENAME verify()=>int verify(String) METHOD
+CompilationAction 1473857793800 SudokuVerifier.java
+UnitTestCaseAction 1473857794978 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857794978 SudokuVerifierTest.java FAIL
+EditAction 1473857800431 SudokuVerifier.java 1190 1 6 0
