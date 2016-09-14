@@ -29,19 +29,22 @@ public class SudokuVerifier {
 		}
 		
 		for (int y = 0; y < 9; y++) {
-			String row = "";
 			String reserved = "";
 			for (int x = 0; x < 9; x++) {
-				if (reserved.indexOf(row.charAt(x)) != -1)
+				char c = candidateSolution.charAt(y * 9 + x);
+				if (reserved.indexOf(c) != -1)
 					return 3;
+				reserved += c;
 			}
 		}
-		
-		for (int x = 0; x < 9; x++) {
+
+		for (int y = 0; y < 9; y++) {
 			String reserved = "";
-			for (int y = 0; y < 9; y++) {
-				if (reserved.indexOf(column.charAt(y)) != -1)
+			for (int x = 0; x < 9; x++) {
+				char c = candidateSolution.charAt(y * 9 + x);
+				if (reserved.indexOf(c) != -1)
 					return 3;
+				reserved += c;
 			}
 		}
 		
