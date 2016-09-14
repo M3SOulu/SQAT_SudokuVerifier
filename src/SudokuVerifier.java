@@ -7,8 +7,8 @@ public class SudokuVerifier {
 		if (candidateSolution.length() != 81)
 			throw new Exception("Invalid board dimensions");
 		
-		for (char c : candidateSolution.toCharArray()) if ()
-		}
+		for (char c : candidateSolution.toCharArray())
+			if (c < '0' || c > '9' 
 		
 		return 0;
 		
