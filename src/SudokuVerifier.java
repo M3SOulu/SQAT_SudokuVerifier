@@ -9,8 +9,12 @@ public class SudokuVerifier {
 		
 		//check whole string length?
 		
-		// check for sub
+		error = checkSubGrid(candidateSolution);
 		
 		return error;
+	}
+	
+	private int checkSubGrid(String candidateSolution){
+		
 	}
 }
