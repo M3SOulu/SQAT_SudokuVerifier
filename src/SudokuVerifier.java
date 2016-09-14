@@ -38,9 +38,9 @@ public class SudokuVerifier {
 			}
 		}
 
-		for (int y = 0; y < 9; y++) {
+		for (int x = 0; x < 9; x++) {
 			String reserved = "";
-			for (int x = 0; x < 9; x++) {
+			for (int y = 0; y < 9; y++) {
 				char c = candidateSolution.charAt(y * 9 + x);
 				if (reserved.indexOf(c) != -1)
 					return 3;
