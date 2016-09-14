@@ -31,15 +31,12 @@ public class SudokuVerifier {
 		return -1;
 	}
 	
-	public static int checkNumbersInLines(String candidateSolution){
+	public static int rowContainsOnlyPositiveDigits(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
 		//for (int i=0; i<9; i++){
 			String tempRow = rows[0];
-			if (tempRow.contains("-") == true)
-					System.out.print("asd");
-
-		//
-		
+			if (tempRow.contains("-") == false)
+				return 0;
 		return -1;
 	}
 	

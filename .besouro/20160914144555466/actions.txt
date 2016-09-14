@@ -370,3 +370,6 @@ EditAction 1473859436508 SudokuVerifier.java 1051 5 13 0
 UnitTestCaseAction 1473859437774 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473859437774 SudokuVerifierTest.java OK
 EditAction 1473859457412 SudokuVerifier.java 1051 5 13 0
+RefactoringAction 1473859506675 SudokuVerifier.java RENAME checkNumbersInLines(String)=>static int rowContainss(String) METHOD
+RefactoringAction 1473859511684 SudokuVerifier.java RENAME rowContainss(String)=>static int rowContainsOnlyPositiveDigits(String) METHOD
+EditAction 1473859513637 SudokuVerifier.java 1037 5 13 0
