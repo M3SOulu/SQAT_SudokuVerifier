@@ -1,4 +1,4 @@
-
+// final
 public class SudokuVerifier {
 	
 	public int verifyCorrectCharacters(String input) {
