@@ -704,3 +704,4 @@ EditAction 1473859083232 SudokuVerifier.java 1194 1 6 0
 RefactoringAction 1473859098676 SudokuVerifierTest.java REMOVE testCandidateContains_ShortString_Exception() METHOD
 RefactoringAction 1473859098677 SudokuVerifierTest.java REMOVE testCandidateContains_LongString_Exception() METHOD
 EditAction 1473859100707 SudokuVerifierTest.java 4206 10 31 8
+EditAction 1473859103233 SudokuVerifierTest.java 4207 10 31 8
