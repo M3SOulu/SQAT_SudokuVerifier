@@ -11,6 +11,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testStringLengthIsTooLong(){
 		//Arrange
+		SukoVerifier sudoku = new SudokuVerifier()
 		
 
 	}
