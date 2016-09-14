@@ -198,3 +198,10 @@ EditAction 1473855618655 SudokuVerifier.java 751 1 4 0
 EditAction 1473855691853 SudokuVerifier.java 765 1 4 0
 RefactoringAction 1473855708018 SudokuVerifierTest.java REMOVE testVerify() METHOD
 EditAction 1473855717320 SudokuVerifierTest.java 428 0 0 0
+CompilationAction 1473855717565 SudokuVerifierTest.java
+CompilationAction 1473855717565 SudokuVerifierTest.java
+CompilationAction 1473855717566 SudokuVerifierTest.java
+RefactoringAction 1473855735554 SudokuVerifierTest.java RENAME test=>void testStringContains FIELD
+RefactoringAction 1473855740065 SudokuVerifierTest.java RENAME testStringContains=>void testCandidateContains FIELD
+RefactoringAction 1473855741575 SudokuVerifierTest.java RENAME testCandidateContains=>void testCandidateContains_ FIELD
+EditAction 1473855743706 SudokuVerifierTest.java 451 0 0 0
