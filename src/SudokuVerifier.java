@@ -5,7 +5,7 @@ public class SudokuVerifier {
 		//Scanner sc = new Scanner (System.in)
 	}
 	
-	public int verify(String candidateSolution) {
+	public static int verify(String candidateSolution) {
 		boolean negative = false;
 		char [] solution;
 		int i = 0;
