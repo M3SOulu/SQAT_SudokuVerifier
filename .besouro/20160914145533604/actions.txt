@@ -154,3 +154,19 @@ RefactoringAction 1473858135242 SudokuVerifier.java RENAME subgridDe=>void subgr
 RefactoringAction 1473858137259 SudokuVerifier.java RENAME subgridDebug=>void subgridDebug() METHOD
 RefactoringAction 1473858147324 SudokuVerifier.java RENAME subgridDebug()=>void subgridDebug(int METHOD
 EditAction 1473858157922 SudokuVerifier.java 1543 4 11 0
+CompilationAction 1473858159815 SudokuVerifier.java
+CompilationAction 1473858159816 SudokuVerifier.java
+CompilationAction 1473858185168 SudokuVerifier.java
+CompilationAction 1473858185329 SudokuVerifier.java
+CompilationAction 1473858185331 SudokuVerifier.java
+CompilationAction 1473858185332 SudokuVerifier.java
+CompilationAction 1473858185333 SudokuVerifier.java
+CompilationAction 1473858196841 SudokuVerifier.java
+CompilationAction 1473858196843 SudokuVerifier.java
+CompilationAction 1473858196844 SudokuVerifier.java
+CompilationAction 1473858197006 SudokuVerifier.java
+CompilationAction 1473858197008 SudokuVerifier.java
+CompilationAction 1473858209058 SudokuVerifier.java
+CompilationAction 1473858209060 SudokuVerifier.java
+CompilationAction 1473858209218 SudokuVerifier.java
+EditAction 1473858231350 SudokuVerifier.java 1374 4 11 0

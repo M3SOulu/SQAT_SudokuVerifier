@@ -25,7 +25,7 @@ public class SudokuVerifier {
 	
 	private int checkSubGrid(String candidateSolution){
 		int error = 0;
-		int debug = 0;
+		boolean debug = false;
 		int[] testSet = new int[SUB_GRID_SIZE];
 		
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
@@ -34,21 +34,13 @@ public class SudokuVerifier {
 				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 			}
 			
-			if (debug) {
-				for (int k = 0; k < SUB_GRID_SIZE; k++) {
-					System.out.print(testSet[k]);
-				}
-				
-				System.out.print("\n");
-			}
+			if (debug)
+				subgridDebug(testSet);
 			
 			Arrays.sort(testSet);
 			
-			for (int k = 0; k < SUB_GRID_SIZE; k++) {
-				System.out.print(testSet[k]);
-			}
-			
-			System.out.print("\n");
+			if (debug)
+				subgridDebug(testSet);
 			
 			for (int k = 1; k <= SUB_GRID_SIZE; k++) {
 				if (k != testSet[k - 1]) {
@@ -70,6 +62,5 @@ public class SudokuVerifier {
 		}
 		
 		System.out.print("\n");
-	}
 	}
 }
