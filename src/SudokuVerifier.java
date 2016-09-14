@@ -85,7 +85,8 @@ public class SudokuVerifier {
 	 * 6 7 8
 	 */
 	private int[] getSubgrid(String candidateSolution, int subgridNum) {
-		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE]; 
+		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE];
+		int resultIndex = 0;
 		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
 		
 		final int SUBGRID_ROW_AMOUNT = 3;
@@ -95,7 +96,7 @@ public class SudokuVerifier {
 			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_ROW_AMOUNT * subgridNum);
 			
 			while (k < 3) {
-				Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex)));
+				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex)));
 
 				resultIndex++;
 				cellIndex++;
