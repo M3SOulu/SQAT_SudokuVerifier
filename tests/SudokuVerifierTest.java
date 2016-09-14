@@ -31,7 +31,8 @@ public class SudokuVerifierTest {
 	@Test
 	public void testCandidate_Row_Duplicates() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
-		String candidate = "417369825"
+		String candidate =
+				  "417369825"
 				+ "632158947"
 				+ "958724316"
 				+ "825437169"

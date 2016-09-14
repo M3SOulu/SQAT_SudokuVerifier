@@ -478,3 +478,4 @@ RefactoringAction 1473857224639 SudokuVerifierTest.java RENAME testCandidate_Row
 RefactoringAction 1473857225649 SudokuVerifierTest.java RENAME testCandidate_Row2_Duplicates()=>void testCandidate_Row_Duplicates()/2 METHOD
 CompilationAction 1473857231608 SudokuVerifierTest.java
 EditAction 1473857285420 SudokuVerifierTest.java 1859 5 15 5
+EditAction 1473857291250 SudokuVerifierTest.java 1865 5 15 5
