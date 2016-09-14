@@ -34,7 +34,6 @@ public class SudokuVerifier {
 			for (int x = 0; x < 9; x++) {
 				if (reserved.indexOf(row.charAt(x)) != -1)
 					return 3;
-					
 			}
 		}
 		
