@@ -25,7 +25,7 @@ public class SudokuVerifierTest {
 	public void testCandidate_0() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = "41736982563215894795872316825437169791586432346912758289643571573291684164875293";
-		assertEquals(verifier.verify(candidate), 0);
+		assertEquals(0, verifier.verify(candidate));
 	}
 	
 	//@Test
