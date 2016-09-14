@@ -24,6 +24,7 @@ public class SudokuVerifier {
 	
 	public static int amountOfRows(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
+		 System.out.print(rows.length);
 		if (rows.length == 9)
 			return 0;
 		return -1;
