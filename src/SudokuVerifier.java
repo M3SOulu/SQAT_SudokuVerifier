@@ -1,10 +1,6 @@
 
 public class SudokuVerifier {
 	
-/*	public static void main (String [] args) {
-		//Scanner sc = new Scanner (System.in)
-	}
-	*/
 	public static int verify(String candidateSolution) {
 		boolean negative = false;
 		char [] solution;
