@@ -6,8 +6,6 @@ public class SudokuVerifier {
 			return 0;
 		else if (amountOfRows(candidateSolution) == 0)
 			return 0;
-		//else if (checkNumbersInLines(candidateSolution) == 0)
-			//	return 0;
 		return -1;
 		
 		//check
@@ -31,14 +29,14 @@ public class SudokuVerifier {
 		return -1;
 	}
 	
-	public static int checkNumbersInLines(String candidateSolution){
+	/*public static int checkNumbersInLines(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
 		//for (int i=0; i<9; i++){
-			String tempRow = rows[1];
+			String tempRow = candidateSolution[1];
 			System.out.print(tempRow);
 		//}
 		
 		return -1;
-	}
+	}*/
 	
 }
