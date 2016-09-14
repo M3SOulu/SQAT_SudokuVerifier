@@ -27,7 +27,7 @@ public class SudokuVerifier {
 		int error = 0;
 		int[] testSet = new int[SUB_GRID_SIZE];
 		
-		for (int i = 0; i + 1 < GLOBAL_GRID_SIZE; i = i + 9) {
+		for (int i = 0; (i + 1) < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
 				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
