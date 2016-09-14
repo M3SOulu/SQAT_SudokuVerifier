@@ -51,6 +51,7 @@ public class SudokuVerifierTest {
 			    + "456789123"
 			    + "345678912"
 			    + "234567891";
+		
 		assertNotEquals(0, verifier.verify(candidate));
 	}
 
