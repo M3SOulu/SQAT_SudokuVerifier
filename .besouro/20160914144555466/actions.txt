@@ -303,3 +303,24 @@ RefactoringAction 1473858187645 SudokuVerifier.java RENAME splitRowsToRowsOf=>St
 RefactoringAction 1473858190155 SudokuVerifier.java RENAME splitStringTo=>static String splitStringToRows() METHOD
 RefactoringAction 1473858197166 SudokuVerifier.java RENAME splitStringToRows()=>static int splitStringToRows(String)/2 METHOD
 EditAction 1473858280322 SudokuVerifier.java 1040 5 13 0
+CompilationAction 1473858280412 SudokuVerifier.java
+CompilationAction 1473858280412 SudokuVerifier.java
+CompilationAction 1473858280413 SudokuVerifier.java
+CompilationAction 1473858291041 SudokuVerifier.java
+CompilationAction 1473858291219 SudokuVerifier.java
+CompilationAction 1473858291220 SudokuVerifier.java
+RefactoringAction 1473858301910 SudokuVerifier.java RENAME splitStringToRows(String)/2=>String candidateSolution FIELD
+FileOpenedAction 1473858405895 MainClass.java 1076 1 21 0
+FileOpenedAction 1473858409096 TennisGame.java 2147 5 8 0
+RefactoringAction 1473858491952 SudokuVerifier.java REMOVE candidateSolution FIELD
+CompilationAction 1473858497080 SudokuVerifier.java
+RefactoringAction 1473858513496 SudokuVerifier.java RENAME isStringLenghtCorrect(String)=>String candidateSolution FIELD
+RefactoringAction 1473858518512 SudokuVerifier.java RENAME S(String)=>static int stringLeng(String) METHOD
+RefactoringAction 1473858520020 SudokuVerifier.java RENAME stringLeng(String)=>static int stringLength(String) METHOD
+RefactoringAction 1473858614607 SudokuVerifier.java RENAME stringLength(String)=>static int isStringLenghtCorrect(String) METHOD
+RefactoringAction 1473858618632 SudokuVerifier.java ADD String candidateSolution FIELD
+RefactoringAction 1473858634661 SudokuVerifier.java RENAME amountO(String)=>static int amountOfRows(String) METHOD
+CompilationAction 1473858646891 SudokuVerifier.java
+UnitTestCaseAction 1473858648272 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858648272 SudokuVerifierTest.java FAIL
+EditAction 1473858667502 SudokuVerifier.java 1019 5 13 0

@@ -4,10 +4,10 @@ public class SudokuVerifier {
 	public static int verify(String candidateSolution) {
 		if (isStringLenghtCorrect(candidateSolution) == 0) 
 			return 0;
-		else if (splitStringToRows(candidateSolution) == 0)
+		else if (amountOfRows(candidateSolution) == 0)
 			return 0;
-		else if (checkNumbersInLines(candidateSolution) == 0)
-				return 0;
+		//else if (checkNumbersInLines(candidateSolution) == 0)
+			//	return 0;
 		return -1;
 		
 		//check
@@ -24,7 +24,7 @@ public class SudokuVerifier {
 		return rows;
 	}
 	
-	public static int splitStringToRows(String candidateSolution){
+	public static int amountOfRows(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
 		if (rows.length == 9)
 			return 0;
@@ -32,9 +32,9 @@ public class SudokuVerifier {
 	}
 	
 	public static int checkNumbersInLines(String candidateSolution){
-		String[] rows = candidateSolution.split("(?<=\\G.{9})");
+		 String[] rows = splitStringToRows(candidateSolution);
 		//for (int i=0; i<9; i++){
-			String tempRow = candidateSolution[1];
+			String tempRow = rows[1];
 			System.out.print(tempRow);
 		//}
 		
