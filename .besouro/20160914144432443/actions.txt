@@ -61,3 +61,4 @@ RefactoringAction 1473858145108 SudokuVerifierTest.java RENAME testVerify_Colums
 RefactoringAction 1473858146622 SudokuVerifierTest.java RENAME testVerify_ColumsnAreAccordingtoR34()=>void testVerify_ColumsnAreAccordingtoR3_() METHOD
 RefactoringAction 1473858150148 SudokuVerifierTest.java RENAME testVerify_ColumsnAreAccordingtoR3_()=>void testVerify_ColumsnAreAccordingtoR3_IncorrectSudoku() METHOD
 EditAction 1473858182556 SudokuVerifier.java 548 1 5 0
+EditAction 1473858182629 SudokuVerifierTest.java 1378 4 12 4

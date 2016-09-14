@@ -20,5 +20,21 @@ public class SudokuVerifierTest {
 		int x = verifier.verify("4173698256a2158947958724316825437169791586432346912758289643571573291684164875293");
 		assertEquals("-1", -1, x);		
 	}
+	
+	@Test
+	public void testVerify_ColumnsAreAccordingtoR3() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		int x = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertEquals("0", 0, x);		
+	}
+	
+	@Test
+	public void testVerify_ColumsnAreAccordingtoR3_IncorrectSudoku() {
+		SudokuVerifier verifier = new SudokuVerifier();
+		int x = verifier.verify("123356789912345678891234567789123456678912345567891234456789123345678912234567891");
+		assertEquals("-3", -3, x);		
+	}
+	
+
 
 }
