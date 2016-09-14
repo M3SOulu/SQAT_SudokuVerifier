@@ -301,3 +301,6 @@ EditAction 1473855945156 SudokuVerifierTest.java 1230 3 9 3
 UnitTestCaseAction 1473855945883 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855945883 SudokuVerifierTest.java FAIL
 EditAction 1473855947430 SudokuVerifierTest.java 1230 3 9 3
+UnitTestCaseAction 1473855949298 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473855949298 SudokuVerifierTest.java FAIL
+EditAction 1473855952700 SudokuVerifierTest.java 1230 3 9 3
