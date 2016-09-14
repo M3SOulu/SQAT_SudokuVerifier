@@ -19,15 +19,9 @@ public class SudokuVerifier {
 	
 	public static int splitStringToRows(String candidateSolution){
 		String[] rows = candidateSolution.split("(?<=\\G.{9})");
-		System.out.print(rows.length);
-		//if (isRowLengthRight(row) == 0)
-			//return 0;
-		return -1;
-	}
-	
-	public static int isRowLengthRight(String row){
-		if (row.length() == 9) 
+		if (rows.length == 0)
 			return 0;
 		return -1;
 	}
+	
 }
