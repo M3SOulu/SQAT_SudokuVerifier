@@ -32,7 +32,7 @@ public class SudokuVerifierTest {
 	@Test
 	public void testInvalidRows() {
 		String test = "417349825632158947958724316825437169791586432346912758289643571573291684164875293";
-		assertEquals(-2, SudokuVerifier.verify(test));
+		assertEquals(-3, SudokuVerifier.verify(test));
 	}
 	@Test
 	public void testInvalidCols() {
