@@ -69,6 +69,10 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
+		if(verifyCorrectSubgrids(candidateSolution) != 0) {
+			return -2;
+		}
+		
 		if(verifyCorrectRows(candidateSolution) != 0) {
 			return -3;
 		}
