@@ -14,9 +14,9 @@ public class SudokuVerifier {
 		
 		//check whole string length?
 		
-		error = checkSubGrid(candidateSolution);
+		error = verifySubGrid(candidateSolution);
 		
-		error = 
+		error = verifyGlobalRow(candidateSolution);
 		
 		return error;
 	}
@@ -25,10 +25,14 @@ public class SudokuVerifier {
 		return checkSubGrid(candidateSolution);
 	}
 	
-	private int checkSubGrid(String candidateSolution){
+	public int verifyGlobalRow(String candidateSolution) {
+		return checkGlobalRow();
+	}
+	
+	private int checkGlobalRow() {
 		boolean debug = false;
 		int error = 0;
-		int[] testSet = new int[SUB_GRID_SIZE];
+		int[] testSet = null;
 		
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
@@ -56,10 +60,60 @@ public class SudokuVerifier {
 		return error;
 	}
 	
-	private int[] getSubgrid(String candidateSolution) {
+	private int checkSubGrid(String candidateSolution){
+		int error = 0;
+		int[] testSet = null;
+		
+		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
+			// next 9 numbers to test set
+			testSet = getSubgrid(candidateSolution);
+			
+			membersUnique(testSet);
+			
+			
+			
+			
+			
+			if (NO_ERROR != error)
+				break;
+		}
+
+		return error;
+	}
+	
+	private boolean membersUnique(int[] testSet) {
+		boolean debug = false;
+
+		if (debug)
+			subgridDebug(testSet); // change name for this function
+		
+		Arrays.sort(testSet);
+		
+		if (debug)
+			subgridDebug(testSet);
+		
+		for (int i = 1; i <= testSet.length; i++) {
+			if (i != testSet[i - 1]) {
+				return false;
+			}
+		}
+		
+		return true;
+	}
+	
+	/* subgrid nums
+	 * 1 2 3
+	 * 4 5 6
+	 * 7 8 9
+	 */
+	private int[] getSubgrid(String candidateSolution, int subgridNum) {
+		int[] subgridCellValues = new int[SUB_GRID_SIZE]; 
+		
 		for (int k = 0; k < SUB_GRID_SIZE; k++) {
 			testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 		}
+		
+		return subgridCellValues;
 	}
 	
 	private void subgridDebug(int[] testSet) {
