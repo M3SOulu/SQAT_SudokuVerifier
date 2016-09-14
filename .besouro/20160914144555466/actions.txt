@@ -472,3 +472,6 @@ RefactoringAction 1473860287063 SudokuVerifier.java REMOVE tempRow2(int) METHOD
 EditAction 1473860448658 SudokuVerifier.java 1420 6 15 0
 CompilationAction 1473860448744 SudokuVerifier.java
 EditAction 1473860460552 SudokuVerifier.java 1437 6 15 0
+UnitTestCaseAction 1473860461437 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473860461437 SudokuVerifierTest.java OK
+EditAction 1473860480490 SudokuVerifier.java 1437 6 15 0
