@@ -35,7 +35,7 @@ public class SudokuVerifier {
 		 String[] rows = splitStringToRows(candidateSolution);
 		//for (int i=0; i<9; i++){
 			String tempRow = rows[0];
-			if (tempRow.contains("4") == true)
+			if (tempRow.contains("-") == true)
 					System.out.print("asd");
 
 		//
