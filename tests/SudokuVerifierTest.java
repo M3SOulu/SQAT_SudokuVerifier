@@ -42,15 +42,15 @@ public class SudokuVerifierTest {
 	public void testCandidateContains_Incorrect_ErrAny() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
-				  "417369825"
-				+ "632158947"
-				+ "958724316"
-				+ "825437169"
-				+ "79158a432" // a
-				+ "346912758"
-				+ "289643571"
-				+ "573291684"
-				+ "164875293";
+				  "123456789"
+				+ "912345678"
+			    + "891234567"
+				+ "789123456"
+			    + "678912345"
+				+ "567891234"
+			    + "456789123"
+			    + "345678912"
+			    + "234567891";
 		assertNotEquals(0, verifier.verify(candidate));
 	}
 
