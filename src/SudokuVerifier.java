@@ -12,7 +12,9 @@ public class SudokuVerifier {
 		
 		for (int gY = 0; gY < 3; gY++) {
 			for (int gX = 0; gX < 3; gX++) {
-				for ()
+				for (int sX = gX; sX < 3; sX++) {
+					
+				}
 			}
 		}
 		
