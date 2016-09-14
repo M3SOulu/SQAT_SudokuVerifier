@@ -45,6 +45,13 @@ public class SudokuVerifierTest {
 		int result = verifier.verify("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
 		assertEquals(result, 0);
 	}
+	
+	@Test
+	public void testR1_verifyWithIncorrectSymbols() {
+		Setup();
+		int result = verifier.verify("41a36982563215894795872431682543716979158643234691275828964357157329168416487529");
+		assertEquals(result, -1);
+	}
 
 	
 }

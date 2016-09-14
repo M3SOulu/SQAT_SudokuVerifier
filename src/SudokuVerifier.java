@@ -7,6 +7,13 @@ public class SudokuVerifier {
 			return -2;
 		}
 		
+		int lengthOf = candidateSolution.length();
+		String legals = "123456789";
+		for (int i = 0; i < lengthOf; i++) {
+			if(legals.indexOf(candidateSolution.charAt(i)) < 0) {
+				return -1;
+			}
+		}
 		
 		// returns 0 if the candidate solution is correct
 		return 0;
