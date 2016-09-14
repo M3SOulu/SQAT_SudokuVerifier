@@ -17,7 +17,7 @@ public class SudokuVerifier {
 				for (int sY = 0; sY < 3; sY++) {
 					for (int sX = 0; sX < 3; sX++) {
 						if (reserved.contains(candidateSolution.charAt(
-								(sY + gY * 3) * 3 + (sX + gY * 3)))
+								(sY + gY * 3) * 3 + (sX + gY * 3))))
 							return 2;
 					}
 				}
