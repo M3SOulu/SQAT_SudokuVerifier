@@ -8,7 +8,14 @@ public class SudokuVerifier {
 			throw new Exception("Invalid board dimensions");
 		
 		for (char c : candidateSolution.toCharArray())
-			if (c < '0' || c > '9') return 1: 
+			if (c < '1' || c > '9') return 1;
+		
+		for (int y = 0; y < 3; y++) {
+			for (int x = 0; x < 3; x++) {
+				
+			}
+			
+		}
 		
 		return 0;
 		
