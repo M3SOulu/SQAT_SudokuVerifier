@@ -11,6 +11,7 @@ public class SudokuVerifierTest {
 	public void testCandidateContains_Zero() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		
+		assertEquals(ver)
 	}
 	
 	//@Test
