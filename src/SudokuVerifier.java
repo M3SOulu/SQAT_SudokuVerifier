@@ -38,13 +38,13 @@ public class SudokuVerifier {
 			
 			Arrays.sort(testSet);
 			
-			for (k = 0; k < SUB_GRID_SIZE; k++) {
+			for (int k = 0; k < SUB_GRID_SIZE; k++) {
 				System.out.print(testSet[k]);
 			}
 			
 			System.out.print("\n");
 			
-			for (int k = 0; k < SUB_GRID_SIZE; k++) {
+			for (int k = 1; k <= SUB_GRID_SIZE; k++) {
 				if (k != testSet[k]) {
 					error = SUBGRID_ERROR;
 					break;
