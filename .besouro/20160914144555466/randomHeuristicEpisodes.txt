@@ -41,3 +41,6 @@
 1473859949381 regression 1 0 false
 1473859950062 regression 1 0 true
 1473859963252 regression 2 6 true
+1473859984278 regression 2 15 true
+1473859990866 regression 1 0 true
+1473859991486 regression 1 0 true
