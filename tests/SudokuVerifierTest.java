@@ -126,6 +126,28 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
+	public void testVerify_SameNumbersInASubgrid() throws IllegalArgumentException {
+		// Arrange
+		String solution = ""
+				+ "417369825" // 4 in the leftmost subgrid
+				+ "632158947"
+				+ "458724316" // 4 in the leftmost subgrid
+				+ "825437169"
+				+ "791586432"
+				+ "346912758"
+				+ "289643571"
+				+ "573291684"
+				+ "164875293";
+		SudokuVerifier SudokuVerifier = new SudokuVerifier();
+		
+		// Act
+		int verification = SudokuVerifier.verify(solution);
+		
+		// Assert
+		assertEquals("Same numbers in a row", -3, verification);
+	}
+	
+	@Test
 	public void testVerify_SameNumbersInARow() throws IllegalArgumentException {
 		// Arrange
 		String solution = ""
