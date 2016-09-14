@@ -32,6 +32,18 @@ public class SudokuVerifier {
 		
 		String sudokuRow1 = candidateSolution.substring(0, 8);
 		
+		for (int i = 1; i < 10; i++){
+				String j = Integer.toString(i);
+				String number = j;
+				int checkNumber = candidateSolution.indexOf(number);
+				if (checkNumber >= 0) {
+					
+				}
+			}
+			
+		
+		String number1 = new String("1");
+			
 			
 		}
 		String sudokuRow2 = candidateSolution.substring(9, 17);
