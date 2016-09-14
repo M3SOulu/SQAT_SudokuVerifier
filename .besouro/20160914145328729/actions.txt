@@ -166,3 +166,4 @@ RefactoringAction 1473859314906 SudokuVerifier.java RENAME verifySubs(String)=>s
 RefactoringAction 1473859320410 SudokuVerifier.java ADD static int verifySubGrids(String)/2 METHOD
 RefactoringAction 1473859325416 SudokuVerifier.java RENAME verifySubGrids(String)/2=>static int verifyCols(String) METHOD
 EditAction 1473859334986 SudokuVerifier.java 1333 5 17 0
+EditAction 1473859442880 SudokuVerifier.java 1791 5 25 0

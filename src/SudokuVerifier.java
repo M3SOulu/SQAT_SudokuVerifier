@@ -34,7 +34,40 @@ public class SudokuVerifier {
 	public static int verifyRows (String candidateSolution) {
 		boolean rowOk = true;
 		int i = 0;
-		boolean [] rowsOrCols = new boolean [9];
+		boolean [] row = new boolean [9];
+		int aux;
+		int count = 1;
+		i = 0;
+		while ((i < 81) && (rowOk)) {
+			Arrays.fill(row, false);
+			while ((i < 9 * count) && (rowOk)) {
+				aux = Character.getNumericValue(candidateSolution.charAt(i));
+				row[aux - 1] = true;
+				i++;
+			}
+			for (int j = 0; j < 9; j++) {
+				if (!row[j]) {
+					rowOk = false;
+					return -3;
+				}
+			}
+			count++;
+			
+		}
+		return 0;
+	}
+	
+	public static int verifySubGrids (String candidateSolution) {
+		boolean subGridOk = true;
+		
+		return 0;
+
+	}
+	
+	public static int verifyCols (String candidateSolution) {
+		boolean colOk = true;
+		int i = 0;
+		boolean [] col = new boolean [9];
 		int aux;
 		int count = 1;
 		i = 0;
@@ -54,15 +87,6 @@ public class SudokuVerifier {
 			count++;
 			
 		}
-		return 0;
-	}
-	
-	public static int verifySubGrids (String candidateSolution) {
-		return 0;
-
-	}
-	
-	public static int verifyCols (String candidateSolution) {
 		return 0;
 
 	}
