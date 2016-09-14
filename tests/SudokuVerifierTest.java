@@ -79,4 +79,26 @@ public class SudokuVerifierTest {
 		// Assert
 		assertEquals("Correct solution", -1, verification);
 	}
+	
+	@Test
+	public void testVerify_SameNumbersInARow() throws IllegalArgumentException {
+		// Arrange
+		String solution = ""
+				+ "123356789" // two 3's
+				+ "912345678"
+				+ "891234567"
+				+ "789123456"
+				+ "678912345"
+				+ "567891234"
+				+ "456789123"
+				+ "345678912"
+				+ "234567891";
+		SudokuVerifier SudokuVerifier = new SudokuVerifier();
+		
+		// Act
+		int verification = SudokuVerifier.verify(solution);
+		
+		// Assert
+		assertEquals("Correct solution", -3, verification);
+	}
 }

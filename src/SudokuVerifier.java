@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class SudokuVerifier {
@@ -35,6 +37,19 @@ public class SudokuVerifier {
 		}
 		
 		// R4: A digit can appear only once in the columns of the global grid
+		for (int i = 0; i < 9; i++) {
+			List<Integer> columnNumbers = new ArrayList<Integer>();
+			
+			for (int j = 0; j < 9; j++) {
+				int number = candidateSolution.charAt(i + j * 9);
+				
+				if (columnNumbers.contains(number)) {
+					return -4;
+				} else {
+					columnNumbers.add(number);
+				}
+			}
+		}
 		
 		// Return 0 if the candidate solution is correct
 		return 0;
