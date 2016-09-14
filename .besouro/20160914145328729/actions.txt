@@ -38,3 +38,7 @@ UnitTestCaseAction 1473855476259 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855476260 SudokuVerifierTest.java FAIL
 RefactoringAction 1473855482429 SudokuVerifierTest.java REMOVE testVerify() METHOD
 EditAction 1473855483357 SudokuVerifierTest.java 537 1 2 1
+UnitTestCaseAction 1473855484225 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473855484225 SudokuVerifierTest.java OK
+RefactoringAction 1473855495247 SudokuVerifierTest.java ADD void testVerify() METHOD
+EditAction 1473855497020 SudokuVerifierTest.java 606 2 3 1
