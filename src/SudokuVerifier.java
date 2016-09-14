@@ -31,10 +31,10 @@ public class SudokuVerifier {
 				subgridBuilder.append(candidateSolution.substring(beginIndex, beginIndex + 3));
 				subgridBuilder.append(candidateSolution.substring(beginIndex + 9, beginIndex + 12));
 				subgridBuilder.append(candidateSolution.substring(beginIndex + 18, beginIndex + 21));
-				String numbers = subgridBuilder.toString();
+				String subgrid = subgridBuilder.toString();
 				
 				for (int number = 1; number < 10; number++) {
-					if (!numbers.contains(Integer.toString(number))) {
+					if (!subgrid.contains(Integer.toString(number))) {
 						return -2;
 					}
 				}

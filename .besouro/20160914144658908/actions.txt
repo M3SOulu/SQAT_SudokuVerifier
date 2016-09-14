@@ -23,3 +23,4 @@ RefactoringAction 1473855539452 SudokuVerifierTest.java ADD void testVerify_Same
 RefactoringAction 1473855543472 SudokuVerifierTest.java RENAME testVerify_SameNumbersInARow()/2=>void testVerify_SameNumbersInASub() METHOD
 RefactoringAction 1473855544488 SudokuVerifierTest.java RENAME testVerify_SameNumbersInASub()=>void testVerify_SameNumbersInASubgrid() METHOD
 EditAction 1473855616859 SudokuVerifier.java 2806 1 8 0
+EditAction 1473855627826 SudokuVerifier.java 2806 1 8 0
