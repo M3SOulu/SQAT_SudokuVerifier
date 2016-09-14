@@ -8,8 +8,8 @@ public class SudokuVerifier {
 			return -1;
 		else if (rowContainsOnlyPositiveDigits(candidateSolution) == -1)
 			return -1;
-		//if (digitAppearsOnceInRow(candidateSolution) == -2)
-			//return -2;
+		//if (digitAppearsOnceInRow(candidateSolution) == -3)
+			//return -3;
 		return 0;
 		
 		//check
