@@ -16,8 +16,8 @@ public class SudokuVerifier {
 
 	}
 	
-	public static int checkRowSudokuString(String candidateSolution){
-		
+	public static int checkRow(String candidateSolution){
+		sudokuRow
 		
 	}
 	

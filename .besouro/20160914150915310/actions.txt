@@ -134,3 +134,7 @@ RefactoringAction 1473857747090 SudokuVerifier.java ADD int checkRowSudokuString
 RefactoringAction 1473857752603 SudokuVerifier.java RENAME checkRowSudokuString=>static int checkRowSudokuString() METHOD
 RefactoringAction 1473857754617 SudokuVerifier.java RENAME checkRowSudokuString()=>static int checkRowSudokuString(String) METHOD
 EditAction 1473857761054 SudokuVerifier.java 496 3 4 0
+CompilationAction 1473857762869 SudokuVerifier.java
+CompilationAction 1473857768911 SudokuVerifier.java
+CompilationAction 1473857769076 SudokuVerifier.java
+EditAction 1473857787994 SudokuVerifier.java 493 3 4 0
