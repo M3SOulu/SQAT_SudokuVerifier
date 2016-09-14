@@ -48,8 +48,7 @@ public class SudokuVerifier {
 		for (int j=0; j<9; j++){
 			String tempRow2 = rows3[j];
 			for (int k=0; k<9; k++){
-				int tempDigit = tempRow2.charAt(k);
-				System.out.print(tempDigit);
+				char tempDigit = tempRow2.charAt(k);
 			}
 		 }
 		return 0;
