@@ -19,7 +19,7 @@ public class SudokuVerifierTest {
 				+ "791586432"
 				+ "346912758"
 				+ "289643571"
-				+ "573291684"
+				+ "573291684" 
 				+ "1648752931";
 		verifier.verify(candidate);
 	}
