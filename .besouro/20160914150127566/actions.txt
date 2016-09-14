@@ -693,3 +693,4 @@ CompilationAction 1473859042657 SudokuVerifierTest.java
 RefactoringAction 1473859045997 SudokuVerifierTest.java RENAME testCandidateContains_LongString_Exception()/2=>void testCandidateContains_LonString_Exception() METHOD
 CompilationAction 1473859047522 SudokuVerifierTest.java
 EditAction 1473859050502 SudokuVerifierTest.java 4248 10 31 10
+EditAction 1473859055872 SudokuVerifierTest.java 4250 10 31 10

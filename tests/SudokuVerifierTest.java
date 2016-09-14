@@ -39,6 +39,7 @@ public class SudokuVerifierTest {
 				+ "1648752931";
 		assertEquals(-1, verifier.verify(candidate));
 	}
+	
 	@Test(expected=Exception.class)
 	public void testCandidateContains_ShortString_Exception() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
