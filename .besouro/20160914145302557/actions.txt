@@ -73,3 +73,6 @@ RefactoringAction 1473856635347 SudokuVerifierTest.java REMOVE testVerify() METH
 UnitTestCaseAction 1473856641183 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473856641184 SudokuVerifierTest.java FAIL
 EditAction 1473856661386 SudokuVerifier.java 687 3 9 0
+UnitTestCaseAction 1473856663931 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856663933 SudokuVerifierTest.java FAIL
+EditAction 1473856767528 SudokuVerifier.java 727 3 10 0

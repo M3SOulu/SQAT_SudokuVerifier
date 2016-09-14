@@ -13,6 +13,8 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyCorrectSubgrids(String input) {
+		String [] strings = new String[9];
+		
 		return 0;
 	}
 	
