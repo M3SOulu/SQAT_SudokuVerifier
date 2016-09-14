@@ -1,0 +1,10 @@
+FileOpenedAction 1473854008786 SudokuVerifier.java 162 1 1 0
+FileOpenedAction 1473854486012 SudokuVerifierTest.java 390 1 1 0
+FileOpenedAction 1473854487168 SudokuVerifierParametrizedTest.java 172 1 1 0
+RefactoringAction 1473854544732 SudokuVerifier.java ADD static void main() METHOD
+RefactoringAction 1473854549295 SudokuVerifier.java RENAME main()=>static void main(String METHOD
+RefactoringAction 1473854743587 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473854748107 SudokuVerifierTest.java RENAME test=>void testPositiveNumbers FIELD
+RefactoringAction 1473854756123 SudokuVerifierTest.java RENAME testPositiveNumbers=>void testPositiveNumber FIELD
+RefactoringAction 1473854758135 SudokuVerifierTest.java RENAME testPositiveNumber=>void testPositiveNumbers() METHOD
+EditAction 1473854769712 SudokuVerifier.java 252 2 1 0
