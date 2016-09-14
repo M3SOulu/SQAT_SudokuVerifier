@@ -9,3 +9,4 @@ RefactoringAction 1473854756123 SudokuVerifierTest.java RENAME testPositiveNumbe
 RefactoringAction 1473854758135 SudokuVerifierTest.java RENAME testPositiveNumber=>void testPositiveNumbers() METHOD
 EditAction 1473854769712 SudokuVerifier.java 252 2 1 0
 EditAction 1473854769821 SudokuVerifierTest.java 442 2 1 0
+EditAction 1473854963460 SudokuVerifier.java 454 2 5 0
