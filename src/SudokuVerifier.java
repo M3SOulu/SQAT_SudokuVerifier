@@ -88,8 +88,8 @@ public class SudokuVerifier {
 		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE]; 
 		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
 		
-		final int CELL_AMOUNT = 3;
-		for (int k = 0; k < SUBGRID_AND_ROW_SIZE; k++) {
+		final int SUBGRID_CELL_AMOUNT = 3;
+		for (int i = 0; i < SUBGRID_ROW_AMOUNT; k++) {
 			//use subgrid num in right way instead of int
 			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 		}
