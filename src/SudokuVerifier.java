@@ -36,18 +36,18 @@ public class SudokuVerifier {
 		int gridsize = 3;
 		String validate;
 		boolean [] validated = new boolean[9];
-		for (int j = 0; j < 3; j ++) {
-			for (int i = 0; i < 3; i ++) {
-				for (int g = 0; g < gridsize; g++) {
+		for (int x = 0; x < 3; x ++) {
+			for (int y = 0; y < 3; y ++) {
+				
 					validate = "";
 					for(int s = 0; s < gridsize; s++) {
-						validate += input.substring(g * gridsize + i * 9 + s*9, g * gridsize + i * 9 + gridsize + s* 9);
+						validate += input.substring();
 						
 					}
 					System.out.println(validate);
-					for(int j = 0; j < 9; j++) {
+					for(int k = 0; k < 9; k++) {
 					
-						int index = Character.getNumericValue(validate.charAt(j));
+						int index = Character.getNumericValue(validate.charAt(k));
 						
 						if(validated[index - 1]) {
 							return -1;
@@ -57,7 +57,7 @@ public class SudokuVerifier {
 						}
 					}
 					validated = new boolean[9];
-				}
+				
 			}
 		}
 		return 0;
