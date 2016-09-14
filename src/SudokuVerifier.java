@@ -27,9 +27,9 @@ public class SudokuVerifier {
 				}
 			}
 		}
-
+		
 		for (int y = 0; y < 9; y++) {
-			String row = candidateSolution.substring(y * 9, y * 9 + 9);
+			String row = "";
 			String reserved = "";
 			for (int x = 0; x < 9; x++) {
 				if (reserved.indexOf(row.charAt(x)) != -1)
@@ -38,10 +38,9 @@ public class SudokuVerifier {
 		}
 		
 		for (int x = 0; x < 9; x++) {
-			String row = candidateSolution.substring(y * 9, y * 9 + 9);
 			String reserved = "";
-			for (int x = 0; x < 9; x++) {
-				if (reserved.indexOf(row.charAt(x)) != -1)
+			for (int y = 0; y < 9; y++) {
+				if (reserved.indexOf(column.charAt(y)) != -1)
 					return 3;
 			}
 		}
