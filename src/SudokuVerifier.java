@@ -10,8 +10,8 @@ public class SudokuVerifier {
 		for (char c : candidateSolution.toCharArray())
 			if (c < '1' || c > '9') return 1;
 		
-		for (int y = 0; y < 3; y++) {
-			for (int x = 0; x < 3; x++) {
+		for (int gY = 0; gY < 3; gY++) {
+			for (int gX = 0; gX < 3; gX++) {
 				
 			}
 		}
