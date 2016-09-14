@@ -14,7 +14,7 @@ public class SudokuVerifier {
 		
 		//check whole string length?
 		
-		error = verifySubGrid(candidateSolution);
+		//error = verifySubGrid(candidateSolution);
 		
 		error = verifyGlobalRow(candidateSolution);
 		
