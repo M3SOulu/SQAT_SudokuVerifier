@@ -33,15 +33,14 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyCorrectSubgrids(String input) {
-		int gridsize = 3;
 		String validate;
 		boolean [] validated = new boolean[9];
-		for (int x = 0; x < 3; x ++) {
-			for (int y = 0; y < 3; y ++) {
+		for (int y = 0; y < 3; y ++) {
+			for (int x = 0; x < 3; x ++) {
 				
 					validate = "";
-					for(int s = 0; s < gridsize; s++) {
-						validate += input.substring();
+					for(int s = 0; s < 3; s++) {
+						validate += input.substring(x * 3 + y * 3 * 3, x * 3 + 3 + y * 3 * 3);
 						
 					}
 					System.out.println(validate);
