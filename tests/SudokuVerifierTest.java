@@ -77,7 +77,7 @@ public class SudokuVerifierTest {
 	public void testCandidate_Subset_Duplicated_Err2() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
-				  "417369825"
+				  "117369825"
 				+ "632158947"
 				+ "958724316"
 				+ "825437169"
