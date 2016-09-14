@@ -22,9 +22,9 @@ public class SudokuVerifier {
 		return error;
 	}
 	
-	/*public int verifySubGrid(String candidateSolution) {
+	public int verifySubGrid(String candidateSolution) {
 		return checkSubGrid(candidateSolution);
-	}*/
+	}
 	
 	public int verifyGlobalRow(String candidateSolution) {
 		return checkGlobalRow(candidateSolution);
@@ -38,8 +38,8 @@ public class SudokuVerifier {
 			// next 9 numbers to test set
 			testSet = getGlobalRow(candidateSolution, i);
 			
-			if () {
-				membersUnique(testSet);
+			if (!membersUnique(testSet))
+				return GLOBAL_ROW_ERROR;
 		}
 
 		return NO_ERROR;
@@ -86,7 +86,7 @@ public class SudokuVerifier {
 	 */
 	private int[] getSubgrid(String candidateSolution, int subgridNum) {
 		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE]; 
-		
+		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
 		for (int k = 0; k < SUBGRID_AND_ROW_SIZE; k++) {
 			//use subgrid num in right way instead of int
 			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));

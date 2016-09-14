@@ -415,3 +415,13 @@ RefactoringAction 1473859996293 SudokuVerifier.java RENAME GLOBAL_ROW_=>int GLOB
 CompilationAction 1473859998414 SudokuVerifier.java
 CompilationAction 1473859998415 SudokuVerifier.java
 EditAction 1473860029684 SudokuVerifierTest.java 1196 4 6 2
+CompilationAction 1473860059618 SudokuVerifier.java
+CompilationAction 1473860059747 SudokuVerifier.java
+CompilationAction 1473860073347 SudokuVerifier.java
+UnitTestCaseAction 1473860077231 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473860077233 SudokuVerifierTest.java FAIL
+RefactoringAction 1473860104972 SudokuVerifier.java REMOVE verifyGlobalRow(String) METHOD
+RefactoringAction 1473860104974 SudokuVerifier.java REMOVE checkSubGrid(String) METHOD
+RefactoringAction 1473860104976 SudokuVerifier.java REMOVE checkGlobalRow(String) METHOD
+RefactoringAction 1473860104978 SudokuVerifier.java REMOVE membersUnique(int METHOD
+EditAction 1473860149838 SudokuVerifier.java 2722 9 25 0
