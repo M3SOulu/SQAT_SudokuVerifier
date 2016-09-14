@@ -38,6 +38,13 @@ public class SudokuVerifierTest {
 		int result = verifier.verify("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
 		assertThat(result, anyOf(is(-1), is(-2),is(-3),is(-4)));
 	}
+	
+	@Test
+	public void testR1_verifyCorrect() {
+		Setup();
+		int result = verifier.verify("41736982563215894795872431682543716979158643234691275828964357157329168416487529");
+		assertEquals(result, 0);
+	}
 
 	
 }

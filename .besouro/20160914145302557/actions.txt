@@ -33,3 +33,10 @@ EditAction 1473855571723 SudokuVerifier.java 224 1 2 0
 UnitTestCaseAction 1473855580618 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855580620 SudokuVerifierTest.java FAIL
 EditAction 1473855602154 SudokuVerifier.java 224 1 2 0
+RefactoringAction 1473855630659 SudokuVerifierTest.java ADD void testR1_ FIELD
+RefactoringAction 1473855634689 SudokuVerifierTest.java RENAME testR1_=>void testR1_ver FIELD
+RefactoringAction 1473855636222 SudokuVerifierTest.java RENAME testR1_ver=>void testR1_veri FIELD
+RefactoringAction 1473855638749 SudokuVerifierTest.java RENAME testR1_veri=>void testR1_verifyCorrect FIELD
+RefactoringAction 1473855641778 SudokuVerifierTest.java RENAME testR1_verifyCorrect=>void testR1_verifyCorrect() METHOD
+CompilationAction 1473855661377 SudokuVerifierTest.java
+EditAction 1473855694086 SudokuVerifier.java 230 1 2 0
