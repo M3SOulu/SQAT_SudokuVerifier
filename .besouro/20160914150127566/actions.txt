@@ -484,3 +484,4 @@ EditAction 1473857310647 SudokuVerifierTest.java 1885 5 15 5
 EditAction 1473857314052 SudokuVerifierTest.java 1885 5 15 5
 RefactoringAction 1473857318428 SudokuVerifierTest.java RENAME testCandidate_Row_Duplicates()=>void testCandidate_Row_Duplicates_() METHOD
 EditAction 1473857319183 SudokuVerifierTest.java 1887 5 15 5
+EditAction 1473857326825 SudokuVerifierTest.java 1889 5 15 5
