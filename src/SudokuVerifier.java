@@ -15,7 +15,7 @@ public class SudokuVerifier {
 	
 	public static int splitStringToRows(String candidateSolution){
 		String row = candidateSolution.substring(0,9);
-		if (isRowLengthRight(row) == 1)
+		if (isRowLengthRight(row) == 0)
 			return 0;
 		return -1;
 	}
