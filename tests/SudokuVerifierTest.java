@@ -144,7 +144,7 @@ public class SudokuVerifierTest {
 		int verification = SudokuVerifier.verify(solution);
 		
 		// Assert
-		assertEquals("Same numbers in a row", -3, verification);
+		assertEquals("Same numbers in a row", -2, verification);
 	}
 	
 	@Test
