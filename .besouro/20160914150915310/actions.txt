@@ -61,3 +61,21 @@ RefactoringAction 1473856287224 SudokuVerifier.java REMOVE need FIELD
 RefactoringAction 1473856287226 SudokuVerifier.java REMOVE the FIELD
 RefactoringAction 1473856463843 SudokuVerifierTest.java ADD void testStringLengthIsTooLong() METHOD
 EditAction 1473856466485 SudokuVerifierTest.java 452 2 1 0
+CompilationAction 1473856737882 SudokuVerifier.java
+CompilationAction 1473856737884 SudokuVerifier.java
+CompilationAction 1473856737885 SudokuVerifier.java
+CompilationAction 1473856737886 SudokuVerifier.java
+CompilationAction 1473856737887 SudokuVerifier.java
+CompilationAction 1473856745707 SudokuVerifier.java
+CompilationAction 1473856745881 SudokuVerifier.java
+CompilationAction 1473856745883 SudokuVerifier.java
+CompilationAction 1473856745884 SudokuVerifier.java
+CompilationAction 1473856745885 SudokuVerifier.java
+CompilationAction 1473856767393 SudokuVerifier.java
+CompilationAction 1473856767394 SudokuVerifier.java
+CompilationAction 1473856767585 SudokuVerifier.java
+CompilationAction 1473856767586 SudokuVerifier.java
+CompilationAction 1473856767587 SudokuVerifier.java
+CompilationAction 1473856767588 SudokuVerifier.java
+RefactoringAction 1473856805195 SudokuVerifier.java ADD static void checkSudokuLength(String) METHOD
+EditAction 1473856806199 SudokuVerifier.java 386 1 0 0

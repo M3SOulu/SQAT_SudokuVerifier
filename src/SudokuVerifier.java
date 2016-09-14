@@ -1,15 +1,10 @@
 
 public class SudokuVerifier {
-	
-	I give up for this exercise for today. For me it needs
-	lots more time to actually figure out the way arrays
-	work in Java that is possible to achieve today.
-	
+
 	public int verify(String candidateSolution) {
 		
 		String sudokuString = candidateSolution;
 		
-		String sudokuArray[]= sudokuString.split("");
 		
 		
 		
@@ -18,5 +13,13 @@ public class SudokuVerifier {
 		return 0;
 		
 		//check
+		
+		public static void checkSudokuLength(String candidateSolution){
+			int sudokuLength = candidateSolution.length();
+			if sudokuLength != 81 {
+				
+			}
+			
+		}
 	}
 }
