@@ -283,3 +283,4 @@ RefactoringAction 1473857806964 SudokuVerifier.java RENAME checkNumberOfLines()=
 EditAction 1473857821453 SudokuVerifier.java 587 4 8 0
 RefactoringAction 1473857835006 SudokuVerifier.java RENAME checkNumberOfLines(String=>static int checkNumbersInLines(String METHOD
 EditAction 1473857940446 SudokuVerifier.java 649 4 9 0
+EditAction 1473857951946 SudokuVerifier.java 679 4 10 0

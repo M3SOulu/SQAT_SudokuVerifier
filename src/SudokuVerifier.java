@@ -26,6 +26,7 @@ public class SudokuVerifier {
 	public static int checkNumbersInLines(String[] rows){
 		//for (int i=0; i<9; i++){
 			String tempRow = rows[1];
+			System.out.print(tempRow);
 		//}
 		
 		return -1;
