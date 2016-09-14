@@ -5,8 +5,8 @@ public class SudokuVerifier {
 		if (candidateSolution.length() < 81 || candidateSolution.length() > 81) {
 			return 0;
 		}
-		else if (splitStringToRows(candidateSolution) == 0)
-			return 0;
+		//else if (splitStringToRows(candidateSolution) == 0)
+			//return 0;
 		
 		return -1;
 		
