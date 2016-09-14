@@ -50,3 +50,16 @@ EditAction 1473855801344 SudokuVerifierTest.java 624 2 3 1
 UnitTestCaseAction 1473855804365 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855804365 SudokuVerifierTest.testPositiveNumbersOrCointainsALetter FAIL
 EditAction 1473855812636 SudokuVerifierTest.java 625 2 3 1
+UnitTestCaseAction 1473855812960 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473855812960 SudokuVerifierTest.java FAIL
+RefactoringAction 1473855819870 SudokuVerifierTest.java ADD void testPositiveNumbersOrCointainsALetter()/2 METHOD
+RefactoringAction 1473855824896 SudokuVerifierTest.java RENAME testPositiveNumbersOrCointainsALetter()/2=>void testHASPositiveNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855827410 SudokuVerifierTest.java RENAME testHASPositiveNumbersOrCointainsALetter()=>void testHasPositiveNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855831923 SudokuVerifierTest.java RENAME testHasPositiveNumbersOrCointainsALetter()=>void testHasitiveNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855832936 SudokuVerifierTest.java RENAME testHasitiveNumbersOrCointainsALetter()=>void testHastiveNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855834448 SudokuVerifierTest.java RENAME testHastiveNumbersOrCointainsALetter()=>void testHasNegattiveNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855836464 SudokuVerifierTest.java RENAME testHasNegattiveNumbersOrCointainsALetter()=>void testHasNegativeNumbersOrCointainsALetter() METHOD
+RefactoringAction 1473855845476 SudokuVerifierTest.java RENAME testPositiveNumbersOrCointainsALetter()=>void testPositiveNumbersAndNoALetter() METHOD
+RefactoringAction 1473855846991 SudokuVerifierTest.java RENAME testPositiveNumbersAndNoALetter()=>void testPositiveNumbersAndNoLetter() METHOD
+RefactoringAction 1473855849505 SudokuVerifierTest.java RENAME testPositiveNumbersAndNoLetter()=>void testPositiveNumbersAndNoLetters() METHOD
+EditAction 1473855864257 SudokuVerifierTest.java 857 3 5 2
