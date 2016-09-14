@@ -11,3 +11,6 @@ UnitTestCaseAction 1473859542276 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473859542276 SudokuVerifierTest.java OK
 RefactoringAction 1473859547348 SudokuVerifierTest.java ADD void testCandidateContains_ShortString_Exception()/2 METHOD
 EditAction 1473859550004 SudokuVerifierTest.java 4596 11 34 8
+UnitTestCaseAction 1473859551555 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859551555 SudokuVerifierTest.testCandidateContains_ShortString_ExceptioTestn OK
+EditAction 1473859555099 SudokuVerifierTest.java 4206 10 31 8

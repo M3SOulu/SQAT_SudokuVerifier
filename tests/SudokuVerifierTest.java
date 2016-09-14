@@ -39,21 +39,6 @@ public class SudokuVerifierTest {
 				+ "16487521";
 		verifier.verify(candidate);
 	}
-	@Test(expected=Exception.class)
-	public void testCandidateContains_ShortString_ExceptioTestn() throws Exception {
-		SudokuVerifier verifier = new SudokuVerifier();
-		String candidate = 
-				  "417369825"
-				+ "632150947" // Zero
-				+ "958724316"
-				+ "825437169"
-				+ "791586432"
-				+ "346912758"
-				+ "289643571"
-				+ "573291684"
-				+ "16487521";
-		verifier.verify(candidate);
-	}
 	
 	@Test
 	public void testCandidateContains_Zero_Err1() throws Exception {
