@@ -2,7 +2,7 @@
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
-		if (isStringLenghtCorrect(candidateSolution) == 0) {
+		if (isStringLenghtCorrect(candidateSolution) != 0) {
 			return 0;
 		}
 		return -1;
