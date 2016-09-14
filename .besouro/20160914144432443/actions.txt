@@ -5,3 +5,14 @@ RefactoringAction 1473854205407 SudokuVerifierTest.java RENAME testVerify_number
 RefactoringAction 1473854211434 SudokuVerifierTest.java RENAME testVerify_numbersAre()=>void testVerify_StringIsNumerical() METHOD
 EditAction 1473854315768 SudokuVerifier.java 229 1 3 0
 EditAction 1473854316005 SudokuVerifierTest.java 568 1 3 1
+UnitTestCaseAction 1473854317106 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854317108 SudokuVerifierTest.java OK
+RefactoringAction 1473854355572 SudokuVerifierTest.java ADD void testVerify_StringIsNumerical()/2 METHOD
+RefactoringAction 1473854361594 SudokuVerifierTest.java RENAME testVerify_StringIsNumerical()/2=>void testVerify_String() METHOD
+RefactoringAction 1473854363624 SudokuVerifierTest.java RENAME testVerify_String()=>void testVerify_StringContains() METHOD
+RefactoringAction 1473854373145 SudokuVerifierTest.java RENAME testVerify_StringContains()=>void testVerify_StringContainsLe() METHOD
+RefactoringAction 1473854375664 SudokuVerifierTest.java RENAME testVerify_StringContainsLe()=>void testVerify_StringContainsLetters() METHOD
+RefactoringAction 1473854378183 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters()=>void testVerify_StringContainsLetters_Re() METHOD
+RefactoringAction 1473854383739 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Re()=>void testVerify_StringContainsLetters_Return_ FIELD
+RefactoringAction 1473854389763 SudokuVerifierTest.java RENAME testVerify_StringIsNumerical()=>void testVerify_StringIsNumerical_Return_0() METHOD
+EditAction 1473854407355 SudokuVerifierTest.java 842 1 3 1
