@@ -513,3 +513,12 @@ UnitTestCaseAction 1473860943408 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473860943409 SudokuVerifierTest.java OK
 EditAction 1473861131860 SudokuVerifier.java 1420 5 12 0
 EditAction 1473861157189 SudokuVerifier.java 1420 5 12 0
+UnitTestCaseAction 1473861158470 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473861158470 SudokuVerifierTest.java OK
+RefactoringAction 1473861226709 SudokuVerifier.java ADD String FIELD
+RefactoringAction 1473861229224 SudokuVerifier.java RENAME sp=>String FIELD
+RefactoringAction 1473861231233 SudokuVerifier.java RENAME split=>String FIELD
+RefactoringAction 1473861233743 SudokuVerifier.java RENAME splitRowsTo=>static String METHOD
+RefactoringAction 1473861239753 SudokuVerifier.java RENAME splitRowsToDigits()=>static String METHOD
+RefactoringAction 1473861357071 SudokuVerifier.java REMOVE splitRowsToDigits(String) METHOD
+EditAction 1473861357317 SudokuVerifier.java 1420 5 12 0
