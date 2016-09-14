@@ -8,6 +8,8 @@ public class SudokuVerifier {
 			return -1;
 		else if (rowContainsOnlyPositiveDigits(candidateSolution) == -1)
 			return -1;
+		else if (digitAppearsOnceInRow() == -1)
+			return -1;
 		return 0;
 		
 		//check
@@ -25,24 +27,31 @@ public class SudokuVerifier {
 	}
 	
 	public static int amountOfRows(String candidateSolution){
-		String[] rows = splitStringToRows(candidateSolution);
-		if (rows.length == 9)
+		String[] rows1 = splitStringToRows(candidateSolution);
+		if (rows1.length == 9)
 			return 0;
 		return -1;
 	}
 	
 	public static int rowContainsOnlyPositiveDigits(String candidateSolution){
-		 String[] rows = splitStringToRows(candidateSolution);
+		 String[] rows2 = splitStringToRows(candidateSolution);
 		 for (int i=0; i<9; i++){
-			String tempRow = rows[1];
-			if (tempRow.contains("0") == true)
+			String tempRow1 = rows2[1];
+			if (tempRow1.contains("0") == true)
 				return -1;
 		 }
 		return 0;
 	}
 	
 	public static int digitAppearsOnceInRow(String candidateSolution){
-		String[] rows = splitStringToRows(candidateSolution);
+		String[] rows3 = splitStringToRows(candidateSolution);
+		for (int j=0; j<9; j++){
+			String tempRow2 = rows3[j];
+			for (int k=0; k<9; k++){
+				int tempDigit = tempRow2.charAt(k);
+				System.out.print(tempDigit);
+			}
+		 }
 		return 0;
 	}
 	

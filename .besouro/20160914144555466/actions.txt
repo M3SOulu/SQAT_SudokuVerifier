@@ -467,3 +467,6 @@ RefactoringAction 1473860074612 SudokuVerifier.java RENAME rowContains=>int digi
 RefactoringAction 1473860078122 SudokuVerifier.java RENAME digitAppe=>int digitAppearsOnceIn FIELD
 RefactoringAction 1473860087631 SudokuVerifier.java RENAME digitAppearsOnceIn=>static int digitAppearsOnceInRow(String) METHOD
 EditAction 1473860103911 SudokuVerifier.java 1188 6 14 0
+RefactoringAction 1473860285011 SudokuVerifier.java ADD static String tempRow2(int) METHOD
+RefactoringAction 1473860287063 SudokuVerifier.java REMOVE tempRow2(int) METHOD
+EditAction 1473860448658 SudokuVerifier.java 1420 6 15 0
