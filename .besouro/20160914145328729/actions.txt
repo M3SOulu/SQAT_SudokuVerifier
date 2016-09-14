@@ -63,3 +63,6 @@ RefactoringAction 1473855845476 SudokuVerifierTest.java RENAME testPositiveNumbe
 RefactoringAction 1473855846991 SudokuVerifierTest.java RENAME testPositiveNumbersAndNoALetter()=>void testPositiveNumbersAndNoLetter() METHOD
 RefactoringAction 1473855849505 SudokuVerifierTest.java RENAME testPositiveNumbersAndNoLetter()=>void testPositiveNumbersAndNoLetters() METHOD
 EditAction 1473855864257 SudokuVerifierTest.java 857 3 5 2
+UnitTestCaseAction 1473855864542 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473855864543 SudokuVerifierTest.java FAIL
+EditAction 1473855875911 SudokuVerifierTest.java 856 3 5 2
