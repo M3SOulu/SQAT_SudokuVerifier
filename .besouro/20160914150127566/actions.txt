@@ -551,3 +551,7 @@ UnitTestCaseAction 1473857794978 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473857794978 SudokuVerifierTest.java FAIL
 EditAction 1473857800431 SudokuVerifier.java 1190 1 6 0
 EditAction 1473857924083 SudokuVerifierTest.java 2225 5 16 5
+RefactoringAction 1473858023412 SudokuVerifierTest.java RENAME testCandidate_Column_Duplicates_4()=>void testCandidate_Column_Duplicates_Err4() METHOD
+RefactoringAction 1473858024420 SudokuVerifierTest.java RENAME testCandidate_Row_Duplicates_3()=>void testCandidate_Row_Duplicates_E3() METHOD
+RefactoringAction 1473858025424 SudokuVerifierTest.java RENAME testCandidate_Row_Duplicates_E3()=>void testCandidate_Row_Duplicates_Err3() METHOD
+EditAction 1473858031058 SudokuVerifierTest.java 2229 5 16 5
