@@ -66,9 +66,9 @@ public class SudokuVerifierTest {
 				+ "444444444"
 				+ "555555555" // Duplicate = 6
 				+ "666666666"
-				+ "78"
-				+ "873291684"
-				+ "964875293";
+				+ "777777777"
+				+ "888888888"
+				+ "999999999";
 		
 		assertEquals(-3, verifier.verify(candidate));
 	}
