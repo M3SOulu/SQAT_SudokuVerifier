@@ -96,7 +96,8 @@ public class SudokuVerifier {
 			
 			while (k < 3) {
 				Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex)));
-				
+
+				resultIndex++;
 				cellIndex++;
 				k++;
 			}
