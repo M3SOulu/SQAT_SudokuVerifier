@@ -94,3 +94,8 @@ UnitTestSessionAction 1473857354261 SudokuVerifierTest.java OK
 RefactoringAction 1473857469475 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectSubgrids()=>void testR2_verifyWithIncorrectRows() METHOD
 RefactoringAction 1473857499158 SudokuVerifier.java RENAME verifyCorrectSubgrids(String)=>int verifyCorrectRows(String) METHOD
 EditAction 1473857501220 SudokuVerifier.java 1065 3 12 0
+RefactoringAction 1473857508543 SudokuVerifierTest.java ADD void testR2_verifyWithIncorrectRows()/2 METHOD
+RefactoringAction 1473857513070 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectRows()/2=>void testR3_verifyWithIncorrectRows() METHOD
+RefactoringAction 1473857521592 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectRows()=>void testR2_verifyWithIncorrectSub() METHOD
+RefactoringAction 1473857524118 SudokuVerifierTest.java RENAME testR2_verifyWithIncorrectSub()=>void testR2_verifyWithIncorrectSubgrids() METHOD
+EditAction 1473857567987 SudokuVerifier.java 1069 3 12 0
