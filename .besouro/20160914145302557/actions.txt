@@ -19,3 +19,14 @@ RefactoringAction 1473854311217 SudokuVerifierTest.java RENAME testVerify_with82
 RefactoringAction 1473854327306 SudokuVerifierTest.java ADD void Setup() METHOD
 RefactoringAction 1473854342433 SudokuVerifierTest.java ADD SudokuVerifier verifer FIELD
 EditAction 1473854360189 SudokuVerifierTest.java 659 5 2 0
+CompilationAction 1473854362311 SudokuVerifierTest.java
+RefactoringAction 1473854399049 SudokuVerifierTest.java RENAME verifer=>SudokuVerifier verifier FIELD
+CompilationAction 1473854439730 SudokuVerifierTest.java
+UnitTestCaseAction 1473854467923 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473854467924 SudokuVerifierTest.java FAIL
+CompilationAction 1473855239698 SudokuVerifierTest.java
+RefactoringAction 1473855489178 SudokuVerifierTest.java ADD import org.hamcrest.CoreMatchers.* IMPORT
+CompilationAction 1473855489354 SudokuVerifierTest.java
+CompilationAction 1473855489495 SudokuVerifierTest.java
+CompilationAction 1473855541534 SudokuVerifierTest.java
+EditAction 1473855571723 SudokuVerifier.java 224 1 2 0
