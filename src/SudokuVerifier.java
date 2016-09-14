@@ -105,7 +105,7 @@ public class SudokuVerifier {
 		}
 		
 		if(verifyCorrectColumns(candidateSolution) != 0) {
-			
+			return -4;
 		}
 		
 		// returns 0 if the candidate solution is correct
