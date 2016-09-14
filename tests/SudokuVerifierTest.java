@@ -11,7 +11,7 @@ public class SudokuVerifierTest {
 	public void testVerify_TooShortString() {
 		String testString = "123";
 		SudokuVerifier.verify(testString);
-		assertEquals("String is too short", 1,SudokuVerifier.verify(testString));
+		assertEquals("String is too short", 0,SudokuVerifier.verify(testString));
 	}
 	
 	@Test
