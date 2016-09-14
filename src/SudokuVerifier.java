@@ -33,10 +33,10 @@ public class SudokuVerifier {
 	
 	public static int rowContainsOnlyPositiveDigits(String candidateSolution){
 		 String[] rows = splitStringToRows(candidateSolution);
-		//for (int i=0; i<9; i++){
-			String tempRow = rows[0];
-			if (tempRow.contains("-") == false)
-				return 0;
+		 for (int i=0; i<9; i++){
+			String tempRow = rows[1];
+			if (tempRow.contains("-") == true)
+				return -1;
 		return -1;
 	}
 	
