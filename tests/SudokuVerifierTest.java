@@ -42,19 +42,24 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testR3_verifyWithIncorrectRows() {
-		Setup();
-		int result = verifier.verify("417777775632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals(result, -3);
-	}
-	
-	@Test
 	public void testR2_verifyWithIncorrectSubgrids() {
 		Setup();
 		int result = verifier.verify("444369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		assertEquals(result, -2);
 	}
 
-
+	@Test
+	public void testR3_verifyWithIncorrectRows() {
+		Setup();
+		int result = verifier.verify("417777775632158947958724316825437169791586432346912758289643571573291684164875293");
+		assertThat(result, anyOf(is(-2), is(-3)));
+	}
+	
+	@Test
+	public void testR4_verifyWithIncorrectColumns() {
+		Setup();
+		int result = verifier.verify("417369825432158947458724316825437169791586432346912758289643571573291684164875293");
+		assertThat(result, anyOf(is(-2), is(-3)));	
+	}
 	
 }

@@ -62,7 +62,29 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	
+	public int verifyCorrectColumns(String input) {
+		String validate;
+		boolean [] validated = new boolean[9];
+		for (int x = 0; x < 9; x++) {
+			for (int y = 0; y < 9; y++) {
+				validate = "";
+				validate += input.charAt(x + y * 9);
+				for(int k = 0; k < 9; k++) {
+					
+					int index = Character.getNumericValue(validate.charAt(k));
+					
+					if(validated[index - 1]) {
+						return -1;
+					}
+					else {
+						validated[index - 1] = true;
+					}
+				}
+				validated = new boolean[9];
+			}
+		}
+		return 0;
+	}
 	
 	public int verify(String candidateSolution) {
 		
@@ -80,6 +102,10 @@ public class SudokuVerifier {
 		
 		if(verifyCorrectRows(candidateSolution) != 0) {
 			return -3;
+		}
+		
+		if(verifyCorrectColumns(candidateSolution) != 0) {
+			
 		}
 		
 		// returns 0 if the candidate solution is correct
