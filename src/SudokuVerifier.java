@@ -2,10 +2,10 @@
 public class SudokuVerifier {
 	
 	public int verifyCorrectCharacters(String input) {
-		int lengthOf = candidateSolution.length();
+		int lengthOf = input.length();
 		String legals = "123456789";
 		for (int i = 0; i < lengthOf; i++) {
-			if(legals.indexOf(candidateSolution.charAt(i)) < 0) {
+			if(legals.indexOf(input.charAt(i)) < 0) {
 				return -1;
 			}
 		}
@@ -20,6 +20,10 @@ public class SudokuVerifier {
 		
 		if(verifyCorrectCharacters(candidateSolution) != 0) {
 			return -1;
+		}
+		
+		if(verifyCorrectSubgrids(candidateSolution) != 0) {
+			return -2;
 		}
 		
 		// returns 0 if the candidate solution is correct

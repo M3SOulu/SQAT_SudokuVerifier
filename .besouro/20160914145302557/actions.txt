@@ -56,3 +56,6 @@ RefactoringAction 1473856246913 SudokuVerifier.java ADD int verify FIELD
 RefactoringAction 1473856255428 SudokuVerifier.java RENAME verify=>int verifyCorrectCharacters() METHOD
 RefactoringAction 1473856259443 SudokuVerifier.java RENAME verifyCorrectCharacters()=>int verifyCorrectCharacters(String) METHOD
 EditAction 1473856302872 SudokuVerifier.java 569 2 7 0
+CompilationAction 1473856304783 SudokuVerifier.java
+CompilationAction 1473856316907 SudokuVerifier.java
+EditAction 1473856388784 SudokuVerifier.java 620 2 8 0
