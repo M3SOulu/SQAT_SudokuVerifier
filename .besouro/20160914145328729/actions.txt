@@ -89,3 +89,6 @@ UnitTestSessionAction 1473857045669 SudokuVerifierTest.java FAIL
 RefactoringAction 1473857054394 SudokuVerifierTest.java ADD void testValidRows()/2 METHOD
 RefactoringAction 1473857057405 SudokuVerifierTest.java RENAME testValidRows()/2=>void testInvalidRows() METHOD
 EditAction 1473857066602 SudokuVerifierTest.java 1205 5 9 4
+UnitTestCaseAction 1473857067679 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857067679 SudokuVerifierTest.java FAIL
+EditAction 1473857088934 SudokuVerifierTest.java 1205 5 9 4
