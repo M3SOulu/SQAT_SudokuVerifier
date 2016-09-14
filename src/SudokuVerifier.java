@@ -15,6 +15,7 @@ public class SudokuVerifier {
 	
 	public static int splitStringToRows(String candidateSolution){
 		String row = candidateSolution.substring(0,5);
+		System.out.print(row);
 		if (isRowLengthRight(row) == 1)
 			return 1;
 		return 0;
