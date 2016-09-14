@@ -2,9 +2,12 @@
 public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) {
-		// returns 0 if the candidate solution is correct
+		String verifiable = candidateSolution;
+		
+		if(!(verifiable.matches("[0-9]+") && verifiable.length() > 2)) {
+			return -1;
+		}
 		return 0;
 		
-		//check
 	}
 }
