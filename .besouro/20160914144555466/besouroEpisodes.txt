@@ -289,3 +289,10 @@
 1473860943409 test-addition 1 2 true
 1473860943410 test-addition 1 2 true
 1473861158470 refactoring 2A 26 true
+1473861358338 refactoring 2B 131 true
+1473861358339 refactoring 2B 131 true
+1473861358340 refactoring 2B 131 true
+1473861358341 refactoring 2B 131 true
+1473861358342 refactoring 2B 131 true
+1473861358343 refactoring 2B 131 true
+1473861358344 regression 1 131 true

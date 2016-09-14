@@ -522,3 +522,5 @@ RefactoringAction 1473861233743 SudokuVerifier.java RENAME splitRowsTo=>static S
 RefactoringAction 1473861239753 SudokuVerifier.java RENAME splitRowsToDigits()=>static String METHOD
 RefactoringAction 1473861357071 SudokuVerifier.java REMOVE splitRowsToDigits(String) METHOD
 EditAction 1473861357317 SudokuVerifier.java 1420 5 12 0
+UnitTestCaseAction 1473861358337 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473861358338 SudokuVerifierTest.java OK
