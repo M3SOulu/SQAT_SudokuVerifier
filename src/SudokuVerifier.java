@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
-		// bidimensional array
+		// bidimensional array.
 		if (verifyPositiveNumbers(candidateSolution) != 0) {
 			return -1;
 		}
