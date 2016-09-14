@@ -48,3 +48,11 @@ RefactoringAction 1473855809609 SudokuVerifierTest.java RENAME testR1_verifyWith
 RefactoringAction 1473855810636 SudokuVerifierTest.java RENAME testR1_verifyWithIncorrectSymbo=>void testR1_verifyWithIncorrectSymbols FIELD
 RefactoringAction 1473855811663 SudokuVerifierTest.java RENAME testR1_verifyWithIncorrectSymbols=>void testR1_verifyWithIncorrectSymbols() METHOD
 EditAction 1473856039579 SudokuVerifier.java 426 1 5 0
+UnitTestCaseAction 1473856048299 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856048300 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473856099006 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856099018 SudokuVerifierTest.java FAIL
+RefactoringAction 1473856246913 SudokuVerifier.java ADD int verify FIELD
+RefactoringAction 1473856255428 SudokuVerifier.java RENAME verify=>int verifyCorrectCharacters() METHOD
+RefactoringAction 1473856259443 SudokuVerifier.java RENAME verifyCorrectCharacters()=>int verifyCorrectCharacters(String) METHOD
+EditAction 1473856302872 SudokuVerifier.java 569 2 7 0
