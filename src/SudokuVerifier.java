@@ -34,15 +34,11 @@ public class SudokuVerifier {
 				System.out.print(testSet[k]);
 			}
 			
-			System.out.print("\n");
-			
 			Arrays.sort(testSet);
 			
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
 				System.out.print(testSet[k]);
 			}
-			
-			System.out.print("\n");
 			
 			for (int k = 1; k <= SUB_GRID_SIZE; k++) {
 				if (k != testSet[k]) {
