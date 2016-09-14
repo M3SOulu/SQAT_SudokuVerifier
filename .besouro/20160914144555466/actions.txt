@@ -172,3 +172,4 @@ RefactoringAction 1473856266352 SudokuVerifier.java RENAME isString=>String isSt
 RefactoringAction 1473856267363 SudokuVerifier.java RENAME isStringLenghtCorrect=>static String isStringLenghtCorrect() METHOD
 RefactoringAction 1473856275389 SudokuVerifier.java RENAME isStringLenghtCorrect()=>static String isStringLenghtCorrect(String) METHOD
 EditAction 1473856319495 SudokuVerifier.java 742 4 9 0
+EditAction 1473856344571 SudokuVerifier.java 721 4 9 0
