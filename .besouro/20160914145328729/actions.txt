@@ -71,3 +71,16 @@ UnitTestSessionAction 1473855876189 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1473855892747 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473855892747 SudokuVerifierTest.java FAIL
 EditAction 1473856198708 SudokuVerifier.java 602 1 10 0
+RefactoringAction 1473856199875 SudokuVerifier.java ADD char FIELD
+RefactoringAction 1473856205395 SudokuVerifier.java REMOVE rowsOrCols FIELD
+CompilationAction 1473856863028 SudokuVerifier.java
+CompilationAction 1473856902040 SudokuVerifier.java
+CompilationAction 1473856902197 SudokuVerifier.java
+CompilationAction 1473856913087 SudokuVerifier.java
+RefactoringAction 1473856984639 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473856986154 SudokuVerifierTest.java RENAME test=>void testRows FIELD
+RefactoringAction 1473856987666 SudokuVerifierTest.java RENAME testRows=>void testRows() METHOD
+RefactoringAction 1473856992179 SudokuVerifierTest.java RENAME testRows()=>void testInvalidRows() METHOD
+RefactoringAction 1473857022771 SudokuVerifierTest.java RENAME testInvalidRows()=>void testalidRows() METHOD
+RefactoringAction 1473857023785 SudokuVerifierTest.java RENAME testalidRows()=>void testValidRows() METHOD
+EditAction 1473857044677 SudokuVerifierTest.java 1010 4 7 3
