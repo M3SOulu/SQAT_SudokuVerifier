@@ -1,0 +1,9 @@
+FileOpenedAction 1473853555687 SudokuVerifierTest.java 1094 3 9 3
+UnitTestCaseAction 1473853563544 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473853563546 SudokuVerifierTest.java OK
+RefactoringAction 1473854078641 SudokuVerifier.java ADD String split FIELD
+RefactoringAction 1473854093156 SudokuVerifier.java RENAME split=>String splitStringTo FIELD
+RefactoringAction 1473854095670 SudokuVerifier.java RENAME splitStringTo=>String splitStringToRows FIELD
+RefactoringAction 1473854097683 SudokuVerifier.java RENAME splitStringToRows=>static String splitStringToRows() METHOD
+RefactoringAction 1473854104696 SudokuVerifier.java RENAME splitStringToRows()=>static String splitStringToRows(String) METHOD
+EditAction 1473854357315 SudokuVerifier.java 392 2 5 0

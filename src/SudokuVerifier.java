@@ -10,4 +10,11 @@ public class SudokuVerifier {
 		
 		//check
 	}
+	
+	public static String splitStringToRows(String candidateSolution){
+		String row1 = candidateSolution.substring(0,9);
+		System.out.print(row1);
+		return candidateSolution;
+		
+	}
 }
