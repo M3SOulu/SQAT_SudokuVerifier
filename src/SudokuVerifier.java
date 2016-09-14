@@ -13,8 +13,21 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyCorrectSubgrids(String input) {
-		String [] strings = new String[9];
-		
+		String validate;
+		boolean [] validated = new boolean[9];
+		for (int i = 0; i < 9; i ++) {
+			validate = input.substring(i * 9, i * 9 + 9);
+			for(int j = 0; j < 9; j++) {
+				int index = (int)validate.charAt(j);
+				if(validated[index - 1]) {
+					return -2;
+				}
+				else {
+					validated[index - 1] = true;
+				}
+			}
+			validated = new boolean[9];
+		}
 		return 0;
 	}
 	
