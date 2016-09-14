@@ -89,9 +89,10 @@ public class SudokuVerifier {
 		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
 		
 		final int SUBGRID_ROW_AMOUNT = 3;
+		final int ROW_INDEX_AMOUNT = 8;
 		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
 			int k = 0;
-			int cellIndex = (i *8) + (3 * subgridNum);
+			int cellIndex = (i * 9) + (3 * subgridNum);
 			
 			while (k < 3) {
 				
