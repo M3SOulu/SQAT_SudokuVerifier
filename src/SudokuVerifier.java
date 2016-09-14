@@ -11,7 +11,7 @@ public class SudokuVerifier {
 	}
 	
 	public static int isStringLenghtCorrect(String candidateSolution){
-		if (candidateSolution.length() < 81 || candidateSolution.length() > 81)
+		if (candidateSolution.length() == 81)
 			return 0;
 		return -1;
 	}
