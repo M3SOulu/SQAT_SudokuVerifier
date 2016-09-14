@@ -23,7 +23,7 @@ public class SudokuVerifier {
 		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
 			// next 9 numbers to test set
 			for (int k = 0; k < SUB_GRID_SIZE; k++) {
-				testSet[k] = Integer.parseInt(candidateSolution[i + k]);
+				testSet[k] = Integer.parseInt(candidateSolution.charAt(i + k).toString());
 			}
 			
 			Arrays.sort(testSet);
