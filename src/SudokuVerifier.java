@@ -6,6 +6,7 @@ public class SudokuVerifier {
 
 	public final int NO_ERROR = 0;
 	public final int SUBGRID_ERROR = -2;
+	public final int GLOBAL_ROW_ERROR = -3;
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
@@ -37,7 +38,8 @@ public class SudokuVerifier {
 			// next 9 numbers to test set
 			testSet = getGlobalRow(candidateSolution, i);
 			
-			membersUnique(testSet);
+			if () {
+				membersUnique(testSet);
 		}
 
 		return NO_ERROR;

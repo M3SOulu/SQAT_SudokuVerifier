@@ -405,3 +405,13 @@ UnitTestCaseAction 1473859924102 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473859924103 SudokuVerifierTest.java FAIL
 RefactoringAction 1473859930690 SudokuVerifierTest.java RENAME rule2CatchesError()=>void rule3CatchesError() METHOD
 EditAction 1473859932429 SudokuVerifierTest.java 1120 4 6 2
+UnitTestCaseAction 1473859936408 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859936409 SudokuVerifierTest.rule3CorrectForCorrectSudoku OK
+UnitTestCaseAction 1473859951155 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473859951157 SudokuVerifierTest.java FAIL
+RefactoringAction 1473859992281 SudokuVerifier.java ADD int GLOBAL_ROW FIELD
+RefactoringAction 1473859994787 SudokuVerifier.java RENAME GLOBAL_ROW=>int GLOBAL_ROW_ FIELD
+RefactoringAction 1473859996293 SudokuVerifier.java RENAME GLOBAL_ROW_=>int GLOBAL_ROW_ERROR FIELD
+CompilationAction 1473859998414 SudokuVerifier.java
+CompilationAction 1473859998415 SudokuVerifier.java
+EditAction 1473860029684 SudokuVerifierTest.java 1196 4 6 2
