@@ -3,10 +3,23 @@ import java.util.Arrays;
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
+		
+		if (verifyPositiveNumbers(candidateSolution) != 0) {
+			return -1;
+		}
+		
+		if (verifyRows(candidateSolution) != 0) {
+			return -3;
+		}
+		
+		// returns 0 if the candidate solution is correct
+		return 0;
+		//check
+	}
+	
+	public static int verifyPositiveNumbers (String candidateSolution) {
 		boolean negativeOrLetter = false;
-		boolean rowOk = true;
 		int i = 0;
-		boolean [] rowsOrCols = new boolean [9];
 		
 		while ((i < 81) && (!negativeOrLetter)) {
 			if (!Character.isDigit(candidateSolution.charAt(i))) {
@@ -15,27 +28,32 @@ public class SudokuVerifier {
 			}
 			i++;
 		}
-		
+		return 0;
+	}
+	
+	public static int verifyRows (String candidateSolution) {
+		boolean rowOk = true;
+		int i = 0;
+		boolean [] rowsOrCols = new boolean [9];
 		int aux;
 		int count = 1;
+		i = 0;
 		while ((i < 81) && (rowOk)) {
 			Arrays.fill(rowsOrCols, false);
 			while ((i < 9 * count) && (rowOk)) {
-				aux = candidateSolution.indexOf(i);
-				rowsOrCols[aux] = true;
+				aux = Character.getNumericValue(candidateSolution.charAt(i));
+				rowsOrCols[aux - 1] = true;
+				i++;
 			}
 			for (int j = 0; j < 9; j++) {
 				if (!rowsOrCols[j]) {
 					rowOk = false;
-					return -2;
+					return -3;
 				}
 			}
 			count++;
-			i++;
+			
 		}
-		
-		// returns 0 if the candidate solution is correct
 		return 0;
-		//check
 	}
 }
