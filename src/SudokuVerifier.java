@@ -5,16 +5,24 @@ public class SudokuVerifier {
 		if (candidateSolution.length() < 81 || candidateSolution.length() > 81) {
 			return 1;
 		}
+		if (splitStringToRows(candidateSolution) == 1)
+			return 1;
 		
 		return 0;
 		
 		//check
 	}
 	
-	public static String splitStringToRows(String candidateSolution){
-		String row1 = candidateSolution.substring(0,9);
-		System.out.print(row1);
-		return candidateSolution;
-		
+	public static int splitStringToRows(String candidateSolution){
+		String row = candidateSolution.substring(0,8);
+		if (isRowLengthRight(row) == 0)
+			return 1;
+		return 0;
+	}
+	
+	public static int isRowLengthRight(String row){
+		if (row.length() == 9) 
+			return 1;
+		return 0;
 	}
 }

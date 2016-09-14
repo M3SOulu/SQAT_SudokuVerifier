@@ -7,3 +7,13 @@ RefactoringAction 1473854095670 SudokuVerifier.java RENAME splitStringTo=>String
 RefactoringAction 1473854097683 SudokuVerifier.java RENAME splitStringToRows=>static String splitStringToRows() METHOD
 RefactoringAction 1473854104696 SudokuVerifier.java RENAME splitStringToRows()=>static String splitStringToRows(String) METHOD
 EditAction 1473854357315 SudokuVerifier.java 392 2 5 0
+UnitTestCaseAction 1473854359242 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854359242 SudokuVerifierTest.java OK
+RefactoringAction 1473854550432 SudokuVerifier.java ADD int isRow FIELD
+RefactoringAction 1473854557957 SudokuVerifier.java RENAME isRow=>int isRowLength FIELD
+RefactoringAction 1473854560470 SudokuVerifier.java RENAME isRowLength=>int isRowLengthRight FIELD
+RefactoringAction 1473854563982 SudokuVerifier.java RENAME isRowLengthRight=>static int isRowLengthRight() METHOD
+RefactoringAction 1473854565001 SudokuVerifier.java RENAME isRowLengthRight()=>static int isRowLengthRight(string) METHOD
+RefactoringAction 1473854571032 SudokuVerifier.java RENAME isRowLengthRight(string)=>static int isRowLengthRight(tring) METHOD
+RefactoringAction 1473854572045 SudokuVerifier.java RENAME isRowLengthRight(tring)=>static int isRowLengthRight(String) METHOD
+EditAction 1473854765888 SudokuVerifier.java 557 3 8 0
