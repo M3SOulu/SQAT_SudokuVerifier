@@ -12,14 +12,14 @@ public class SudokuVerifierTest {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
-				+ "632158947"
+				+ "63215a947" // a
 				+ "958724316"
 				+ "825437169"
-				+ "791586032" // Zero
+				+ "791586432"
 				+ "346912758"
 				+ "289643571"
 				+ "573291684"
-				+ "164875293";
+				+ "164875293";;
 		assertEquals(1, verifier.verify(candidate));
 	}
 	
