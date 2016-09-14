@@ -289,3 +289,6 @@ UnitTestSessionAction 1473857953343 SudokuVerifierTest.java OK
 RefactoringAction 1473858060420 SudokuVerifier.java ADD void splitStringToRows() METHOD
 RefactoringAction 1473858061930 SudokuVerifier.java REMOVE splitStringToRows() METHOD
 EditAction 1473858070608 SudokuVerifier.java 741 4 10 0
+UnitTestCaseAction 1473858074035 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473858074035 SudokuVerifierTest.java OK
+EditAction 1473858129100 SudokuVerifier.java 811 4 10 0
