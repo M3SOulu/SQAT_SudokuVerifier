@@ -262,3 +262,19 @@ CompilationAction 1473855850486 SudokuVerifierTest.java
 CompilationAction 1473855850486 SudokuVerifierTest.java
 CompilationAction 1473855856518 SudokuVerifierTest.java
 EditAction 1473855859381 SudokuVerifierTest.java 1246 3 9 3
+CompilationAction 1473855859592 SudokuVerifierTest.java
+RefactoringAction 1473855866950 SudokuVerifierTest.java RENAME testCandidateContains_Zero_1()/2=>void testCandidateVaid() METHOD
+CompilationAction 1473855869109 SudokuVerifierTest.java
+RefactoringAction 1473855871470 SudokuVerifierTest.java REMOVE testCandidateValid() METHOD
+RefactoringAction 1473855871701 SudokuVerifier.java MOVE SudokuVerifier=>import org.junit.Assert.assertEquals IMPORT
+CompilationAction 1473855871879 SudokuVerifier.java
+CompilationAction 1473855871879 SudokuVerifier.java
+CompilationAction 1473855871880 SudokuVerifier.java
+CompilationAction 1473855871880 SudokuVerifier.java
+CompilationAction 1473855871880 SudokuVerifier.java
+CompilationAction 1473855871880 SudokuVerifier.java
+CompilationAction 1473855871881 SudokuVerifierTest.java
+CompilationAction 1473855873808 SudokuVerifier.java
+CompilationAction 1473855873809 SudokuVerifier.java
+RefactoringAction 1473855882010 SudokuVerifierTest.java ADD void testCandidateValid() METHOD
+EditAction 1473855886173 SudokuVerifierTest.java 1238 3 9 3
