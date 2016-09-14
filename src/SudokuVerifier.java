@@ -71,17 +71,17 @@ public class SudokuVerifier {
 		int aux;
 		int count = 1;
 		i = 0;
-		while ((i < 81) && (rowOk)) {
-			Arrays.fill(rowsOrCols, false);
-			while ((i < 9 * count) && (rowOk)) {
+		while ((i < 81) && (colOk)) {
+			Arrays.fill(col, false);
+			while ((i < 81) && (colOk)) {
 				aux = Character.getNumericValue(candidateSolution.charAt(i));
-				rowsOrCols[aux - 1] = true;
-				i++;
+				col[aux - 1] = true;
+				i=+9;
 			}
 			for (int j = 0; j < 9; j++) {
-				if (!rowsOrCols[j]) {
-					rowOk = false;
-					return -3;
+				if (!col[j]) {
+					colOk = false;
+					return -4;
 				}
 			}
 			count++;
