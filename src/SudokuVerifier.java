@@ -18,8 +18,8 @@ public class SudokuVerifier {
 		for (int i = 0; i < 9; i ++) {
 			validate = input.substring(i * 9, i * 9 + 9);
 			for(int j = 0; j < 9; j++) {
-				int index = (int)validate.charAt(j);
-				System.out.println((int)validate.charAt(j));
+				int index = Character.getNumericValue(validate.charAt(j));
+				System.out.println(index);
 				if(validated[index - 1]) {
 					return -2;
 				}
