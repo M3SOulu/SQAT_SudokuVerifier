@@ -4617,3 +4617,12 @@
 1473858990710 test-addition 1 14 true
 1473859068076 test-addition 1 71 true
 1473859068077 test-addition 1 71 true
+1473859108819 refactoring 3 28 true
+1473859108820 refactoring 3 28 true
+1473859108821 refactoring 3 28 true
+1473859108822 refactoring 3 28 true
+1473859108823 refactoring 3 28 true
+1473859108824 refactoring 3 28 true
+1473859108825 refactoring 3 28 true
+1473859108826 refactoring 2A 28 true
+1473859108827 refactoring 3 28 true
