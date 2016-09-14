@@ -94,7 +94,7 @@ public class SudokuVerifier {
 		final int ROW_INDEX_AMOUNT = 9;
 		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
 			int k = 0;
-			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_ROW_AMOUNT * subgridNum);
+			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_ROW_AMOUNT * (subgridNum % 3));
 			
 			while (k < 3) {
 				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex + k)));
