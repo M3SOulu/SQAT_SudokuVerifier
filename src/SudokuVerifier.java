@@ -2,7 +2,7 @@
 public class SudokuVerifier {
 	
 	public static int verify(String candidateSolution) {
-		if (isStringLenghtCorrect(candidateSolution) == 0) 
+		if (checkStringLength(candidateSolution) == 0) 
 			return 0;
 		else if (amountOfRows(candidateSolution) == 0)
 			return 0;
@@ -13,7 +13,7 @@ public class SudokuVerifier {
 		//check
 	}
 	
-	public static int isStringLenghtCorrect(String candidateSolution){
+	public static int checkStringLength(String candidateSolution){
 		if (candidateSolution.length() == 81)
 			return 0;
 		return -1;
