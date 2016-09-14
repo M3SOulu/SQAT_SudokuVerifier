@@ -93,6 +93,7 @@ public class SudokuVerifier {
 		return subgridCellValues;
 	}
 	
+	/* first row is row 0 */
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
 		int[] globalRowNums = new int[SUBGRID_AND_ROW_SIZE];
 		
