@@ -74,7 +74,7 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testCandidate_Subset_Duplicated_0() throws Exception {
+	public void testCandidate_Subset_Duplicated_Err2() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
