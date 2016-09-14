@@ -12,7 +12,7 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	public int verifyCorrectSubgrids(String input) {
+	public int verifyCorrectRows(String input) {
 		String validate;
 		boolean [] validated = new boolean[9];
 		for (int i = 0; i < 9; i ++) {
@@ -21,7 +21,7 @@ public class SudokuVerifier {
 				int index = Character.getNumericValue(validate.charAt(j));
 				
 				if(validated[index - 1]) {
-					return -2;
+					return -1;
 				}
 				else {
 					validated[index - 1] = true;
@@ -42,8 +42,8 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		if(verifyCorrectSubgrids(candidateSolution) != 0) {
-			return -2;
+		if(verifyCorrectRows(candidateSolution) != 0) {
+			return -3;
 		}
 		
 		// returns 0 if the candidate solution is correct
