@@ -93,12 +93,12 @@ public class SudokuVerifier {
 		return subgridCellValues;
 	}
 	
-	/* first row is row 0 */
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
 		int[] globalRowNums = new int[SUBGRID_AND_ROW_SIZE];
-		
+
+		/* first row is row 0 */
 		for (int i = 0; i < SUBGRID_AND_ROW_SIZE; i++) {
-			globalRowNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt( + i)));
+			globalRowNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(rowNum + i)));
 		}
 		
 		return globalRowNums;
