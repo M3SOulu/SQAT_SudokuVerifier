@@ -401,3 +401,7 @@ UnitTestSessionAction 1473859877818 SudokuVerifierTest.java FAIL
 EditAction 1473859897680 SudokuVerifierTest.java 1108 4 6 2
 EditAction 1473859913406 SudokuVerifierTest.java 1119 4 6 2
 EditAction 1473859916037 SudokuVerifierTest.java 1120 4 6 2
+UnitTestCaseAction 1473859924102 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473859924103 SudokuVerifierTest.java FAIL
+RefactoringAction 1473859930690 SudokuVerifierTest.java RENAME rule2CatchesError()=>void rule3CatchesError() METHOD
+EditAction 1473859932429 SudokuVerifierTest.java 1120 4 6 2
