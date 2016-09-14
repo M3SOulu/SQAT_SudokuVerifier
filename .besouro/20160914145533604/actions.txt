@@ -304,3 +304,54 @@ CompilationAction 1473859287365 SudokuVerifier.java
 CompilationAction 1473859287366 SudokuVerifier.java
 CompilationAction 1473859287368 SudokuVerifier.java
 EditAction 1473859304585 SudokuVerifier.java 2387 8 26 0
+CompilationAction 1473859306457 SudokuVerifier.java
+CompilationAction 1473859306459 SudokuVerifier.java
+CompilationAction 1473859306461 SudokuVerifier.java
+RefactoringAction 1473859369866 SudokuVerifier.java RENAME checkGlobalRow()=>int checkGlobalRow(String) METHOD
+CompilationAction 1473859372541 SudokuVerifier.java
+CompilationAction 1473859372542 SudokuVerifier.java
+CompilationAction 1473859372543 SudokuVerifier.java
+CompilationAction 1473859372729 SudokuVerifier.java
+CompilationAction 1473859372730 SudokuVerifier.java
+CompilationAction 1473859372731 SudokuVerifier.java
+CompilationAction 1473859372731 SudokuVerifier.java
+CompilationAction 1473859376800 SudokuVerifier.java
+CompilationAction 1473859376801 SudokuVerifier.java
+CompilationAction 1473859376803 SudokuVerifier.java
+CompilationAction 1473859376962 SudokuVerifier.java
+CompilationAction 1473859376964 SudokuVerifier.java
+CompilationAction 1473859376965 SudokuVerifier.java
+CompilationAction 1473859376966 SudokuVerifier.java
+CompilationAction 1473859376967 SudokuVerifier.java
+CompilationAction 1473859388646 SudokuVerifier.java
+CompilationAction 1473859388648 SudokuVerifier.java
+CompilationAction 1473859388799 SudokuVerifier.java
+CompilationAction 1473859388801 SudokuVerifier.java
+CompilationAction 1473859388802 SudokuVerifier.java
+CompilationAction 1473859388803 SudokuVerifier.java
+CompilationAction 1473859400100 SudokuVerifier.java
+CompilationAction 1473859400102 SudokuVerifier.java
+CompilationAction 1473859400259 SudokuVerifier.java
+CompilationAction 1473859400260 SudokuVerifier.java
+CompilationAction 1473859400261 SudokuVerifier.java
+CompilationAction 1473859471560 SudokuVerifier.java
+CompilationAction 1473859471562 SudokuVerifier.java
+CompilationAction 1473859471738 SudokuVerifier.java
+CompilationAction 1473859471740 SudokuVerifier.java
+CompilationAction 1473859471741 SudokuVerifier.java
+CompilationAction 1473859499650 SudokuVerifier.java
+CompilationAction 1473859499651 SudokuVerifier.java
+CompilationAction 1473859499812 SudokuVerifier.java
+CompilationAction 1473859499814 SudokuVerifier.java
+CompilationAction 1473859499816 SudokuVerifier.java
+CompilationAction 1473859499817 SudokuVerifier.java
+CompilationAction 1473859509299 SudokuVerifier.java
+CompilationAction 1473859509301 SudokuVerifier.java
+CompilationAction 1473859509303 SudokuVerifier.java
+CompilationAction 1473859509454 SudokuVerifier.java
+CompilationAction 1473859509455 SudokuVerifier.java
+CompilationAction 1473859509456 SudokuVerifier.java
+RefactoringAction 1473859523260 SudokuVerifier.java ADD int METHOD
+RefactoringAction 1473859528791 SudokuVerifier.java RENAME getGlobalRow()=>int METHOD
+RefactoringAction 1473859532808 SudokuVerifier.java RENAME getGlobalRow(String)=>int METHOD
+EditAction 1473859536069 SudokuVerifier.java 2222 9 23 0
