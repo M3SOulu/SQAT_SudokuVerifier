@@ -29,7 +29,7 @@ public class SudokuVerifier {
 		}
 		
 		for (int y = 0; y < 9; y++) {
-			String row = candidateSolution.substring(y * 9, y * 9 + 9)
+			String row = candidateSolution.substring(y * 9, y * 9 + 9);
 		}
 		
 		return 0;
