@@ -114,3 +114,23 @@ CompilationAction 1473857239308 SudokuVerifierTest.java
 CompilationAction 1473857262301 SudokuVerifierTest.java
 CompilationAction 1473857262478 SudokuVerifierTest.java
 EditAction 1473857267820 SudokuVerifierTest.java 749 2 5 1
+CompilationAction 1473857297824 SudokuVerifierTest.java
+CompilationAction 1473857304812 SudokuVerifierTest.java
+UnitTestCaseAction 1473857306801 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857306803 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857320919 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857320921 SudokuVerifierTest.java FAIL
+RefactoringAction 1473857346351 SudokuVerifierTest.java ADD void testStringLengthIsTooLong()/2 METHOD
+RefactoringAction 1473857350867 SudokuVerifierTest.java RENAME testStringLengthIsTooLong()/2=>void testStringLengthIsTooShort() METHOD
+UnitTestCaseAction 1473857365022 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857365023 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857407368 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857407369 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857420952 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857420953 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473857572779 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473857572779 SudokuVerifierTest.java FAIL
+RefactoringAction 1473857747090 SudokuVerifier.java ADD int checkRowSudokuString FIELD
+RefactoringAction 1473857752603 SudokuVerifier.java RENAME checkRowSudokuString=>static int checkRowSudokuString() METHOD
+RefactoringAction 1473857754617 SudokuVerifier.java RENAME checkRowSudokuString()=>static int checkRowSudokuString(String) METHOD
+EditAction 1473857761054 SudokuVerifier.java 496 3 4 0

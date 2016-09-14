@@ -8,7 +8,6 @@ public class SudokuVerifier {
 		
 		
 		
-		
 		// returns 0 if the candidate solution is correct
 		return 0;
 		
@@ -16,6 +15,12 @@ public class SudokuVerifier {
 		
 
 	}
+	
+	public static int checkRowSudokuString(String candidateSolution){
+		
+		
+	}
+	
 	
 	public static int checkSudokuLength(String candidateSolution){
 		int sudokuLength = candidateSolution.length();
