@@ -16,3 +16,7 @@ EditAction 1473855219666 SudokuVerifierTest.java 575 2 3 0
 CompilationAction 1473855219916 SudokuVerifierTest.java
 CompilationAction 1473855359184 SudokuVerifierTest.java
 EditAction 1473855359205 SudokuVerifier.java 461 2 5 0
+RefactoringAction 1473855372462 SudokuVerifier.java REMOVE verify(String) METHOD
+RefactoringAction 1473855372463 SudokuVerifier.java REMOVE main(String METHOD
+RefactoringAction 1473855376483 SudokuVerifier.java ADD static int verify(String) METHOD
+EditAction 1473855378609 SudokuVerifier.java 465 1 5 0
