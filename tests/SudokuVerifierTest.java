@@ -34,4 +34,9 @@ public class SudokuVerifierTest {
 		String test = "417349825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals(-2, SudokuVerifier.verify(test));
 	}
+	@Test
+	public void testInvalidCols() {
+		String test = "41769825632158947458724316825437169791586432346912758289643571573291684164875293";
+		assertEquals(-4, SudokuVerifier.verify(test));
+	}
 }

@@ -175,3 +175,6 @@ EditAction 1473859567983 SudokuVerifier.java 1764 5 25 0
 CompilationAction 1473859598731 SudokuVerifier.java
 CompilationAction 1473859606947 SudokuVerifier.java
 EditAction 1473859686568 SudokuVerifier.java 1805 5 25 0
+RefactoringAction 1473859699209 SudokuVerifierTest.java ADD void testInvalidRows()/2 METHOD
+RefactoringAction 1473859705213 SudokuVerifierTest.java RENAME testInvalidRows()/2=>void testInvalidCols() METHOD
+EditAction 1473859762656 SudokuVerifierTest.java 1397 6 11 5
