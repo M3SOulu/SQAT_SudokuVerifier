@@ -4,8 +4,8 @@ public class SudokuVerifier {
 	private final int GLOBAL_GRID_SIZE = 81;
 	private final int SUB_GRID_SIZE = 9;
 
-	private final int NO_ERROR = 0;
-	private final int SUBGRID_ERROR = -2;
+	public final int NO_ERROR = 0;
+	public final int SUBGRID_ERROR = -2;
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct

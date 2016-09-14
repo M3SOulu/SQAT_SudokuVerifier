@@ -43,3 +43,12 @@ EditAction 1473856432712 SudokuVerifier.java 994 2 3 0
 CompilationAction 1473856434567 SudokuVerifier.java
 CompilationAction 1473856434569 SudokuVerifier.java
 EditAction 1473856454801 SudokuVerifier.java 996 2 7 0
+FileOpenedAction 1473856503126 SudokuVerifierTest.java 390 1 1 0
+UnitTestCaseAction 1473856505258 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856505261 SudokuVerifierTest.java FAIL
+RefactoringAction 1473856549700 SudokuVerifierTest.java ADD void sudo FIELD
+RefactoringAction 1473856550715 SudokuVerifierTest.java RENAME sudo=>void sudoku FIELD
+RefactoringAction 1473856554229 SudokuVerifierTest.java REMOVE sudoku FIELD
+RefactoringAction 1473856560243 SudokuVerifierTest.java ADD void rule2Correct FIELD
+RefactoringAction 1473856563754 SudokuVerifierTest.java RENAME rule2Correct=>void rule2Correct() METHOD
+EditAction 1473856725220 SudokuVerifier.java 994 2 7 0
