@@ -52,3 +52,4 @@ RefactoringAction 1473856554229 SudokuVerifierTest.java REMOVE sudoku FIELD
 RefactoringAction 1473856560243 SudokuVerifierTest.java ADD void rule2Correct FIELD
 RefactoringAction 1473856563754 SudokuVerifierTest.java RENAME rule2Correct=>void rule2Correct() METHOD
 EditAction 1473856725220 SudokuVerifier.java 994 2 7 0
+EditAction 1473856734735 SudokuVerifierTest.java 665 2 4 1

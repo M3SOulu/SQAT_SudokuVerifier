@@ -11,5 +11,12 @@ public class SudokuVerifierTest {
 	public void testVerify() {
 		fail("Not yet implemented");
 	}
+	
+	@Test
+	public void rule2Correct() {
+		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		SudokuVerifier verifier = new SudokuVerifier();
+		assertEquals(verifier.verify(correctSudoku), SudokuVerifier.NO_ERROR);
+	}
 
 }
