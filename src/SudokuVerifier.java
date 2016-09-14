@@ -40,7 +40,7 @@ public class SudokuVerifier {
 				
 					validate = "";
 					for(int s = 0; s < 3; s++) {
-						validate += input.substring(x * 3 + y * 3 * 3 + s * 3, x * 3 + 3 + y * 3 * 3 + s * 3);
+						validate += input.substring(x * 3 + y * 3 * 3 + s * 9, x * 3 + 3 + y * 3 * 3 + s * 9);
 						
 					}
 					System.out.println(validate);
