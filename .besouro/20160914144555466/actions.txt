@@ -231,3 +231,6 @@ RefactoringAction 1473857267204 SudokuVerifierTest.java RENAME testVerify_splitO
 RefactoringAction 1473857268713 SudokuVerifierTest.java RENAME testVerify_splitInto()=>void testVerify_splitIntoRows() METHOD
 RefactoringAction 1473857272224 SudokuVerifierTest.java RENAME testVerify_splitIntoRows()=>void testVerify_splitIntoRowsOfNine() METHOD
 EditAction 1473857281834 SudokuVerifierTest.java 1404 4 12 4
+RefactoringAction 1473857307200 SudokuVerifier.java ADD static long METHOD
+RefactoringAction 1473857308840 SudokuVerifier.java REMOVE rows(int) METHOD
+EditAction 1473857355897 SudokuVerifier.java 726 4 10 0
