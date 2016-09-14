@@ -465,3 +465,11 @@ EditAction 1473857168956 SudokuVerifier.java 1192 1 6 0
 EditAction 1473857185792 SudokuVerifier.java 1192 1 6 0
 EditAction 1473857193907 SudokuVerifier.java 1192 1 6 0
 EditAction 1473857200252 SudokuVerifierTest.java 1492 4 12 4
+CompilationAction 1473857200501 SudokuVerifierTest.java
+RefactoringAction 1473857205074 SudokuVerifierTest.java RENAME testCandidate_0()/2=>void testCandidate() METHOD
+RefactoringAction 1473857206084 SudokuVerifierTest.java RENAME testCandidate()=>void testCandidate_() METHOD
+RefactoringAction 1473857208597 SudokuVerifierTest.java RENAME testCandidate_()=>void testCandidate_Row() METHOD
+RefactoringAction 1473857209606 SudokuVerifierTest.java RENAME testCandidate_Row()=>void testCandidate_Row1() METHOD
+RefactoringAction 1473857210616 SudokuVerifierTest.java RENAME testCandidate_Row1()=>void testCandidate_Row1_() METHOD
+CompilationAction 1473857219821 SudokuVerifierTest.java
+EditAction 1473857222828 SudokuVerifierTest.java 1784 5 15 5
