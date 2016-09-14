@@ -22,6 +22,8 @@ public class SudokuVerifier {
 						if (reserved.indexOf(c) != -1)
 							return 2;
 						
+						System.out.println(reservedd);
+						
 						reserved += c;
 					}
 				}
