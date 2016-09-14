@@ -36,7 +36,6 @@ public class SudokuVerifier {
 			Arrays.sort(testSet);
 			
 			for (int k = 1; k <= SUB_GRID_SIZE; k++) {
-				System.out.println("Checking " + testSet[k]);
 				if (k != testSet[k - 1]) {
 					error = SUBGRID_ERROR;
 					break;
