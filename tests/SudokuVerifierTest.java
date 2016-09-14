@@ -79,7 +79,7 @@ public class SudokuVerifierTest {
 		String candidate =
 				  "417369825"
 				+ "632158947"
-				+ "958721316"
+				+ "958722316"
 				+ "825437169"
 				+ "791586432"
 				+ "346912758"
