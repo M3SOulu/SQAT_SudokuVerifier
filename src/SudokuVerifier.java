@@ -43,7 +43,7 @@ public class SudokuVerifier {
 			for (int y = 0; y < 9; y++) {
 				char c = candidateSolution.charAt(y * 9 + x);
 				if (reserved.indexOf(c) != -1)
-					return 3;
+					return 4;
 				reserved += c;
 			}
 		}
