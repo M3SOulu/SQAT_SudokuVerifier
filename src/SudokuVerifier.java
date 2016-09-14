@@ -34,11 +34,13 @@ public class SudokuVerifier {
 				testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
 			}
 			
-			for (int k = 0; k < SUB_GRID_SIZE; k++) {
-				System.out.print(testSet[k]);
+			if (debug) {
+				for (int k = 0; k < SUB_GRID_SIZE; k++) {
+					System.out.print(testSet[k]);
+				}
+				
+				System.out.print("\n");
 			}
-			
-			System.out.print("\n");
 			
 			Arrays.sort(testSet);
 			
@@ -60,5 +62,14 @@ public class SudokuVerifier {
 		}
 
 		return error;
+	}
+	
+	private void subgridDebug(int[] testSet) {
+		for (int k = 0; k < SUB_GRID_SIZE; k++) {
+			System.out.print(testSet[k]);
+		}
+		
+		System.out.print("\n");
+	}
 	}
 }

@@ -147,3 +147,10 @@ EditAction 1473858002662 SudokuVerifierTest.java 1101 4 6 2
 UnitTestCaseAction 1473858008553 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473858008554 SudokuVerifierTest.java FAIL
 EditAction 1473858089167 SudokuVerifier.java 1355 3 9 0
+RefactoringAction 1473858127192 SudokuVerifier.java ADD void subgrid FIELD
+RefactoringAction 1473858131708 SudokuVerifier.java RENAME subgrid=>void subgridD FIELD
+RefactoringAction 1473858134226 SudokuVerifier.java RENAME subgridD=>void subgridDe FIELD
+RefactoringAction 1473858135242 SudokuVerifier.java RENAME subgridDe=>void subgridDebug FIELD
+RefactoringAction 1473858137259 SudokuVerifier.java RENAME subgridDebug=>void subgridDebug() METHOD
+RefactoringAction 1473858147324 SudokuVerifier.java RENAME subgridDebug()=>void subgridDebug(int METHOD
+EditAction 1473858157922 SudokuVerifier.java 1543 4 11 0
