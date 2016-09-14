@@ -77,6 +77,7 @@ public class SudokuVerifierTest {
 	public void testCandidate_Column_Duplicates_4() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate =
+				String candidate = 
 				  "417369825"
 				+ "632158947"
 				+ "958724316"
