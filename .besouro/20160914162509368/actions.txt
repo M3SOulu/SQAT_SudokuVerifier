@@ -14,3 +14,9 @@ EditAction 1473859550004 SudokuVerifierTest.java 4596 11 34 8
 UnitTestCaseAction 1473859551555 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473859551555 SudokuVerifierTest.testCandidateContains_ShortString_ExceptioTestn OK
 EditAction 1473859555099 SudokuVerifierTest.java 4206 10 31 8
+UnitTestCaseAction 1473859556388 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859556388 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473859588795 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859588795 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473859594976 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859594976 SudokuVerifierTest.java OK
