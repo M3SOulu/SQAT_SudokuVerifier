@@ -9,7 +9,13 @@ public class SudokuVerifier {
 			return -1;
 		}
 		
-		//Check R2
+		//Check R3
+		
+		for(int j = 0; j < 81; j=+9) {
+			String subset = verifiable.substring(j, j+9);
+			System.out.println(subset);
+		}
+
 		
 		return 0;
 		

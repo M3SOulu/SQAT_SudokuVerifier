@@ -32,3 +32,8 @@ CompilationAction 1473854445603 SudokuVerifierTest.java
 UnitTestCaseAction 1473854445864 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473854445865 SudokuVerifierTest.testVerify_StringContainsLetters_Return_minus_1 OK
 EditAction 1473854555374 SudokuVerifier.java 263 1 3 0
+UnitTestCaseAction 1473854555656 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854555657 SudokuVerifierTest.testVerify_StringContainsLetters_Return_minus_1 OK
+UnitTestCaseAction 1473854569894 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854569895 SudokuVerifierTest.java OK
+EditAction 1473855904037 SudokuVerifier.java 384 1 4 0
