@@ -281,3 +281,5 @@ RefactoringAction 1473857786912 SudokuVerifier.java ADD int check FIELD
 RefactoringAction 1473857795927 SudokuVerifier.java RENAME check=>static int checkNumberOfLines() METHOD
 RefactoringAction 1473857806964 SudokuVerifier.java RENAME checkNumberOfLines()=>static int checkNumberOfLines(String METHOD
 EditAction 1473857821453 SudokuVerifier.java 587 4 8 0
+RefactoringAction 1473857835006 SudokuVerifier.java RENAME checkNumberOfLines(String=>static int checkNumbersInLines(String METHOD
+EditAction 1473857940446 SudokuVerifier.java 649 4 9 0

@@ -23,8 +23,10 @@ public class SudokuVerifier {
 		return -1;
 	}
 	
-	public static int checkNumberOfLines(String[] rows){
-		
+	public static int checkNumbersInLines(String[] rows){
+		//for (int i=0; i<9; i++){
+			String tempRow = rows[1];
+		//}
 		
 		return -1;
 	}
