@@ -18,11 +18,11 @@ public class SudokuVerifier {
 					for (int sX = 0; sX < 3; sX++) {
 						char c = candidateSolution.charAt(
 								(sY + gY * 3) * 3 + (sX + gX * 3));
-						
+
+						System.out.println(reserved);
 						if (reserved.indexOf(c) != -1)
 							return 2;
 						
-						System.out.println(reservedd);
 						
 						reserved += c;
 					}
