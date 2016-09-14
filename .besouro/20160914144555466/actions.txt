@@ -163,3 +163,12 @@ EditAction 1473856175284 SudokuVerifierTest.java 1397 4 12 4
 UnitTestCaseAction 1473856176748 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473856176749 SudokuVerifierTest.java FAIL
 EditAction 1473856212808 SudokuVerifier.java 569 3 7 0
+UnitTestCaseAction 1473856214162 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473856214163 SudokuVerifierTest.java FAIL
+RefactoringAction 1473856249807 SudokuVerifier.java ADD String is FIELD
+RefactoringAction 1473856253317 SudokuVerifier.java RENAME is=>String isS FIELD
+RefactoringAction 1473856254825 SudokuVerifier.java RENAME isS=>String isString FIELD
+RefactoringAction 1473856266352 SudokuVerifier.java RENAME isString=>String isStringLenghtCorrect FIELD
+RefactoringAction 1473856267363 SudokuVerifier.java RENAME isStringLenghtCorrect=>static String isStringLenghtCorrect() METHOD
+RefactoringAction 1473856275389 SudokuVerifier.java RENAME isStringLenghtCorrect()=>static String isStringLenghtCorrect(String) METHOD
+EditAction 1473856319495 SudokuVerifier.java 742 4 9 0
