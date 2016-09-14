@@ -34,5 +34,6 @@ public class SudokuVerifierTest {
 		SudokuVerifier.amountOfRows(testString);
 		assertEquals("There are not 9 rows", 0, SudokuVerifier.amountOfRows(testString));
 	}
+	
 
 }
