@@ -566,3 +566,8 @@ EditAction 1473858076117 SudokuVerifierTest.java 2245 5 16 5
 UnitTestCaseAction 1473858081442 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473858081442 SudokuVerifierTest.java OK
 EditAction 1473858109912 SudokuVerifierTest.java 2620 6 19 6
+CompilationAction 1473858110125 SudokuVerifierTest.java
+RefactoringAction 1473858117535 SudokuVerifierTest.java RENAME testCandidateContains_InvalidCharacter_Err1()/2=>void testCandidateContains_Incorre() METHOD
+CompilationAction 1473858120848 SudokuVerifierTest.java
+RefactoringAction 1473858122038 SudokuVerifierTest.java RENAME testCandidateContains_Incorrect_ErrAn()=>void testCandidateContains_Incorrect_ErrAny() METHOD
+EditAction 1473858122051 SudokuVerifierTest.java 2615 6 19 6

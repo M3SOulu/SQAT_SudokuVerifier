@@ -39,7 +39,7 @@ public class SudokuVerifierTest {
 		assertEquals(-1, verifier.verify(candidate));
 	}
 	@Test
-	public void testCandidateContains_InvalidCharacter_Err1() throws Exception {
+	public void testCandidateContains_Incorrect_ErrAny() throws Exception {
 		SudokuVerifier verifier = new SudokuVerifier();
 		String candidate = 
 				  "417369825"
