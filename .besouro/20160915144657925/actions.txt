@@ -87,3 +87,14 @@ UnitTestSessionAction 1473942472581 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1473942474116 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473942474116 SudokuVerifierTest.java FAIL
 EditAction 1473942478064 SudokuVerifier.java 840 5 7 0
+UnitTestCaseAction 1473942481052 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473942481052 SudokuVerifierTest.java FAIL
+RefactoringAction 1473942528604 SudokuVerifierTest.java REMOVE testIsDigitsOnlyWithShorterString() METHOD
+RefactoringAction 1473942528605 SudokuVerifierTest.java REMOVE testVerifyWithFalse() METHOD
+RefactoringAction 1473942528606 SudokuVerifierTest.java REMOVE testIsDigitsOnlyWithALetter() METHOD
+RefactoringAction 1473942528607 SudokuVerifierTest.java REMOVE testIsDigitsOnlyWithCorrect() METHOD
+RefactoringAction 1473942530638 SudokuVerifierTest.java ADD void testVerifyWithFalse() METHOD
+RefactoringAction 1473942530639 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithShorterString() METHOD
+RefactoringAction 1473942530640 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithALetter() METHOD
+RefactoringAction 1473942530640 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithCorrect() METHOD
+EditAction 1473942535333 SudokuVerifierTest.java 1662 5 13 4

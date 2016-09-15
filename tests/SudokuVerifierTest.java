@@ -9,11 +9,12 @@ public class SudokuVerifierTest {
 
 	@Test
 	public void testVerifyWithCorrect() {
-		SudokuVerifier sudoku = new SudokuVerifier();
+		/*SudokuVerifier sudoku = new SudokuVerifier();
 		
 		String example = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		assertEquals("Example sudoku string had to be correct",0,sudoku.verify(example));
+		assertEquals("Example sudoku string had to be correct",0,sudoku.verify(example));*/
+		fail();
 	}
 	
 	@Test
