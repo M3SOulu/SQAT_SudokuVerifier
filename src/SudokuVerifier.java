@@ -67,7 +67,7 @@ public class SudokuVerifier {
 	}
 	
 	private boolean membersUnique(int[] testSet) {
-		boolean debug = false;
+		boolean debug = true;
 
 		if (debug)
 			subgridDebug(testSet); // change name for this function
