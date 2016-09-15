@@ -97,19 +97,18 @@ public class SudokuVerifier {
 		
 		// select subgrid starting global row
 		int globalRow = subgridNum / 3; 
-		// select subgrid starting global column
 		int subgridColumn = subgridNum % SUBGRID_AMOUNT_ON_ROW;
-		// select 3 subsequent cells from 3 subsequent global rows
 		
 		int globalRowIndex = globalRowIndex(globalRow);
 		
 		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn);
 		
+		// select 3 subsequent cells from 3 subsequent global rows
 		for (int i = 0; i < 3; i++) {
 			int column_offset = 0;
 			int row_offset = (SUBGRID_AND_ROW_SIZE * i);
 			while (column_offset < 3) {
-				int = index = subgridStartIndex +  + column_offset;
+				int index = subgridStartIndex + row_offset + column_offset;
 				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
 				resultIndex++;
 				row_offset++;
