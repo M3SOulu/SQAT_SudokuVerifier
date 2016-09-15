@@ -158,4 +158,14 @@ public class SudokuVerifierTest {
 		String expected = "198765432";
 		assertEquals(expected, test);
 	}
+
+	@Test
+	public void testGenerateColumn0(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		String test = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
+		String expected = "198765432";
+		assertEquals(expected, test);
+	}
+}
 }

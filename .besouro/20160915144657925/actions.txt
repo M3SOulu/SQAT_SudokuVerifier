@@ -311,3 +311,7 @@ EditAction 1473944858484 SudokuVerifierTest.java 4605 16 47 14
 CompilationAction 1473944858578 SudokuVerifierTest.java
 EditAction 1473944863700 SudokuVerifierTest.java 4606 16 51 15
 EditAction 1473944875667 SudokuVerifierTest.java 4594 16 51 15
+UnitTestCaseAction 1473944881166 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944881167 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944890704 SudokuVerifierTest.java ADD void testGenerateColumn0()/2 METHOD
+EditAction 1473944890850 SudokuVerifierTest.java 4860 17 55 16
