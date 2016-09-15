@@ -48,8 +48,10 @@ public class SudokuVerifier {
 	public boolean noRepeatInColumns(String str) {
 		for (int i = 0; i < 9; i++) {
 			String column = generateColumn(i, str);
+			if(doesRepeatInString(column))
+				return false;
 		}
-		return false;
+		return true;
 	}
 
 	public String generateGrid(int i, String str) {
