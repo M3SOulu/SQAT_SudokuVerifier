@@ -1,0 +1,17 @@
+FileOpenedAction 1473940018152 SudokuVerifier.java 162 1 0 0
+RefactoringAction 1473940252094 SudokuVerifier.java ADD boolean isDigitsOnly(String) METHOD
+RefactoringAction 1473940257791 SudokuVerifier.java ADD boolean noRepeatInSubGrid(String) METHOD
+RefactoringAction 1473940261261 SudokuVerifier.java ADD boolean noRepeatInRows(String) METHOD
+RefactoringAction 1473940263510 SudokuVerifier.java ADD boolean noRepeatInColumns(String) METHOD
+FileOpenedAction 1473940461946 TennisGameTest.java 3642 10 71 9
+RefactoringAction 1473940597254 SudokuVerifierTest.java RENAME testVerify()=>void testVerifyWithCorrect() METHOD
+RefactoringAction 1473940602270 SudokuVerifierTest.java ADD void testVerifyWithCorrect()/2 METHOD
+RefactoringAction 1473940606800 SudokuVerifierTest.java RENAME testVerifyWithCorrect()/2=>void testVerifyWithFa() METHOD
+RefactoringAction 1473940607816 SudokuVerifierTest.java RENAME testVerifyWithFa()=>void testVerifyWithFalse() METHOD
+RefactoringAction 1473940752868 SudokuVerifier.java REMOVE isDigitsOnly(String) METHOD
+RefactoringAction 1473940753882 SudokuVerifier.java ADD boolean isDigitsOnly(String) METHOD
+RefactoringAction 1473940756905 SudokuVerifier.java REMOVE noRepeatInSubGrid(String) METHOD
+RefactoringAction 1473940757919 SudokuVerifier.java ADD boolean noRepeatInSubGrid(String) METHOD
+RefactoringAction 1473940760432 SudokuVerifier.java REMOVE noRepeatInRows(String) METHOD
+RefactoringAction 1473940761446 SudokuVerifier.java ADD boolean noRepeatInRows(String) METHOD
+EditAction 1473940790696 SudokuVerifier.java 601 5 5 0
