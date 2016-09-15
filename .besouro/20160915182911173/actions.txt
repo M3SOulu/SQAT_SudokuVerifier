@@ -338,3 +338,10 @@ RefactoringAction 1473964116478 SudokuVerifier.java RENAME verifyCells(String)=>
 EditAction 1473964117341 SudokuVerifier.java 5469 18 51 0
 EditAction 1473964125523 SudokuVerifierTest.java 2981 9 16 7
 EditAction 1473964147013 SudokuVerifierTest.java 2978 9 16 7
+UnitTestCaseAction 1473964152936 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473964152936 SudokuVerifierTest.rule1CorrectForCorrectSudoku OK
+RefactoringAction 1473964161833 SudokuVerifierTest.java ADD void rule1CorrectForCorrectSudoku()/2 METHOD
+RefactoringAction 1473964168345 SudokuVerifierTest.java RENAME rule1CorrectForCorrectSudoku()/2=>void rule1Cath() METHOD
+RefactoringAction 1473964170857 SudokuVerifierTest.java RENAME rule1Cath()=>void rule1Ca() METHOD
+RefactoringAction 1473964174866 SudokuVerifierTest.java RENAME rule1Ca()=>void rule1CatchesError() METHOD
+EditAction 1473964196179 SudokuVerifierTest.java 3275 10 18 8
