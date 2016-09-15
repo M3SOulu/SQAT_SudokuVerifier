@@ -67,26 +67,6 @@ public class SudokuVerifier {
 		return NO_ERROR;
 	}
 	
-	private boolean membersUnique(int[] testSet) {
-		boolean debug = true;
-
-		if (debug)
-			subgridDebug(testSet); // change name for this function
-		
-		Arrays.sort(testSet);
-		
-		if (debug)
-			subgridDebug(testSet);
-		
-		for (int i = 1; i <= testSet.length; i++) {
-			if (i != testSet[i - 1]) {
-				return false;
-			}
-		}
-		
-		return true;
-	}
-	
 	/* subgrid nums
 	 * 0 1 2
 	 * 3 4 5
@@ -121,14 +101,6 @@ public class SudokuVerifier {
 		return subgridCellValues;
 	}
 	
-	private int globalRowIndex(int globalRowNo) {
-		return globalRowNo * SUBGRID_AND_ROW_SIZE;
-	}
-	
-	private int subgridStartIndex(int globalRowIndex, int subgridColumnNo) {
-		return globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid
-	}
-	
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
 		int[] globalRowNums = new int[SUBGRID_AND_ROW_SIZE];
 
@@ -138,6 +110,36 @@ public class SudokuVerifier {
 		}
 		
 		return globalRowNums;
+	}
+	
+	private int globalRowIndex(int globalRowNo) {
+		return globalRowNo * SUBGRID_AND_ROW_SIZE;
+	}
+	
+	private int subgridStartIndex(int globalRowIndex, int subgridColumnNo) {
+		return globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid
+	}
+	
+	
+	
+	private boolean membersUnique(int[] testSet) {
+		boolean debug = true;
+
+		if (debug)
+			subgridDebug(testSet); // change name for this function
+		
+		Arrays.sort(testSet);
+		
+		if (debug)
+			subgridDebug(testSet);
+		
+		for (int i = 1; i <= testSet.length; i++) {
+			if (i != testSet[i - 1]) {
+				return false;
+			}
+		}
+		
+		return true;
 	}
 	
 	private void subgridDebug(int[] testSet) {
