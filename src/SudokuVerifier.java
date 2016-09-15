@@ -95,7 +95,7 @@ public class SudokuVerifier {
 		try {
 			testSet = getCellValues(candidateSolution);
 		} catch (NumberFormatException e) {
-			System.err.println("Char of sudoku string representation was not a number");
+			System.err.println("Char of sudoku string representation was not a number. " + e.getMessage());
 			return DIGIT_ERROR;
 		}
 		
