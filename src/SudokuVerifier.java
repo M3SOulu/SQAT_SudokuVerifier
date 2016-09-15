@@ -40,7 +40,7 @@ public class SudokuVerifier {
 		return false;
 	}
 	
-	public String calculateGrid(int i, String str){
+	public String generateGrid(int i, String str){
 			int firstMemberIndex = (27*(i/3)) + (3*(i%3));
 			String gridRow1 = str.substring(firstMemberIndex,firstMemberIndex+3);
 			String gridRow2 = str.substring(firstMemberIndex+9,firstMemberIndex+9+3);
