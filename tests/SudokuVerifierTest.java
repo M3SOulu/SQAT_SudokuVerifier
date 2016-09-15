@@ -35,6 +35,16 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
+	public void testIsDigitsOnlyWithALetter(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		// Following string has an "A" in the middle.
+		String test = "417369825632158947958724316825437169791586432A46912758289643571573291684164875293";
+		
+		assertFalse(sudoku.isDigitsOnly(test));
+	}
+	
+	@Test
 	public void testIsDigitsOnlyWithLetters(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		
@@ -43,4 +53,5 @@ public class SudokuVerifierTest {
 		
 		assertFalse(sudoku.isDigitsOnly(test));
 	}
+
 }

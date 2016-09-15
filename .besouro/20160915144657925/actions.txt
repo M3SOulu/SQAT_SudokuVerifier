@@ -36,3 +36,8 @@ RefactoringAction 1473941357578 SudokuVerifierTest.java ADD void testIsDigitsOnl
 RefactoringAction 1473941364106 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithShorterString()/2=>void testIsDigitsOnlyWithFalse() METHOD
 RefactoringAction 1473941370121 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithFalse()=>void testIsDigitsOnlyWithLetters() METHOD
 EditAction 1473941408120 SudokuVerifierTest.java 1395 4 12 4
+RefactoringAction 1473941422792 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithLetters()/2 METHOD
+RefactoringAction 1473941426821 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithLetters()/2=>void testIsDigitsOnlyWithALetters() METHOD
+RefactoringAction 1473941427837 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithALetters()=>void testIsDigitsOnlyWithALette() METHOD
+RefactoringAction 1473941429852 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithALette()=>void testIsDigitsOnlyWithALetter() METHOD
+EditAction 1473941430178 SudokuVerifierTest.java 1697 5 15 5
