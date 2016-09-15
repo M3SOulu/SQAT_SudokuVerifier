@@ -120,8 +120,6 @@ public class SudokuVerifier {
 		return globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid
 	}
 	
-	
-	
 	private boolean membersUnique(int[] testSet) {
 		boolean debug = true;
 
