@@ -279,3 +279,8 @@ UnitTestSessionAction 1473963070085 SudokuVerifierTest.rule4CorrectForCorrectSud
 UnitTestCaseAction 1473963085126 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473963085127 SudokuVerifierTest.rule4CorrectForCorrectSudoku OK
 EditAction 1473963242018 SudokuVerifier.java 4689 14 42 0
+UnitTestCaseAction 1473963256095 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473963256095 SudokuVerifierTest.rule4CorrectForCorrectSudoku OK
+UnitTestCaseAction 1473963286457 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473963286458 SudokuVerifierTest.rule4CatchesError OK
+EditAction 1473963324772 SudokuVerifier.java 4634 14 41 0

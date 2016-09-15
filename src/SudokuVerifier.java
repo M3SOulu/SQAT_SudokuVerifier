@@ -134,8 +134,6 @@ public class SudokuVerifier {
 		int[] globalColumnNums = new int[9];
 		int index = -1;
 		
-		System.out.println("column num == " + columnNum);
-		
 		for (int i = 0; i < 9; i++) {
 			index = (SUBGRID_AND_ROW_SIZE * i) + columnNum;
 			globalColumnNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
