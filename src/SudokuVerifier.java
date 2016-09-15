@@ -27,6 +27,14 @@ public class SudokuVerifier {
 		
 		//error = verifyGlobalRow(candidateSolution);
 		
+		error = verifyCellValues(candidateSolution);
+		if (error)
+			return error;
+		
+		error = verifyGlobalRow(candidateSolution);
+		if (error)
+			return error;
+		
 		return error;
 	}
 	
