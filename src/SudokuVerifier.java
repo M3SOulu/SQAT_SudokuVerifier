@@ -42,6 +42,10 @@ public class SudokuVerifier {
 		return checkGlobalColumn(candidateSolution);
 	}
 	
+	public int verifyCells(String candidateSolution) {
+		return checkCells();
+	}
+	
 	private int checkGlobalRow(String candidateSolution) {
 		int[] testSet = null;
 		
@@ -83,6 +87,26 @@ public class SudokuVerifier {
 		}
 		
 		return NO_ERROR;
+	}
+	
+	private int checkCells(String candidateSolution) {
+		int[] testSet = null;
+		
+		getCellValues(candidateSolution);
+	}
+	
+	private int[] getCellValues(String candidateSolution) {
+		int[] cellValues = new int[GLOBAL_GRID_SIZE];
+		
+		if () {
+			
+		}
+		
+		for (int i = 0; i < cellValues.length; i++) {
+			cellValues[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(i)));
+		}
+		
+		return 
 	}
 	
 	/* subgrid nums

@@ -284,3 +284,16 @@ UnitTestSessionAction 1473963256095 SudokuVerifierTest.rule4CorrectForCorrectSud
 UnitTestCaseAction 1473963286457 SudokuVerifierTest.java OK
 UnitTestSessionAction 1473963286458 SudokuVerifierTest.rule4CatchesError OK
 EditAction 1473963324772 SudokuVerifier.java 4634 14 41 0
+UnitTestCaseAction 1473963330174 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473963330175 SudokuVerifierTest.rule4CatchesError OK
+UnitTestCaseAction 1473963341932 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473963341935 SudokuVerifierTest.java FAIL
+RefactoringAction 1473963405027 SudokuVerifier.java ADD int verify FIELD
+RefactoringAction 1473963406539 SudokuVerifier.java RENAME verify=>int verifyCells FIELD
+RefactoringAction 1473963408054 SudokuVerifier.java RENAME verifyCells=>int verifyCells() METHOD
+RefactoringAction 1473963417089 SudokuVerifier.java RENAME verifyCells()=>int verifyCells(String) METHOD
+RefactoringAction 1473963445644 SudokuVerifier.java ADD int checkCells() METHOD
+RefactoringAction 1473963452655 SudokuVerifier.java RENAME checkCells()=>int checkCells(String) METHOD
+RefactoringAction 1473963536817 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1473963542828 SudokuVerifier.java RENAME getCellValues=>int METHOD
+EditAction 1473963739085 SudokuVerifier.java 5119 17 44 0
