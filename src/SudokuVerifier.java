@@ -12,7 +12,7 @@ public class SudokuVerifier {
 	private final int SUBGRID_AND_ROW_SIZE = 9;
 
 	public final int NO_ERROR = 0;
-	
+	public final int DIGIT_ERROR = -1;
 	public final int SUBGRID_ERROR = -2;
 	public final int GLOBAL_ROW_ERROR = -3;
 	public final int GLOBAL_COLUMN_ERROR = -4;
@@ -43,7 +43,7 @@ public class SudokuVerifier {
 	}
 	
 	public int verifyCells(String candidateSolution) {
-		return checkCells();
+		return checkCells(candidateSolution);
 	}
 	
 	private int checkGlobalRow(String candidateSolution) {
@@ -94,7 +94,10 @@ public class SudokuVerifier {
 		
 		testSet = getCellValues(candidateSolution);
 		
-		withinRange(testSet, 1, 9);
+		if (!withinRange(testSet, 1, 9))
+			return DIGIT_ERROR;
+		
+		return NO_ERROR;
 	}
 	
 	private int[] getCellValues(String candidateSolution) {

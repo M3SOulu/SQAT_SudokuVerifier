@@ -317,3 +317,19 @@ RefactoringAction 1473963818388 SudokuVerifier.java RENAME withinRange(int)=>boo
 RefactoringAction 1473963839938 SudokuVerifier.java RENAME withinRange()=>boolean withinRange(int METHOD
 RefactoringAction 1473963853007 SudokuVerifier.java RENAME withinRange(int=>boolean withinRange(int METHOD
 EditAction 1473963901384 SudokuVerifier.java 5363 18 50 0
+CompilationAction 1473963901593 SudokuVerifier.java
+CompilationAction 1473963901594 SudokuVerifier.java
+RefactoringAction 1473963965273 SudokuVerifier.java ADD int DIGIT_ERRRO FIELD
+RefactoringAction 1473963966784 SudokuVerifier.java RENAME DIGIT_ERRRO=>int DIGIT_ERROR FIELD
+CompilationAction 1473963968400 SudokuVerifier.java
+CompilationAction 1473963968401 SudokuVerifier.java
+CompilationAction 1473963968573 SudokuVerifier.java
+CompilationAction 1473963968573 SudokuVerifier.java
+CompilationAction 1473963968573 SudokuVerifier.java
+CompilationAction 1473963968574 SudokuVerifier.java
+CompilationAction 1473963993335 SudokuVerifier.java
+CompilationAction 1473963993512 SudokuVerifier.java
+CompilationAction 1473963993512 SudokuVerifier.java
+CompilationAction 1473964017875 SudokuVerifier.java
+CompilationAction 1473964018038 SudokuVerifier.java
+EditAction 1473964041581 SudokuVerifier.java 5464 18 51 0
