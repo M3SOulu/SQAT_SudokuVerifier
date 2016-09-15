@@ -1,3 +1,4 @@
+import java.util.Iterator;
 
 public class SudokuVerifier {
 
@@ -45,6 +46,9 @@ public class SudokuVerifier {
 	}
 
 	public boolean noRepeatInColumns(String str) {
+		for (int i = 0; i < 9; i++) {
+			String column = generateColumn(i, str);
+		}
 		return false;
 	}
 
@@ -74,5 +78,9 @@ public class SudokuVerifier {
 	public String generateRow(int i, String str){
 		String row = str.substring(i*9, i*9+9);
 		return row;
+	}
+
+	public String generateColumn(int i, String str){
+		
 	}
 }
