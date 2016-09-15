@@ -39,6 +39,10 @@ public class SudokuVerifier {
 		if (0 != error)
 			return error;
 		
+		error = verifyCellValues(candidateSolution);
+		if (0 != error)
+			return error;
+		
 		return NO_ERROR;
 	}
 	
