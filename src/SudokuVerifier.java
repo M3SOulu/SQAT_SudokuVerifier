@@ -53,7 +53,12 @@ public class SudokuVerifier {
 	}
 	
 	public boolean doesRepeatInString(String str){
-		
+		// TODO: Could we improve this?
+		for(int i=0; i<str.length(); i++){
+			for(int j=0; j<str.length(); j++){
+				
+			}
+		}
 		return false;
 	}
 }
