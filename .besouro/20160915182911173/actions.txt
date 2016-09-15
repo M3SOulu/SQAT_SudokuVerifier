@@ -147,3 +147,12 @@ EditAction 1473957697065 SudokuVerifierTest.java 1505 5 8 3
 EditAction 1473957709740 SudokuVerifierTest.java 1503 5 8 3
 CompilationAction 1473957709922 SudokuVerifierTest.java
 EditAction 1473957725895 SudokuVerifierTest.java 1503 5 8 3
+UnitTestCaseAction 1473957732281 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473957732281 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473957750672 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473957750672 SudokuVerifierTest.rule2CorrectForCorrectSudoku FAIL
+UnitTestCaseAction 1473957761509 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473957761510 SudokuVerifierTest.rule3CorrectForCorrectSudoku OK
+UnitTestCaseAction 1473957772466 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473957772467 SudokuVerifierTest.rule2CorrectForCorrectSudoku FAIL
+EditAction 1473957837242 SudokuVerifier.java 3651 11 32 0

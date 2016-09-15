@@ -38,7 +38,6 @@ public class SudokuVerifier {
 	}
 	
 	private int checkGlobalRow(String candidateSolution) {
-		//boolean debug = false;
 		int[] testSet = null;
 		
 		// 9 row amount
