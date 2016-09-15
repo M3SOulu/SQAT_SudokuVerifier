@@ -28,14 +28,18 @@ public class SudokuVerifier {
 		//error = verifyGlobalRow(candidateSolution);
 		
 		error = verifyCellValues(candidateSolution);
-		if (error)
+		if (0 != error)
 			return error;
 		
 		error = verifyGlobalRow(candidateSolution);
-		if (error)
+		if (0 != error)
 			return error;
 		
-		return error;
+		error = verifyGlobalColumn(candidateSolution);
+		if (0 != error)
+			return error;
+		
+		return NO_ERROR;
 	}
 	
 	public int verifySubGrid(String candidateSolution) {
