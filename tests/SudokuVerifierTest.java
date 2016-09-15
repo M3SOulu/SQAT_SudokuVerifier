@@ -155,7 +155,7 @@ public class SudokuVerifierTest {
 		
 		String test = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 		String expected = "198765432";
-		assertEquals(expected, test);
+		assertEquals(expected, sudoku.generateColumn(0, test));
 	}
 
 	@Test
@@ -164,7 +164,7 @@ public class SudokuVerifierTest {
 		
 		String test = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 		String expected = "654321987";
-		assertEquals(expected, test);
+		assertEquals(expected, sudoku.generateColumn(5, test));
 	}
 
 	@Test
