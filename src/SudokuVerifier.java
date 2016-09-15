@@ -17,7 +17,7 @@ public class SudokuVerifier {
 		if(str.length() != 81) // Check length
 			return false;
 		
-		for (int i=0; i<81; i++){
+		for (int i=0; i<81; i++){ // Check every digit as char
 			char digit = str.charAt(i);
 			if(!(0<=digit && digit<=9))
 				return false;
