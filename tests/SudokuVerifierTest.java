@@ -35,7 +35,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void rule1CatchesInvalidNumber() {
+	public void rule1CatchesInvalidNumberZero() {
 		String correctSudoku = "4173698256321589479587243168254371697915864323469127582896435715730291684164875293";
 		assertEquals("Failed when checking cell nums 1..9 for correct sudoku",
 				verifier.DIGIT_ERROR, verifier.verifyCellValues(correctSudoku));

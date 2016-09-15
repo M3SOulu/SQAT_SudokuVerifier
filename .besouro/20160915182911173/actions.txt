@@ -363,3 +363,6 @@ RefactoringAction 1473964420199 SudokuVerifierTest.java REMOVE rule2CorrectForCo
 RefactoringAction 1473964427210 SudokuVerifierTest.java ADD void rule1CatchesInvalidCharacter()/2 METHOD
 RefactoringAction 1473964433219 SudokuVerifierTest.java RENAME rule1CatchesInvalidCharacter()/2=>void rule1CatchesInvalidNumber() METHOD
 EditAction 1473964438074 SudokuVerifierTest.java 3597 11 20 9
+UnitTestCaseAction 1473964452589 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473964452589 SudokuVerifierTest.java FAIL
+EditAction 1473964477013 SudokuVerifierTest.java 3601 11 20 9
