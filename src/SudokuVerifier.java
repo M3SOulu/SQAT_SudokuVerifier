@@ -15,7 +15,6 @@ public class SudokuVerifier {
 	}
 	public boolean isDigitsOnly(String str) {
 		if(str.length() != 81){ // Check length
-			System.out.println("Lenght is not 81");
 			return false;
 		}
 		for (int i=0; i<81; i++){ // Check every digit as char.
