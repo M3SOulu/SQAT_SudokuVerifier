@@ -113,7 +113,6 @@ public class SudokuVerifier {
 				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
 				column_offset++;
 				resultIndex++;
-				row_offset++;
 			}
 		}
 		
