@@ -24,7 +24,7 @@ public class SudokuVerifierTest {
 	public void rule2CorrectForCorrectSudoku() {
 		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
 		assertEquals("Failed when checking subgrid nums 1..9 for correct sudoku",
-				verifier.NO_ERROR, verifier.verifySubgrid(correctSudoku));
+				verifier.NO_ERROR, verifier.verifySubGrid(correctSudoku));
 	}
 	
 	@Test
