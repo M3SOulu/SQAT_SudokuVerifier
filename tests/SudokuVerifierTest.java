@@ -64,6 +64,5 @@ public class SudokuVerifierTest {
 		String expected = "123912891";
 		
 		assertEquals("The grid is not as expected", expected, grid);
-		
 	}
 }
