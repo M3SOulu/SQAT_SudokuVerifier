@@ -124,7 +124,7 @@ public class SudokuVerifier {
 	}
 	
 	private int subgridStartIndex(int globalRowIndex, int subgridColumnNo, int subgridNum) {
-		return globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid 
+		return ((3 * SUBGRID_AND_ROW_SIZE) * subgridNum) + globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid 
 	}
 	
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
