@@ -168,4 +168,3 @@ public class SudokuVerifierTest {
 		assertEquals(expected, test);
 	}
 }
-}
