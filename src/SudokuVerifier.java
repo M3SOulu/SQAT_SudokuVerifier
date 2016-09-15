@@ -109,9 +109,8 @@ public class SudokuVerifier {
 			int column_offset = 0;
 			int row_offset = (SUBGRID_AND_ROW_SIZE * i);
 			while (column_offset < 3) {
-				//getRow subgridStartIndex + (SUBGRID_AND_ROW_SIZE * i) + k
 				int = index = subgridStartIndex +  + column_offset;
-				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt()));
+				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
 				row_offset++;
 			}
 		}
