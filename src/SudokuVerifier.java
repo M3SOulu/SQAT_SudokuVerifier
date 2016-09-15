@@ -19,7 +19,7 @@ public class SudokuVerifier {
 		// returns 0 if the candidate solution is correct
 		int error = 0;
 		
-		
+
 		//check whole string length?
 		
 		//error = verifySubGrid(candidateSolution);
