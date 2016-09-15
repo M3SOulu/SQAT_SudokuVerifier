@@ -170,3 +170,4 @@ RefactoringAction 1473943628777 SudokuVerifier.java RENAME doesRepeatInString()=
 EditAction 1473943639752 SudokuVerifier.java 1429 7 15 0
 EditAction 1473943702041 SudokuVerifier.java 1549 7 16 0
 EditAction 1473943721446 SudokuVerifier.java 1595 7 16 0
+EditAction 1473943763349 SudokuVerifier.java 1614 7 14 0
