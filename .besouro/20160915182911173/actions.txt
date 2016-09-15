@@ -336,3 +336,4 @@ EditAction 1473964041581 SudokuVerifier.java 5464 18 51 0
 RefactoringAction 1473964072732 SudokuVerifierTest.java ADD void rule1CorrectForCorrectSudoku() METHOD
 RefactoringAction 1473964116478 SudokuVerifier.java RENAME verifyCells(String)=>int verifyCellValues(String) METHOD
 EditAction 1473964117341 SudokuVerifier.java 5469 18 51 0
+EditAction 1473964125523 SudokuVerifierTest.java 2981 9 16 7
