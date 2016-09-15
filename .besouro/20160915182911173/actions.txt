@@ -354,3 +354,12 @@ EditAction 1473964378536 SudokuVerifierTest.java 3286 10 18 8
 UnitTestCaseAction 1473964383304 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473964383305 SudokuVerifierTest.rule1CatchesInvalidCharacter FAIL
 EditAction 1473964393733 SudokuVerifierTest.java 3289 10 18 8
+UnitTestCaseAction 1473964396357 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473964396358 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473964400274 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473964400275 SudokuVerifierTest.rule2CorrectForCorrectSudoku OK
+RefactoringAction 1473964412691 SudokuVerifierTest.java ADD void rule2CorrectForCorrectSudoku()/2 METHOD
+RefactoringAction 1473964420199 SudokuVerifierTest.java REMOVE rule2CorrectForCorrectSudoku()/2 METHOD
+RefactoringAction 1473964427210 SudokuVerifierTest.java ADD void rule1CatchesInvalidCharacter()/2 METHOD
+RefactoringAction 1473964433219 SudokuVerifierTest.java RENAME rule1CatchesInvalidCharacter()/2=>void rule1CatchesInvalidNumber() METHOD
+EditAction 1473964438074 SudokuVerifierTest.java 3597 11 20 9
