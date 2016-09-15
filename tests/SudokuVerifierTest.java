@@ -93,6 +93,6 @@ public class SudokuVerifierTest {
 		
 		String test = "123456789";
 		
-		assertTrue("Test could not find the repeating char", sudoku.doesRepeatInString(test));
+		assertTrue(sudoku.doesRepeatInString(test));
 	}
 }
