@@ -97,10 +97,10 @@ public class SudokuVerifier {
 		int resultIndex = 0;
 		
 		// select subgrid starting global row
-		int globalRow = subgridNum / 3; 
+		int subgridRow = subgridNum / 3; 
 		int subgridColumn = subgridNum % SUBGRID_AMOUNT_ON_ROW;
-		int globalRowIndex = globalRowIndex(globalRow);
-		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn, globalRow);
+		int globalRowIndex = globalRowIndex(subgridRow * SUBGRID_AND_ROW_SIZE));
+		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn);
 		
 		// select 3 subsequent cells from 3 subsequent global rows
 		for (int i = 0; i < 3; i++) {
@@ -123,9 +123,8 @@ public class SudokuVerifier {
 		return globalRowNo * SUBGRID_AND_ROW_SIZE;
 	}
 	
-	private int subgridStartIndex(int globalRowIndex, int subgridColumnNo, int subgridNum) {
-		//return ((3 * SUBGRID_AND_ROW_SIZE) * subgridNum) + globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid
-		//return ((3 * SUBGRID_AND_ROW_SIZE) * subgridNum);
+	private int subgridStartIndex(int globalRowIndex, int subgridColumnNo) {
+		return globalRowIndex + (3 * subgridColumnNo); // 3 == cells in subgrid
 	}
 	
 	private int[] getGlobalRow(String candidateSolution, int rowNum) {
