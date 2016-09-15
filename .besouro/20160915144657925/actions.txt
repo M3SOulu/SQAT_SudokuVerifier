@@ -137,3 +137,5 @@ CompilationAction 1473943319365 SudokuVerifier.java
 EditAction 1473943330459 SudokuVerifier.java 1317 6 14 0
 EditAction 1473943337513 SudokuVerifier.java 1316 6 14 0
 EditAction 1473943353622 SudokuVerifier.java 1357 6 14 0
+RefactoringAction 1473943381275 SudokuVerifierTest.java ADD void testGenerateGrid() METHOD
+EditAction 1473943417038 SudokuVerifierTest.java 1858 6 15 4
