@@ -22,6 +22,7 @@ public class SudokuVerifier {
 			if(!(0<=digit && digit<=9)) // If not between 0 and 9 return false.
 				return false;
 		}
+		System.out.println("sad");
 		return true;
 	}
 

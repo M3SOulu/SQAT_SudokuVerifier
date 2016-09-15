@@ -52,3 +52,8 @@ UnitTestSessionAction 1473941506329 SudokuVerifierTest.java FAIL
 UnitTestCaseAction 1473941531925 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473941531925 SudokuVerifierTest.java FAIL
 EditAction 1473941732083 SudokuVerifierTest.java 1648 5 15 5
+UnitTestCaseAction 1473941734345 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941734346 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473941739150 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941739151 SudokuVerifierTest.java FAIL
+EditAction 1473941826296 SudokuVerifier.java 866 5 8 0
