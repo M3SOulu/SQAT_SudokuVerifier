@@ -351,3 +351,6 @@ EditAction 1473964342286 SudokuVerifier.java 5652 18 51 0
 EditAction 1473964351087 SudokuVerifier.java 5671 18 51 0
 RefactoringAction 1473964372906 SudokuVerifierTest.java RENAME rule1CatchesError()=>void rule1CatchesInvalid() METHOD
 EditAction 1473964378536 SudokuVerifierTest.java 3286 10 18 8
+UnitTestCaseAction 1473964383304 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473964383305 SudokuVerifierTest.rule1CatchesInvalidCharacter FAIL
+EditAction 1473964393733 SudokuVerifierTest.java 3289 10 18 8
