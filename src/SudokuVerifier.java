@@ -36,6 +36,10 @@ public class SudokuVerifier {
 		return checkGlobalRow(candidateSolution);
 	}
 	
+	public int verifyGlobalColumn(String candidateSolution) {
+		return checkGlobalColumn(candidateSolution);
+	}
+	
 	private int checkGlobalRow(String candidateSolution) {
 		int[] testSet = null;
 		
