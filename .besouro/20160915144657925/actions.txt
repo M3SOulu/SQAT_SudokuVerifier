@@ -223,3 +223,7 @@ RefactoringAction 1473944232859 SudokuVerifier.java RENAME generateRow(int)=>Str
 EditAction 1473944272694 SudokuVerifier.java 1902 8 18 0
 CompilationAction 1473944272947 SudokuVerifier.java
 EditAction 1473944281489 SudokuVerifier.java 1916 8 19 0
+RefactoringAction 1473944298701 SudokuVerifierTest.java ADD void testGenerate FIELD
+RefactoringAction 1473944300214 SudokuVerifierTest.java RENAME testGenerate=>void testGenerateRow FIELD
+RefactoringAction 1473944304226 SudokuVerifierTest.java RENAME testGenerateRow=>void testGenerateRow() METHOD
+EditAction 1473944332390 SudokuVerifierTest.java 3499 12 37 10
