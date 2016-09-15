@@ -58,6 +58,13 @@ public class SudokuVerifierTest {
 				verifier.GLOBAL_ROW_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
 	}
 	
+	@Test
+	public void rule4CorrectForCorrectSudoku() {
+		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		assertEquals("Failed when checking global row for correct sudoku",
+				verifier.NO_ERROR, verifier.verifyGlobalColumn(correctSudoku));
+	}
+	
 	//verifier.SUBGRID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
 
 }
