@@ -147,6 +147,6 @@ public class SudokuVerifierTest {
 		
 		String test = "417469825632158947958724316825437169791586432346912758289643571573291684164875293";
 		
-		assertTrue(sudoku.noRepeatInRows(test));
+		assertFalse(sudoku.noRepeatInRows(test));
 	}
 }
