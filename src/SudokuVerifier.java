@@ -41,7 +41,8 @@ public class SudokuVerifier {
 		//boolean debug = false;
 		int[] testSet = null;
 		
-		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
+		// 9 row amount
+		for (int i = 0; i < 9; i = i + 9) {
 			// next 9 numbers to test set
 			testSet = getGlobalRow(candidateSolution, i);
 			
