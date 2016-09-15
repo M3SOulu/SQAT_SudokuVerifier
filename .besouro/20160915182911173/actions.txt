@@ -385,3 +385,6 @@ EditAction 1473964905605 SudokuVerifierTest.java 4076 12 23 11
 EditAction 1473964924398 SudokuVerifierTest.java 4076 12 23 11
 EditAction 1473964936628 SudokuVerifierTest.java 4076 12 23 11
 EditAction 1473964960551 SudokuVerifierTest.java 4084 12 23 11
+RefactoringAction 1473964968621 SudokuVerifierTest.java RENAME invalidVerify()=>void incorerctVerify() METHOD
+RefactoringAction 1473964971631 SudokuVerifierTest.java RENAME incorerctVerify()=>void incorrectVerify() METHOD
+EditAction 1473965043229 SudokuVerifierTest.java 4078 12 23 11
