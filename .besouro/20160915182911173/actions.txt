@@ -172,3 +172,5 @@ EditAction 1473958370973 SudokuVerifier.java 3801 11 32 0
 UnitTestCaseAction 1473958380238 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473958380239 SudokuVerifierTest.rule2CorrectForCorrectSudoku FAIL
 EditAction 1473958671693 SudokuVerifier.java 3801 11 32 0
+RefactoringAction 1473958894358 SudokuVerifier.java RENAME subgridStartIndex(int, int)=>int subgridStartIndex(int, int, int) METHOD
+EditAction 1473958895526 SudokuVerifier.java 3829 11 32 0
