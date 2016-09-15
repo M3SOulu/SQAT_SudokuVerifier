@@ -269,3 +269,8 @@ RefactoringAction 1473962871739 SudokuVerifierTest.java ADD void rule4CatchesErr
 EditAction 1473962916607 SudokuVerifierTest.java 2545 8 14 6
 EditAction 1473962924394 SudokuVerifierTest.java 2548 8 14 6
 EditAction 1473962931242 SudokuVerifierTest.java 2551 8 14 6
+UnitTestCaseAction 1473962933782 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473962933783 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473962951576 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473962951577 SudokuVerifierTest.rule4CatchesError OK
+EditAction 1473963066746 SudokuVerifierTest.java 2671 8 14 6
