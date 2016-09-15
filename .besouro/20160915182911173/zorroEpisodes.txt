@@ -12,3 +12,5 @@
 1473964400275 test-first 3 247 true
 1473964873029 test-first 3 472 true
 1473964882085 regression 1 9 true
+1473965148541 test-addition 1 266 true
+1473965152983 regression 1 4 true
