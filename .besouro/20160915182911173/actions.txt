@@ -241,3 +241,14 @@ RefactoringAction 1473962495950 SudokuVerifier.java ADD void getGlobalColumn() M
 RefactoringAction 1473962513039 SudokuVerifier.java RENAME getGlobalColumn()=>int METHOD
 RefactoringAction 1473962595223 SudokuVerifier.java RENAME getGlobalColumn(String)=>int METHOD
 EditAction 1473962718730 SudokuVerifier.java 4571 14 37 0
+CompilationAction 1473962718951 SudokuVerifier.java
+CompilationAction 1473962718952 SudokuVerifier.java
+CompilationAction 1473962718952 SudokuVerifier.java
+CompilationAction 1473962718953 SudokuVerifier.java
+CompilationAction 1473962729674 SudokuVerifier.java
+CompilationAction 1473962729676 SudokuVerifier.java
+CompilationAction 1473962729676 SudokuVerifier.java
+CompilationAction 1473962729826 SudokuVerifier.java
+CompilationAction 1473962729826 SudokuVerifier.java
+CompilationAction 1473962729827 SudokuVerifier.java
+EditAction 1473962735597 SudokuVerifier.java 4588 14 41 0

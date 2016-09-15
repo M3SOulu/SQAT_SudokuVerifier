@@ -89,10 +89,10 @@ public class SudokuVerifier {
 		
 		for (int i = 0; i < 9; i++) {
 			index = (SUBGRID_AND_ROW_SIZE * i) + columnNum;
-			subgridCellValues[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
+			globalColumnNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
 		}
 		
-		return
+		return globalColumnNums;
 	}
 	
 	/* subgrid nums
