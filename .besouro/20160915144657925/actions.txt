@@ -22,3 +22,11 @@ EditAction 1473941161804 SudokuVerifier.java 838 5 7 0
 EditAction 1473941163734 SudokuVerifier.java 839 5 7 0
 EditAction 1473941168503 SudokuVerifier.java 842 5 7 0
 EditAction 1473941186597 SudokuVerifier.java 842 5 7 0
+RefactoringAction 1473941203502 SudokuVerifierTest.java ADD void testIsDigits FIELD
+RefactoringAction 1473941206519 SudokuVerifierTest.java RENAME testIsDigits=>void testIsDigitsOnly FIELD
+RefactoringAction 1473941210535 SudokuVerifierTest.java RENAME testIsDigitsOnly=>void testIsDigitsOnlyWithTrue FIELD
+RefactoringAction 1473941218559 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithTrue=>void testIsDigitsOnlyWithTru FIELD
+RefactoringAction 1473941219575 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithTru=>void testIsDigitsOnlyWith FIELD
+RefactoringAction 1473941225602 SudokuVerifierTest.java RENAME testIsDigitsOnlyWith=>void testIsDigitsOnlyWithShorterString FIELD
+RefactoringAction 1473941227617 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithShorterString=>void testIsDigitsOnlyWithShorterString() METHOD
+EditAction 1473941324152 SudokuVerifier.java 838 5 7 0

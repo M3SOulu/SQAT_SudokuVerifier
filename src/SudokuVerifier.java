@@ -13,7 +13,7 @@ public class SudokuVerifier {
 		else		// returns 0 if the candidate solution is correct.
 			return 0;
 	}
-	private boolean isDigitsOnly(String str) {
+	public boolean isDigitsOnly(String str) {
 		if(str.length() != 81) // Check length
 			return false;
 		
@@ -25,15 +25,15 @@ public class SudokuVerifier {
 		return false;
 	}
 
-	private boolean noRepeatInSubGrid(String str) {
+	public boolean noRepeatInSubGrid(String str) {
 		return false;
 	}
 	
-	private boolean noRepeatInRows(String str) {
+	public boolean noRepeatInRows(String str) {
 		return false;
 	}
 
-	private boolean noRepeatInColumns(String str) {
+	public boolean noRepeatInColumns(String str) {
 		return false;
 	}
 
