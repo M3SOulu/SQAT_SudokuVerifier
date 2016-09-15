@@ -27,12 +27,7 @@ public class SudokuVerifier {
 
 	public boolean noRepeatInSubGrid(String str) {
 		for(int gridNum=0; gridNum<9; gridNum++){ // Check each grid.
-			int firstMemberIndex = (27*(gridNum/3)) + (3*(gridNum%3));
-			String gridRow1 = str.substring(firstMemberIndex,firstMemberIndex+3);
-			String gridRow2 = str.substring(firstMemberIndex+9,firstMemberIndex+9+3);
-			String gridRow3 = str.substring(firstMemberIndex+18,firstMemberIndex+18+3);
 			
-			String grid = gridRow1 + gridRow2 + gridRow3;
 		}
 		return false;
 	}
@@ -44,7 +39,17 @@ public class SudokuVerifier {
 	public boolean noRepeatInColumns(String str) {
 		return false;
 	}
-
+	
+	public String calculateGrid(int i, String str){
+			int firstMemberIndex = (27*(i/3)) + (3*(i%3));
+			String gridRow1 = str.substring(firstMemberIndex,firstMemberIndex+3);
+			String gridRow2 = str.substring(firstMemberIndex+9,firstMemberIndex+9+3);
+			String gridRow3 = str.substring(firstMemberIndex+18,firstMemberIndex+18+3);
+			
+			String grid = gridRow1 + gridRow2 + gridRow3;
+			
+			return grid;
+	}
 	
 
 

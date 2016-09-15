@@ -122,3 +122,16 @@ CompilationAction 1473943063566 SudokuVerifier.java
 EditAction 1473943069258 SudokuVerifier.java 1147 5 8 0
 EditAction 1473943122269 SudokuVerifier.java 1199 5 8 0
 EditAction 1473943151198 SudokuVerifier.java 1252 5 8 0
+RefactoringAction 1473943274377 SudokuVerifier.java ADD String calculate FIELD
+RefactoringAction 1473943282387 SudokuVerifier.java RENAME calculate=>String calculateGrid FIELD
+RefactoringAction 1473943284911 SudokuVerifier.java RENAME calculateGrid=>String calculateGrid(int) METHOD
+RefactoringAction 1473943292440 SudokuVerifier.java REMOVE calculateGrid(int) METHOD
+RefactoringAction 1473943292441 SudokuVerifier.java REMOVE noRepeatInRows(String) METHOD
+RefactoringAction 1473943292442 SudokuVerifier.java REMOVE noRepeatInColumns(String) METHOD
+RefactoringAction 1473943293960 SudokuVerifier.java ADD boolean noRepeatInRows(String) METHOD
+RefactoringAction 1473943293961 SudokuVerifier.java ADD boolean noRepeatInColumns(String) METHOD
+RefactoringAction 1473943293962 SudokuVerifier.java ADD String calculateGrid(int) METHOD
+CompilationAction 1473943306380 SudokuVerifier.java
+CompilationAction 1473943319211 SudokuVerifier.java
+CompilationAction 1473943319365 SudokuVerifier.java
+EditAction 1473943330459 SudokuVerifier.java 1317 6 14 0
