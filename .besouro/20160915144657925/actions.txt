@@ -207,3 +207,8 @@ RefactoringAction 1473944074863 SudokuVerifierTest.java RENAME testNoRepeatInSub
 RefactoringAction 1473944076874 SudokuVerifierTest.java RENAME testNoRepeatInSubGridsWithF=>void testNoRepeatInSubGridsWithCorrect FIELD
 RefactoringAction 1473944078386 SudokuVerifierTest.java RENAME testNoRepeatInSubGridsWithCorrect=>void testNoRepeatInSubGridsWithCorrect() METHOD
 EditAction 1473944127888 SudokuVerifierTest.java 3042 10 32 9
+UnitTestCaseAction 1473944132053 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944132053 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944141092 SudokuVerifierTest.java ADD void testNoRepeatInSubGridsWithCorrect()/2 METHOD
+RefactoringAction 1473944145105 SudokuVerifierTest.java RENAME testNoRepeatInSubGridsWithCorrect()/2=>void testNoRepeatInSubGridsWithFalse() METHOD
+EditAction 1473944145436 SudokuVerifierTest.java 3303 11 35 10
