@@ -86,4 +86,13 @@ public class SudokuVerifierTest {
 		
 		assertTrue("Test could not find the repeating char", sudoku.doesRepeatInString(test));
 	}
+
+	@Test
+	public void testDoesRepeatInStringWithRepeating(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		String test = "123456719";
+		
+		assertTrue("Test could not find the repeating char", sudoku.doesRepeatInString(test));
+	}
 }
