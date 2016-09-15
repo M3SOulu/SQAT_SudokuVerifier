@@ -303,3 +303,6 @@ CompilationAction 1473944797132 SudokuVerifier.java
 EditAction 1473944798304 SudokuVerifier.java 2296 9 22 0
 CompilationAction 1473944799193 SudokuVerifier.java
 EditAction 1473944806689 SudokuVerifier.java 2313 9 23 0
+RefactoringAction 1473944821029 SudokuVerifierTest.java ADD void testNoRepeatInRowsWithInvalid()/2 METHOD
+RefactoringAction 1473944828543 SudokuVerifierTest.java RENAME testNoRepeatInRowsWithInvalid()/2=>void testGenerateColumn() METHOD
+EditAction 1473944829143 SudokuVerifierTest.java 4576 16 50 15

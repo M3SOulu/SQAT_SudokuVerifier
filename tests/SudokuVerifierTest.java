@@ -149,4 +149,13 @@ public class SudokuVerifierTest {
 		
 		assertFalse(sudoku.noRepeatInRows(test));
 	}
+
+	@Test
+	public void testGenerateColumn0(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		String test = "417469825632158947958724316825437169791586432346912758289643571573291684164875293";
+		
+		assertFalse(sudoku.noRepeatInRows(test));
+	}
 }
