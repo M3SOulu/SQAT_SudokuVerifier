@@ -283,3 +283,5 @@ RefactoringAction 1473944640257 SudokuVerifier.java ADD import java.util.Iterato
 CompilationAction 1473944681235 SudokuVerifier.java
 RefactoringAction 1473944694445 SudokuVerifier.java ADD String generateColumn(int, String) METHOD
 EditAction 1473944697610 SudokuVerifier.java 2163 9 20 0
+CompilationAction 1473944697719 SudokuVerifier.java
+EditAction 1473944711188 SudokuVerifier.java 2182 9 21 0

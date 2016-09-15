@@ -81,6 +81,6 @@ public class SudokuVerifier {
 	}
 
 	public String generateColumn(int i, String str){
-		
+		String column = "";
 	}
 }
