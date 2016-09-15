@@ -144,3 +144,4 @@ UnitTestCaseAction 1473957564262 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473957564262 SudokuVerifierTest.java FAIL
 RefactoringAction 1473957670970 SudokuVerifierTest.java ADD void rule2CorrectForCorrectSudoku() METHOD
 EditAction 1473957697065 SudokuVerifierTest.java 1505 5 8 3
+EditAction 1473957709740 SudokuVerifierTest.java 1503 5 8 3
