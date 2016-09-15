@@ -183,3 +183,5 @@ RefactoringAction 1473943811908 SudokuVerifierTest.java RENAME test=>void testDo
 RefactoringAction 1473943814427 SudokuVerifierTest.java RENAME testDoesRepeatInStringWit=>void testDoesRepeatInStringWithRepeating FIELD
 RefactoringAction 1473943817941 SudokuVerifierTest.java RENAME testDoesRepeatInStringWithRepeating=>void testDoesRepeatInStringWithRepeating() METHOD
 EditAction 1473943857725 SudokuVerifierTest.java 2495 8 23 6
+CompilationAction 1473943857983 SudokuVerifierTest.java
+EditAction 1473943859222 SudokuVerifierTest.java 2496 8 25 6

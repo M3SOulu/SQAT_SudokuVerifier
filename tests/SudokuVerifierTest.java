@@ -82,6 +82,6 @@ public class SudokuVerifierTest {
 	public void testDoesRepeatInStringWithRepeating(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		
-		String test = "123456719"
+		String test = "123456719";
 	}
 }
