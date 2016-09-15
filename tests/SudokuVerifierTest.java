@@ -31,7 +31,7 @@ public class SudokuVerifierTest {
 	public void rule2CatchesError() {
 		String incorrectSudoku = "123456789912345678891234567789123456678912345567891234456782123345678912234567891";
 		assertEquals("Erratic subgrid was not found",
-				verifier.SUBGTID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
+				verifier.SUBGRID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
 	}
 	
 	@Test
