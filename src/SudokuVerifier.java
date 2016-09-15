@@ -55,7 +55,7 @@ public class SudokuVerifier {
 	private int checkSubGrid(String candidateSolution){
 		int[] testSet = null;
 		
-		for (int i = 0; i < GLOBAL_GRID_SIZE; i = i + 9) {
+		for (int i = 0; i < GLOBAL_GRID_SIZE; i++) {
 			// next 9 numbers to test set
 			testSet = getSubgrid(candidateSolution, i);
 
