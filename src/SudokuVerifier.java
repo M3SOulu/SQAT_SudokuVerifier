@@ -92,7 +92,12 @@ public class SudokuVerifier {
 	private int checkCells(String candidateSolution) {
 		int[] testSet = null;
 		
-		testSet = getCellValues(candidateSolution);
+		try {
+			testSet = getCellValues(candidateSolution);
+		} catch (NumberFormatException e) {
+			System.err.println("Char of sudoku string representation was not a number");
+			return DIGIT_ERROR;
+		}
 		
 		if (!withinRange(testSet, 1, 9))
 			return DIGIT_ERROR;
@@ -100,7 +105,7 @@ public class SudokuVerifier {
 		return NO_ERROR;
 	}
 	
-	private int[] getCellValues(String candidateSolution) {
+	private int[] getCellValues(String candidateSolution) throws NumberFormatException {
 		int[] cellValues = new int[GLOBAL_GRID_SIZE];
 		
 		for (int i = 0; i < cellValues.length; i++) {

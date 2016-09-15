@@ -345,3 +345,6 @@ RefactoringAction 1473964168345 SudokuVerifierTest.java RENAME rule1CorrectForCo
 RefactoringAction 1473964170857 SudokuVerifierTest.java RENAME rule1Cath()=>void rule1Ca() METHOD
 RefactoringAction 1473964174866 SudokuVerifierTest.java RENAME rule1Ca()=>void rule1CatchesError() METHOD
 EditAction 1473964196179 SudokuVerifierTest.java 3275 10 18 8
+UnitTestCaseAction 1473964209427 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473964209428 SudokuVerifierTest.rule1CatchesError FAIL
+EditAction 1473964342286 SudokuVerifier.java 5652 18 51 0
