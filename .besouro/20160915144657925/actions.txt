@@ -98,3 +98,6 @@ RefactoringAction 1473942530639 SudokuVerifierTest.java ADD void testIsDigitsOnl
 RefactoringAction 1473942530640 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithALetter() METHOD
 RefactoringAction 1473942530640 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithCorrect() METHOD
 EditAction 1473942535333 SudokuVerifierTest.java 1662 5 13 4
+UnitTestCaseAction 1473942537413 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473942537414 SudokuVerifierTest.java FAIL
+EditAction 1473942632040 SudokuVerifier.java 903 5 8 0
