@@ -315,3 +315,6 @@ UnitTestCaseAction 1473944881166 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473944881167 SudokuVerifierTest.java FAIL
 RefactoringAction 1473944890704 SudokuVerifierTest.java ADD void testGenerateColumn0()/2 METHOD
 EditAction 1473944890850 SudokuVerifierTest.java 4860 17 55 16
+CompilationAction 1473944891090 SudokuVerifierTest.java
+CompilationAction 1473944891090 SudokuVerifierTest.java
+EditAction 1473944893541 SudokuVerifierTest.java 4860 17 55 16
