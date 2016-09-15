@@ -345,3 +345,4 @@ RefactoringAction 1473945027630 SudokuVerifierTest.java RENAME testNoRepeatInCol
 EditAction 1473945030840 SudokuVerifierTest.java 5357 19 61 18
 EditAction 1473945035390 SudokuVerifierTest.java 5364 19 61 18
 EditAction 1473945051788 SudokuVerifierTest.java 5364 19 61 18
+EditAction 1473945057787 SudokuVerifierTest.java 5365 19 61 18
