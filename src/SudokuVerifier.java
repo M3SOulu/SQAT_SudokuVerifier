@@ -42,10 +42,9 @@ public class SudokuVerifier {
 		int[] testSet = null;
 		
 		// 9 row amount
-		for (int i = 0; i < 9; i = i´´) {
+		for (int i = 0; i < 9; i = i++) {
 			// next 9 numbers to test set
 			testSet = getGlobalRow(candidateSolution, i);
-			System.out.println("here");
 			if (!membersUnique(testSet))
 				return GLOBAL_ROW_ERROR;
 		}
