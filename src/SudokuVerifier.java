@@ -35,7 +35,7 @@ public class SudokuVerifier {
 		if (0 != error)
 			return error;
 		
-		return NO_ERROR;
+		return error;
 	}
 	
 	public int verifySubGrid(String candidateSolution) {
