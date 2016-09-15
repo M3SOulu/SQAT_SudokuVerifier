@@ -4,7 +4,7 @@ public class SudokuVerifier {
 	public int verify(String str) {
 		if(!isDigitsOnly(str))
 			return -1;
-		else if(!noRepeatInSubGrid(str))
+		else if(!noRepeatInSubGrids(str))
 			return -2;
 		else if(!noRepeatInRows(str))
 			return -3;
@@ -25,12 +25,13 @@ public class SudokuVerifier {
 		return true;
 	}
 
-	public boolean noRepeatInSubGrid(String str) {
+	public boolean noRepeatInSubGrids(String str) {
 		for(int gridNum=0; gridNum<9; gridNum++){ // Check each grid.
 			String grid = generateGrid(gridNum, str);
-			
+			if(doesRepeatInString(grid))
+					return false;
 		}
-		return false;
+		return true;
 	}
 	
 	public boolean noRepeatInRows(String str) {
