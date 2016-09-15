@@ -20,7 +20,6 @@ public class SudokuVerifier {
 		}
 		for (int i=0; i<81; i++){ // Check every digit as char.
 			int digit = str.charAt(i);
-			System.out.println(i + "'th char is not a digit and is " + digit);
 			if(!(49<=digit && digit<=57)) // If not between 0 and 9 return false.
 				return false;
 		}
