@@ -77,4 +77,11 @@ public class SudokuVerifierTest {
 		
 		assertEquals("The grid is not as expected", expected, grid);
 	}
+
+	@Test
+	public void testDoesRepeatInStringWithRepeating(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		String test = "123456719"
+	}
 }

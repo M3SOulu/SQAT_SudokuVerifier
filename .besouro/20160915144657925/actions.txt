@@ -171,3 +171,15 @@ EditAction 1473943639752 SudokuVerifier.java 1429 7 15 0
 EditAction 1473943702041 SudokuVerifier.java 1549 7 16 0
 EditAction 1473943721446 SudokuVerifier.java 1595 7 16 0
 EditAction 1473943763349 SudokuVerifier.java 1614 7 14 0
+CompilationAction 1473943763582 SudokuVerifier.java
+CompilationAction 1473943763583 SudokuVerifier.java
+CompilationAction 1473943775847 SudokuVerifier.java
+CompilationAction 1473943775996 SudokuVerifier.java
+CompilationAction 1473943775996 SudokuVerifier.java
+CompilationAction 1473943780794 SudokuVerifier.java
+CompilationAction 1473943780796 SudokuVerifier.java
+RefactoringAction 1473943802392 SudokuVerifierTest.java ADD void test FIELD
+RefactoringAction 1473943811908 SudokuVerifierTest.java RENAME test=>void testDoesRepeatInStringWit FIELD
+RefactoringAction 1473943814427 SudokuVerifierTest.java RENAME testDoesRepeatInStringWit=>void testDoesRepeatInStringWithRepeating FIELD
+RefactoringAction 1473943817941 SudokuVerifierTest.java RENAME testDoesRepeatInStringWithRepeating=>void testDoesRepeatInStringWithRepeating() METHOD
+EditAction 1473943857725 SudokuVerifierTest.java 2495 8 23 6
