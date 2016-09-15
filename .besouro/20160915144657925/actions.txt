@@ -169,3 +169,4 @@ RefactoringAction 1473943625765 SudokuVerifier.java RENAME doesRe=>boolean doesR
 RefactoringAction 1473943628777 SudokuVerifier.java RENAME doesRepeatInString()=>boolean doesRepeatInString(String) METHOD
 EditAction 1473943639752 SudokuVerifier.java 1429 7 15 0
 EditAction 1473943702041 SudokuVerifier.java 1549 7 16 0
+EditAction 1473943721446 SudokuVerifier.java 1595 7 16 0

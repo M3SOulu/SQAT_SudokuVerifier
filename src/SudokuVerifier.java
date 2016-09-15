@@ -54,7 +54,7 @@ public class SudokuVerifier {
 	
 	public boolean doesRepeatInString(String str){
 		// TODO: Could we improve this?
-		for(int i=0; i<str.length(); i++){
+		for(int i=0; i<str.length(); i++){ // Check for each charter if exist in string.
 			for(int j=0; j<str.length(); j++){
 				
 			}
