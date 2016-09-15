@@ -26,8 +26,8 @@ public class SudokuVerifier {
 	}
 
 	public boolean noRepeatInSubGrid(String str) {
-		for(int grid=0; grid<9; grid++){ // Check each grid.
-			
+		for(int gridNum=0; gridNum<9; gridNum++){ // Check each grid.
+			String subgrid = 
 		}
 		return false;
 	}
