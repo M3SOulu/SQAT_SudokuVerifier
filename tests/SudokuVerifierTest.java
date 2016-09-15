@@ -24,5 +24,23 @@ public class SudokuVerifierTest {
 		
 		assertEquals("Example sudoku string had to be incorrect",-2,sudoku.verify(example));
 	}
-
+	
+	@Test
+	public void testIsDigitsOnlyWithShorterString(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		String test = "21321321313";
+		
+		assertFalse(sudoku.isDigitsOnly(test));
+	}
+	
+	@Test
+	public void testIsDigitsOnlyWithLetters(){
+		SudokuVerifier sudoku = new SudokuVerifier();
+		
+		// Following string has an "A" in the middle.
+		String test = "417369825632158947958724316825437169791586432A46912758289643571573291684164875293";
+		
+		assertFalse(sudoku.isDigitsOnly(test));
+	}
 }

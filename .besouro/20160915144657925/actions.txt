@@ -30,3 +30,9 @@ RefactoringAction 1473941219575 SudokuVerifierTest.java RENAME testIsDigitsOnlyW
 RefactoringAction 1473941225602 SudokuVerifierTest.java RENAME testIsDigitsOnlyWith=>void testIsDigitsOnlyWithShorterString FIELD
 RefactoringAction 1473941227617 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithShorterString=>void testIsDigitsOnlyWithShorterString() METHOD
 EditAction 1473941324152 SudokuVerifier.java 838 5 7 0
+RefactoringAction 1473941342507 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithShorterString()/2 METHOD
+RefactoringAction 1473941346538 SudokuVerifierTest.java REMOVE testIsDigitsOnlyWithShorterString()/2 METHOD
+RefactoringAction 1473941357578 SudokuVerifierTest.java ADD void testIsDigitsOnlyWithShorterString()/2 METHOD
+RefactoringAction 1473941364106 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithShorterString()/2=>void testIsDigitsOnlyWithFalse() METHOD
+RefactoringAction 1473941370121 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithFalse()=>void testIsDigitsOnlyWithLetters() METHOD
+EditAction 1473941408120 SudokuVerifierTest.java 1395 4 12 4
