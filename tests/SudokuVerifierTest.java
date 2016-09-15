@@ -129,6 +129,6 @@ public class SudokuVerifierTest {
 		
 		String test = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
 		
-		assertEquals(sudoku.generateRow(0, test), "678912345");
+		assertEquals(sudoku.generateRow(5, test), "678912345");
 	}
 }
