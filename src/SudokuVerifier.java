@@ -55,7 +55,7 @@ public class SudokuVerifier {
 		return NO_ERROR;
 	}
 	
-	private int checkSubGrid(String candidateSolution){
+	private int checkSubGrid(String candidateSolution) {
 		int[] testSet = null;
 		
 		// 9 subgrid amount
@@ -67,6 +67,19 @@ public class SudokuVerifier {
 				return SUBGRID_ERROR;
 		}
 
+		return NO_ERROR;
+	}
+	
+	private int checkGlobalColumn(String candidateSolution) {
+		int[] testSet = null;
+		
+		for (int i = 0; i < 9; i++) {
+			testSet = getGlobalColumn(candidateSolution, i);
+			
+			if (!membersUnique(testSet))
+				return GLOBAL_COLUMN_ERROR;
+		}
+		
 		return NO_ERROR;
 	}
 	

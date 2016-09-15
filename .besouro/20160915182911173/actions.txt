@@ -229,3 +229,9 @@ RefactoringAction 1473962314430 SudokuVerifier.java ADD int verifyGlobal FIELD
 RefactoringAction 1473962317941 SudokuVerifier.java RENAME verifyGlobal=>int verifyGlobalColumn() METHOD
 RefactoringAction 1473962326487 SudokuVerifier.java RENAME verifyGlobalColumn()=>int verifyGlobalColumn(String) METHOD
 EditAction 1473962344659 SudokuVerifier.java 3974 12 34 0
+CompilationAction 1473962344881 SudokuVerifier.java
+RefactoringAction 1473962362115 SudokuVerifier.java ADD int check FIELD
+RefactoringAction 1473962366127 SudokuVerifier.java RENAME check=>int checkGlobalColumn FIELD
+RefactoringAction 1473962379140 SudokuVerifier.java RENAME checkGlobalColumn=>int checkGlobalColumn() METHOD
+RefactoringAction 1473962392195 SudokuVerifier.java RENAME checkGlobalColumn()=>int checkGlobalColumn(String) METHOD
+EditAction 1473962483139 SudokuVerifier.java 4244 13 37 0
