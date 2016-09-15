@@ -214,3 +214,10 @@ RefactoringAction 1473944145105 SudokuVerifierTest.java RENAME testNoRepeatInSub
 EditAction 1473944145436 SudokuVerifierTest.java 3303 11 35 10
 EditAction 1473944149825 SudokuVerifierTest.java 3303 11 35 10
 EditAction 1473944154537 SudokuVerifierTest.java 3304 11 35 10
+UnitTestCaseAction 1473944157665 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944157665 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944224309 SudokuVerifier.java ADD String generateRow FIELD
+RefactoringAction 1473944225822 SudokuVerifier.java RENAME generateRow=>String generateRow() METHOD
+RefactoringAction 1473944226835 SudokuVerifier.java RENAME generateRow()=>String generateRow(int) METHOD
+RefactoringAction 1473944232859 SudokuVerifier.java RENAME generateRow(int)=>String generateRow(int, String) METHOD
+EditAction 1473944272694 SudokuVerifier.java 1902 8 18 0
