@@ -250,3 +250,18 @@ EditAction 1473944424468 SudokuVerifierTest.java 3815 13 38 11
 CompilationAction 1473944424716 SudokuVerifierTest.java
 CompilationAction 1473944424717 SudokuVerifierTest.java
 EditAction 1473944430188 SudokuVerifierTest.java 3815 13 38 11
+CompilationAction 1473944430446 SudokuVerifierTest.java
+CompilationAction 1473944430446 SudokuVerifierTest.java
+CompilationAction 1473944440934 SudokuVerifierTest.java
+CompilationAction 1473944440936 SudokuVerifierTest.java
+UnitTestCaseAction 1473944442517 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944442517 SudokuVerifierTest.java FAIL
+CompilationAction 1473944494312 SudokuVerifier.java
+CompilationAction 1473944494312 SudokuVerifier.java
+CompilationAction 1473944494312 SudokuVerifier.java
+CompilationAction 1473944497099 SudokuVerifier.java
+CompilationAction 1473944497100 SudokuVerifier.java
+CompilationAction 1473944497101 SudokuVerifier.java
+RefactoringAction 1473944524689 SudokuVerifierTest.java ADD void testNoRepeatInRows FIELD
+RefactoringAction 1473944532204 SudokuVerifierTest.java RENAME testNoRepeatInRows=>void testNoRepeatInRowsWithCorrect() METHOD
+EditAction 1473944551989 SudokuVerifierTest.java 4025 14 41 12

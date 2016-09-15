@@ -37,9 +37,11 @@ public class SudokuVerifier {
 
 	public boolean noRepeatInRows(String str) {
 		for (int i = 0; i < 9; i++) {
-
+			String row = generateRow(i, str);
+			if(doesRepeatInString(row))
+				return false;
 		}
-		return false;
+		return true;
 	}
 
 	public boolean noRepeatInColumns(String str) {
