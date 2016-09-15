@@ -24,7 +24,7 @@ public class SudokuVerifier {
 		
 		//error = verifySubGrid(candidateSolution);
 		
-		error = verifyGlobalRow(candidateSolution);
+		//error = verifyGlobalRow(candidateSolution);
 		
 		return error;
 	}
