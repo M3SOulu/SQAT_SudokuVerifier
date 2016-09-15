@@ -375,3 +375,10 @@ EditAction 1473964705270 SudokuVerifier.java 5833 18 59 0
 EditAction 1473964709575 SudokuVerifier.java 5830 18 59 0
 RefactoringAction 1473964853983 SudokuVerifierTest.java RENAME testVerify()=>void correctVerify() METHOD
 EditAction 1473964869075 SudokuVerifierTest.java 3803 11 21 10
+UnitTestCaseAction 1473964873028 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473964873029 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473964882083 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473964882085 SudokuVerifierTest.correctVerify OK
+RefactoringAction 1473964899028 SudokuVerifierTest.java ADD void correctVerify()/2 METHOD
+RefactoringAction 1473964905036 SudokuVerifierTest.java RENAME correctVerify()/2=>void invalidVerify() METHOD
+EditAction 1473964905605 SudokuVerifierTest.java 4076 12 23 11
