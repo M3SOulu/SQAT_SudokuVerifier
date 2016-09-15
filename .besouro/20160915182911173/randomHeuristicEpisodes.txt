@@ -1,0 +1,16 @@
+1473957132359 refactoring 2A 3780 true
+1473957761510 test-last 1 616 false
+1473960779084 refactoring 2A 3006 true
+1473962849963 test-first 1 2041 true
+1473962951577 test-addition 2 79 true
+1473963070085 regression 1 3 true
+1473963085127 regression 1 0 true
+1473963256095 production 1 14 false
+1473963286458 regression 1 0 true
+1473963330175 refactoring 2A 5 false
+1473964152936 test-last 1 811 false
+1473964400275 test-first 3 238 true
+1473964873029 test-first 3 460 true
+1473964882085 regression 1 0 false
+1473965148541 test-addition 1 249 false
+1473965152983 regression 1 0 false
