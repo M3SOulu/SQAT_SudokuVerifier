@@ -206,3 +206,6 @@ RefactoringAction 1473960808245 SudokuVerifierTest.java ADD void rule2CatchesErr
 EditAction 1473960853794 SudokuVerifierTest.java 1782 6 10 4
 CompilationAction 1473960854007 SudokuVerifierTest.java
 EditAction 1473960858412 SudokuVerifierTest.java 1782 6 10 4
+UnitTestCaseAction 1473960861675 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473960861675 SudokuVerifierTest.java FAIL
+EditAction 1473960954214 SudokuVerifierTest.java 1924 6 10 4

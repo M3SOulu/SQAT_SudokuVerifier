@@ -29,7 +29,17 @@ public class SudokuVerifierTest {
 	
 	@Test
 	public void rule2CatchesError() {
-		String incorrectSudoku = "123456789912345678891234567789123456678912345567891234456782123345678912234567891";
+		String incorrectSudoku = "417369825"
+							   + "632158947"
+							   + "958724316"
+							   
+							   + "825437169"
+							   + "791586432"
+							   + "346932758"
+							   
+							   + "289643571"
+							   + "573291684"
+							   + "164875293";
 		assertEquals("Erratic subgrid was not found",
 				verifier.SUBGRID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
 	}
