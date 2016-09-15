@@ -1,2 +1,72 @@
 FileOpenedAction 1473953351642 SudokuVerifier.java 3132 9 28 0
 EditAction 1473954201777 SudokuVerifier.java 3365 9 28 0
+CompilationAction 1473954202317 SudokuVerifier.java
+CompilationAction 1473954225393 SudokuVerifier.java
+CompilationAction 1473954225639 SudokuVerifier.java
+CompilationAction 1473954937997 SudokuVerifier.java
+CompilationAction 1473954938196 SudokuVerifier.java
+CompilationAction 1473954938196 SudokuVerifier.java
+CompilationAction 1473954938197 SudokuVerifier.java
+RefactoringAction 1473954987628 SudokuVerifier.java ADD int globalRowIndex() METHOD
+RefactoringAction 1473954994671 SudokuVerifier.java RENAME globalRowIndex()=>int globalRowIndex(int) METHOD
+CompilationAction 1473955053158 SudokuVerifier.java
+CompilationAction 1473955053373 SudokuVerifier.java
+CompilationAction 1473955053374 SudokuVerifier.java
+CompilationAction 1473955053374 SudokuVerifier.java
+CompilationAction 1473955104579 SudokuVerifier.java
+CompilationAction 1473955104744 SudokuVerifier.java
+CompilationAction 1473955104744 SudokuVerifier.java
+RefactoringAction 1473955128548 SudokuVerifier.java ADD int global FIELD
+RefactoringAction 1473955133563 SudokuVerifier.java RENAME global=>int globalColumnIndex FIELD
+RefactoringAction 1473955136599 SudokuVerifier.java RENAME globalColumnIndex=>int globalColumnIndex() METHOD
+RefactoringAction 1473955142627 SudokuVerifier.java RENAME globalColumnIndex()=>int globalColumnIndex(int) METHOD
+CompilationAction 1473955189062 SudokuVerifier.java
+CompilationAction 1473955189252 SudokuVerifier.java
+CompilationAction 1473955189263 SudokuVerifier.java
+CompilationAction 1473955295444 SudokuVerifier.java
+CompilationAction 1473955295445 SudokuVerifier.java
+CompilationAction 1473955295629 SudokuVerifier.java
+CompilationAction 1473955295629 SudokuVerifier.java
+CompilationAction 1473955295630 SudokuVerifier.java
+CompilationAction 1473955335284 SudokuVerifier.java
+CompilationAction 1473955335285 SudokuVerifier.java
+CompilationAction 1473955335286 SudokuVerifier.java
+CompilationAction 1473955335455 SudokuVerifier.java
+CompilationAction 1473955335456 SudokuVerifier.java
+CompilationAction 1473955459948 SudokuVerifier.java
+CompilationAction 1473955459948 SudokuVerifier.java
+CompilationAction 1473955460133 SudokuVerifier.java
+CompilationAction 1473955460133 SudokuVerifier.java
+CompilationAction 1473955460134 SudokuVerifier.java
+CompilationAction 1473955460134 SudokuVerifier.java
+CompilationAction 1473955460135 SudokuVerifier.java
+CompilationAction 1473955460135 SudokuVerifier.java
+CompilationAction 1473955467383 SudokuVerifier.java
+CompilationAction 1473955467383 SudokuVerifier.java
+CompilationAction 1473955467384 SudokuVerifier.java
+CompilationAction 1473955467384 SudokuVerifier.java
+CompilationAction 1473955467385 SudokuVerifier.java
+CompilationAction 1473955467548 SudokuVerifier.java
+CompilationAction 1473955467548 SudokuVerifier.java
+CompilationAction 1473955467549 SudokuVerifier.java
+CompilationAction 1473955486916 SudokuVerifier.java
+CompilationAction 1473955486917 SudokuVerifier.java
+CompilationAction 1473955486918 SudokuVerifier.java
+CompilationAction 1473955487085 SudokuVerifier.java
+CompilationAction 1473955487086 SudokuVerifier.java
+CompilationAction 1473955487086 SudokuVerifier.java
+CompilationAction 1473955495292 SudokuVerifier.java
+CompilationAction 1473955495293 SudokuVerifier.java
+CompilationAction 1473955495293 SudokuVerifier.java
+CompilationAction 1473955495438 SudokuVerifier.java
+CompilationAction 1473955495439 SudokuVerifier.java
+CompilationAction 1473955495439 SudokuVerifier.java
+RefactoringAction 1473955506786 SudokuVerifier.java RENAME globalColumnIndex(int)=>int subgridStart(int) METHOD
+RefactoringAction 1473955508300 SudokuVerifier.java RENAME subgridStart(int)=>int subgridStartIndex(int) METHOD
+RefactoringAction 1473955524875 SudokuVerifier.java RENAME subgridStartIndex(int)=>int subgridStartIndex() METHOD
+RefactoringAction 1473955529888 SudokuVerifier.java RENAME subgridStartIndex()=>int subgridStartIndex(int, int) METHOD
+CompilationAction 1473955579550 SudokuVerifier.java
+CompilationAction 1473955579782 SudokuVerifier.java
+CompilationAction 1473955817988 SudokuVerifier.java
+CompilationAction 1473955818155 SudokuVerifier.java
+EditAction 1473955886398 SudokuVerifier.java 4100 11 35 0
