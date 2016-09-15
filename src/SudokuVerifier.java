@@ -31,6 +31,8 @@ public class SudokuVerifier {
 			String gridRow1 = str.substring(firstMemberIndex,firstMemberIndex+3);
 			String gridRow2 = str.substring(firstMemberIndex+9,firstMemberIndex+9+3);
 			String gridRow3 = str.substring(firstMemberIndex+18,firstMemberIndex+18+3);
+			
+			String grid = gridRow1 + gridRow2 + gridRow3;
 		}
 		return false;
 	}
