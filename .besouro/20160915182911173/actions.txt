@@ -309,3 +309,11 @@ CompilationAction 1473963745585 SudokuVerifier.java
 CompilationAction 1473963745586 SudokuVerifier.java
 CompilationAction 1473963745586 SudokuVerifier.java
 EditAction 1473963750147 SudokuVerifier.java 5109 17 47 0
+CompilationAction 1473963750338 SudokuVerifier.java
+CompilationAction 1473963750339 SudokuVerifier.java
+RefactoringAction 1473963784780 SudokuVerifier.java ADD boolean withinRange() METHOD
+RefactoringAction 1473963790303 SudokuVerifier.java RENAME withinRange()=>boolean withinRange(int) METHOD
+RefactoringAction 1473963818388 SudokuVerifier.java RENAME withinRange(int)=>boolean withinRange() METHOD
+RefactoringAction 1473963839938 SudokuVerifier.java RENAME withinRange()=>boolean withinRange(int METHOD
+RefactoringAction 1473963853007 SudokuVerifier.java RENAME withinRange(int=>boolean withinRange(int METHOD
+EditAction 1473963901384 SudokuVerifier.java 5363 18 50 0

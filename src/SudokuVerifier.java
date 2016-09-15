@@ -92,7 +92,9 @@ public class SudokuVerifier {
 	private int checkCells(String candidateSolution) {
 		int[] testSet = null;
 		
-		getCellValues(candidateSolution);
+		testSet = getCellValues(candidateSolution);
+		
+		withinRange(testSet, 1, 9);
 	}
 	
 	private int[] getCellValues(String candidateSolution) {
@@ -103,6 +105,15 @@ public class SudokuVerifier {
 		}
 		
 		return cellValues;
+	}
+	
+	private boolean withinRange(int[] testValues, int min, int max) {
+		for (int i = 0; i < testValues.length; i++) {
+			if (testValues[i] < min || testValues[i] > max)
+				return false;
+		}
+		
+		return true;
 	}
 	
 	/* subgrid nums
