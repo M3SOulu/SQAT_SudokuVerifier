@@ -51,5 +51,9 @@ public class SudokuVerifier {
 			
 			return grid;
 	}
-
+	
+	public boolean doesRepeatInString(String str){
+		
+		return false;
+	}
 }

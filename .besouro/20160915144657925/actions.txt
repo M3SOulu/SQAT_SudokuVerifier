@@ -161,3 +161,10 @@ EditAction 1473943551265 SudokuVerifierTest.java 2353 7 23 6
 UnitTestCaseAction 1473943555069 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943555069 SudokuVerifierTest.java FAIL
 EditAction 1473943583523 SudokuVerifierTest.java 2353 7 23 6
+UnitTestCaseAction 1473943584864 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473943584865 SudokuVerifierTest.java FAIL
+RefactoringAction 1473943614238 SudokuVerifier.java ADD boolean does FIELD
+RefactoringAction 1473943616752 SudokuVerifier.java RENAME does=>boolean doesRe FIELD
+RefactoringAction 1473943625765 SudokuVerifier.java RENAME doesRe=>boolean doesRepeatInString() METHOD
+RefactoringAction 1473943628777 SudokuVerifier.java RENAME doesRepeatInString()=>boolean doesRepeatInString(String) METHOD
+EditAction 1473943639752 SudokuVerifier.java 1429 7 15 0
