@@ -88,10 +88,10 @@ public class SudokuVerifierTest {
 	}
 
 	@Test
-	public void testDoesRepeatInStringWithRepeating(){
+	public void testDoesRepeatInStringWithUnique(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		
-		String test = "123456719";
+		String test = "123456789";
 		
 		assertTrue("Test could not find the repeating char", sudoku.doesRepeatInString(test));
 	}

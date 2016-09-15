@@ -193,3 +193,6 @@ UnitTestCaseAction 1473943923965 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473943923965 SudokuVerifierTest.java FAIL
 RefactoringAction 1473943933236 SudokuVerifierTest.java ADD void testDoesRepeatInStringWithRepeating()/2 METHOD
 EditAction 1473943933413 SudokuVerifierTest.java 2823 9 29 8
+CompilationAction 1473943933506 SudokuVerifierTest.java
+CompilationAction 1473943937088 SudokuVerifierTest.java
+EditAction 1473943941978 SudokuVerifierTest.java 2820 9 29 8
