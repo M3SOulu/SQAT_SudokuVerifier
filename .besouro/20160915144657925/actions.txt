@@ -231,3 +231,13 @@ CompilationAction 1473944356912 SudokuVerifierTest.java
 CompilationAction 1473944356912 SudokuVerifierTest.java
 CompilationAction 1473944356912 SudokuVerifierTest.java
 EditAction 1473944358405 SudokuVerifierTest.java 3548 12 35 10
+CompilationAction 1473944358649 SudokuVerifierTest.java
+CompilationAction 1473944358649 SudokuVerifierTest.java
+CompilationAction 1473944358650 SudokuVerifierTest.java
+CompilationAction 1473944371065 SudokuVerifierTest.java
+CompilationAction 1473944371066 SudokuVerifierTest.java
+CompilationAction 1473944371067 SudokuVerifierTest.java
+UnitTestCaseAction 1473944374764 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473944374765 SudokuVerifierTest.java FAIL
+RefactoringAction 1473944383441 SudokuVerifierTest.java ADD void testGenerateRow0()/2 METHOD
+EditAction 1473944385806 SudokuVerifierTest.java 3818 13 41 12
