@@ -267,3 +267,4 @@ RefactoringAction 1473944532204 SudokuVerifierTest.java RENAME testNoRepeatInRow
 EditAction 1473944551989 SudokuVerifierTest.java 4025 14 41 12
 CompilationAction 1473944552241 SudokuVerifierTest.java
 EditAction 1473944553297 SudokuVerifierTest.java 4026 14 43 12
+EditAction 1473944573769 SudokuVerifierTest.java 4072 14 44 13
