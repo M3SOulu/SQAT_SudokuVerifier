@@ -45,7 +45,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testIsDigitsOnlyWithLetters(){
+	public void testIsDigitsOnlyWithCorrect(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		
 		// Following string has an "A" in the middle.
