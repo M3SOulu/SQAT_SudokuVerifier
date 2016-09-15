@@ -71,5 +71,6 @@ public class SudokuVerifier {
 	
 	public String generateRow(int i, String str){
 		String row = str.substring(i*9, i*9+9);
+		return row;
 	}
 }
