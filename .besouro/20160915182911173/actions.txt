@@ -252,3 +252,10 @@ CompilationAction 1473962729826 SudokuVerifier.java
 CompilationAction 1473962729826 SudokuVerifier.java
 CompilationAction 1473962729827 SudokuVerifier.java
 EditAction 1473962735597 SudokuVerifier.java 4588 14 41 0
+CompilationAction 1473962735774 SudokuVerifier.java
+RefactoringAction 1473962749117 SudokuVerifier.java ADD int GLOBAL_COLUMN_ERROR FIELD
+RefactoringAction 1473962763166 SudokuVerifier.java ADD PUBLIC FIN FIELD
+RefactoringAction 1473962764678 SudokuVerifier.java REMOVE FIN FIELD
+CompilationAction 1473962765345 SudokuVerifier.java
+RefactoringAction 1473962792708 SudokuVerifier.java REMOVE getGlobalColumn(String, int) METHOD
+EditAction 1473962797698 SudokuVerifier.java 4634 14 41 0

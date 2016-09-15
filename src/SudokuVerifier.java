@@ -12,8 +12,10 @@ public class SudokuVerifier {
 	private final int SUBGRID_AND_ROW_SIZE = 9;
 
 	public final int NO_ERROR = 0;
+	
 	public final int SUBGRID_ERROR = -2;
 	public final int GLOBAL_ROW_ERROR = -3;
+	public final int GLOBAL_COLUMN_ERROR = -4;
 	
 	public int verify(String candidateSolution) {
 		// returns 0 if the candidate solution is correct
@@ -83,18 +85,6 @@ public class SudokuVerifier {
 		return NO_ERROR;
 	}
 	
-	int[] getGlobalColumn(String candidateSolution, int columnNum) {
-		int[] globalColumnNums = new int[9];
-		int index = -1;
-		
-		for (int i = 0; i < 9; i++) {
-			index = (SUBGRID_AND_ROW_SIZE * i) + columnNum;
-			globalColumnNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
-		}
-		
-		return globalColumnNums;
-	}
-	
 	/* subgrid nums
 	 * 0 1 2
 	 * 3 4 5
@@ -138,6 +128,18 @@ public class SudokuVerifier {
 		}
 		
 		return globalRowNums;
+	}
+	
+	int[] getGlobalColumn(String candidateSolution, int columnNum) {
+		int[] globalColumnNums = new int[9];
+		int index = -1;
+		
+		for (int i = 0; i < 9; i++) {
+			index = (SUBGRID_AND_ROW_SIZE * i) + columnNum;
+			globalColumnNums[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
+		}
+		
+		return globalColumnNums;
 	}
 	
 	private int globalRowIndex(int globalRowNo) {
