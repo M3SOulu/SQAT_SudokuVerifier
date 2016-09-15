@@ -44,3 +44,6 @@ EditAction 1473941430178 SudokuVerifierTest.java 1697 5 15 5
 RefactoringAction 1473941436368 SudokuVerifierTest.java RENAME testIsDigitsOnlyWithLetters()=>void testIsDigitsOnlyWithC() METHOD
 EditAction 1473941438364 SudokuVerifierTest.java 1697 5 15 5
 EditAction 1473941449265 SudokuVerifierTest.java 1648 5 15 5
+UnitTestCaseAction 1473941458965 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473941458966 SudokuVerifierTest.java FAIL
+EditAction 1473941504391 SudokuVerifier.java 837 5 7 0
