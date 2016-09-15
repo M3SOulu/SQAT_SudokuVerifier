@@ -265,3 +265,5 @@ CompilationAction 1473944497101 SudokuVerifier.java
 RefactoringAction 1473944524689 SudokuVerifierTest.java ADD void testNoRepeatInRows FIELD
 RefactoringAction 1473944532204 SudokuVerifierTest.java RENAME testNoRepeatInRows=>void testNoRepeatInRowsWithCorrect() METHOD
 EditAction 1473944551989 SudokuVerifierTest.java 4025 14 41 12
+CompilationAction 1473944552241 SudokuVerifierTest.java
+EditAction 1473944553297 SudokuVerifierTest.java 4026 14 43 12
