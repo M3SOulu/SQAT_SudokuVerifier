@@ -42,7 +42,7 @@ public class SudokuVerifier {
 		return checkGlobalColumn(candidateSolution);
 	}
 	
-	public int verifyCells(String candidateSolution) {
+	public int verifyCellValues(String candidateSolution) {
 		return checkCells(candidateSolution);
 	}
 	
