@@ -187,3 +187,8 @@ CompilationAction 1473959889867 SudokuVerifier.java
 UnitTestCaseAction 1473959939406 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1473959939406 SudokuVerifierTest.rule2CorrectForCorrectSudoku FAIL
 EditAction 1473960127579 SudokuVerifier.java 3826 11 23 0
+CompilationAction 1473960127760 SudokuVerifier.java
+CompilationAction 1473960133387 SudokuVerifier.java
+UnitTestCaseAction 1473960136630 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473960136631 SudokuVerifierTest.rule2CorrectForCorrectSudoku FAIL
+EditAction 1473960348125 SudokuVerifier.java 3871 11 23 0

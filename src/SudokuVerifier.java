@@ -98,8 +98,9 @@ public class SudokuVerifier {
 		
 		// select subgrid starting global row
 		int subgridRow = subgridNum / 3; 
+		System.out.println("subgridRow == " + subgridRow);
 		int subgridColumn = subgridNum % SUBGRID_AMOUNT_ON_ROW;
-		int globalRowIndex = globalRowIndex(subgridRow * SUBGRID_AND_ROW_SIZE));
+		int globalRowIndex = globalRowIndex(3 * ) SUBGRID_AND_ROW_SIZE);
 		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn);
 		
 		// select 3 subsequent cells from 3 subsequent global rows
