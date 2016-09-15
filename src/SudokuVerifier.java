@@ -14,7 +14,14 @@ public class SudokuVerifier {
 			return 0;
 	}
 	private boolean isDigitsOnly(String str) {
+		if(str.length() != 81) // Check length
+			return false;
 		
+		for (int i=0; i<81; i++){
+			char digit = str.charAt(i);
+			if(!(0<=digit && digit<=9))
+				return false;
+		}
 		return false;
 	}
 

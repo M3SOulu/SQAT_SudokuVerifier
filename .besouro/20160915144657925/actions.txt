@@ -16,3 +16,4 @@ RefactoringAction 1473940760432 SudokuVerifier.java REMOVE noRepeatInRows(String
 RefactoringAction 1473940761446 SudokuVerifier.java ADD boolean noRepeatInRows(String) METHOD
 EditAction 1473940790696 SudokuVerifier.java 601 5 5 0
 EditAction 1473940795113 SudokuVerifierTest.java 906 2 6 2
+EditAction 1473941123303 SudokuVerifier.java 771 5 7 0
