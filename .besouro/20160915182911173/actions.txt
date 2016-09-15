@@ -382,3 +382,4 @@ UnitTestSessionAction 1473964882085 SudokuVerifierTest.correctVerify OK
 RefactoringAction 1473964899028 SudokuVerifierTest.java ADD void correctVerify()/2 METHOD
 RefactoringAction 1473964905036 SudokuVerifierTest.java RENAME correctVerify()/2=>void invalidVerify() METHOD
 EditAction 1473964905605 SudokuVerifierTest.java 4076 12 23 11
+EditAction 1473964924398 SudokuVerifierTest.java 4076 12 23 11
