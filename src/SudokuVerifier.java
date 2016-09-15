@@ -83,6 +83,18 @@ public class SudokuVerifier {
 		return NO_ERROR;
 	}
 	
+	int[] getGlobalColumn(String candidateSolution, int columnNum) {
+		int[] globalColumnNums = new int[9];
+		int index = -1;
+		
+		for (int i = 0; i < 9; i++) {
+			index = (SUBGRID_AND_ROW_SIZE * i) + columnNum;
+			subgridCellValues[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(index)));
+		}
+		
+		return
+	}
+	
 	/* subgrid nums
 	 * 0 1 2
 	 * 3 4 5
