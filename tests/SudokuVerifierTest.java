@@ -41,7 +41,7 @@ public class SudokuVerifierTest {
 							   + "573291684"
 							   + "164875293";
 		assertEquals("Erratic subgrid was not found",
-				verifier.SUBGRID_ERROR, verifier.verifyGlobalRow(incorrectSudoku));
+				verifier.SUBGRID_ERROR, verifier.verifySubGrid(incorrectSudoku));
 	}
 	
 	@Test
