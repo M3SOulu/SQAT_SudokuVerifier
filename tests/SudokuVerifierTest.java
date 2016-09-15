@@ -67,7 +67,7 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testGenerateGrid05(){
+	public void testGenerateGrid5(){
 		SudokuVerifier sudoku = new SudokuVerifier();
 		
 		String test = "123456789912345678891234567789123456678912345567891234456789123345678912234567891";
