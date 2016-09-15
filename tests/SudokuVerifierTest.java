@@ -16,8 +16,10 @@ public class SudokuVerifierTest {
 	}
 	
 	@Test
-	public void testVerify() {
-		fail("Not yet implemented");
+	public void correctVerify() {
+		String correctSudoku = "417369825632158947958724316825437169791586432346912758289643571573291684164875293";
+		assertEquals("Failed when checking correct sudoku",
+				verifier.NO_ERROR, verifier.verifyCellValues(correctSudoku));
 	}
 	
 	@Test
