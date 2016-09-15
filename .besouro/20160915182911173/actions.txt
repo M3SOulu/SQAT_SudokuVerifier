@@ -263,3 +263,7 @@ RefactoringAction 1473962816986 SudokuVerifierTest.java ADD void rule4 FIELD
 RefactoringAction 1473962821513 SudokuVerifierTest.java RENAME rule4=>void rule4CorrectForCorrectSu FIELD
 RefactoringAction 1473962824042 SudokuVerifierTest.java RENAME rule4CorrectForCorrectSu=>void rule4CorrectForCorrectSudoku() METHOD
 EditAction 1473962843596 SudokuVerifierTest.java 2257 7 12 5
+UnitTestCaseAction 1473962849963 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473962849963 SudokuVerifierTest.rule4CorrectForCorrectSudoku OK
+RefactoringAction 1473962871739 SudokuVerifierTest.java ADD void rule4CatchesError() METHOD
+EditAction 1473962916607 SudokuVerifierTest.java 2545 8 14 6
