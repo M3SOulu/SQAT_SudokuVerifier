@@ -337,3 +337,9 @@ CompilationAction 1473944969637 SudokuVerifierTest.java
 EditAction 1473944973599 SudokuVerifierTest.java 5091 18 58 17
 CompilationAction 1473944973696 SudokuVerifierTest.java
 EditAction 1473944982209 SudokuVerifierTest.java 5091 18 58 17
+CompilationAction 1473944982310 SudokuVerifierTest.java
+UnitTestCaseAction 1473945015822 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473945015822 SudokuVerifierTest.java FAIL
+RefactoringAction 1473945024117 SudokuVerifierTest.java ADD void testNoRepeatInColumn()/2 METHOD
+RefactoringAction 1473945027630 SudokuVerifierTest.java RENAME testNoRepeatInColumn()/2=>void testNoRepeatInColumnValid() METHOD
+EditAction 1473945030840 SudokuVerifierTest.java 5357 19 61 18
