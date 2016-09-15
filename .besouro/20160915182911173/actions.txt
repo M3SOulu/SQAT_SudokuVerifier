@@ -297,3 +297,15 @@ RefactoringAction 1473963452655 SudokuVerifier.java RENAME checkCells()=>int che
 RefactoringAction 1473963536817 SudokuVerifier.java ADD int FIELD
 RefactoringAction 1473963542828 SudokuVerifier.java RENAME getCellValues=>int METHOD
 EditAction 1473963739085 SudokuVerifier.java 5119 17 44 0
+CompilationAction 1473963739284 SudokuVerifier.java
+CompilationAction 1473963739285 SudokuVerifier.java
+CompilationAction 1473963739285 SudokuVerifier.java
+CompilationAction 1473963739285 SudokuVerifier.java
+CompilationAction 1473963739286 SudokuVerifier.java
+CompilationAction 1473963745414 SudokuVerifier.java
+CompilationAction 1473963745414 SudokuVerifier.java
+CompilationAction 1473963745585 SudokuVerifier.java
+CompilationAction 1473963745585 SudokuVerifier.java
+CompilationAction 1473963745586 SudokuVerifier.java
+CompilationAction 1473963745586 SudokuVerifier.java
+EditAction 1473963750147 SudokuVerifier.java 5109 17 47 0

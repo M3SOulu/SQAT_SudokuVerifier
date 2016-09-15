@@ -98,15 +98,11 @@ public class SudokuVerifier {
 	private int[] getCellValues(String candidateSolution) {
 		int[] cellValues = new int[GLOBAL_GRID_SIZE];
 		
-		if () {
-			
-		}
-		
 		for (int i = 0; i < cellValues.length; i++) {
 			cellValues[i] = Integer.parseInt(Character.toString(candidateSolution.charAt(i)));
 		}
 		
-		return 
+		return cellValues;
 	}
 	
 	/* subgrid nums
