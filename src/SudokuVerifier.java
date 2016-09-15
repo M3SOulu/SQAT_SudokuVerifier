@@ -1,5 +1,12 @@
 import java.util.Arrays;
 
+//417369825632158947958724316825437169791586432346912758289643571573291684164875293
+
+		// 417369825
+		// 632158947
+		// 958724316
+		// 825437169791586432346912758289643571573291684164875293
+
 public class SudokuVerifier {
 	private final int GLOBAL_GRID_SIZE = 81;
 	private final int SUBGRID_AND_ROW_SIZE = 9;
@@ -88,19 +95,11 @@ public class SudokuVerifier {
 		final int SUBGRID_AMOUNT_ON_ROW = 3;
 		int[] subgridCellValues = new int[SUBGRID_AND_ROW_SIZE];
 		int resultIndex = 0;
-		// 417369825632158947958724316825437169791586432346912758289643571573291684164875293
-		
-		// 417369825
-		// 632158947
-		// 958724316
-		// 825437169791586432346912758289643571573291684164875293
 		
 		// select subgrid starting global row
 		int globalRow = subgridNum / 3; 
 		int subgridColumn = subgridNum % SUBGRID_AMOUNT_ON_ROW;
-		
 		int globalRowIndex = globalRowIndex(globalRow);
-		
 		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn);
 		
 		// select 3 subsequent cells from 3 subsequent global rows
@@ -114,27 +113,6 @@ public class SudokuVerifier {
 				row_offset++;
 			}
 		}
-		
-		//int subgridStartIndex = base + offset;
-		
-		// select from globalRow(globalRowNo)?
-		
-		
-		/*final int ROW_INDEX_AMOUNT = 9;
-		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
-			int k = 0;
-			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_AMOUNT_ON_ROW * (subgridNum % 3));
-			
-			while (k < 3) {
-				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt(cellIndex + k)));
-
-				resultIndex++;
-				cellIndex++;
-				k++;
-			}
-			//use subgrid num in right way instead of int
-			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
-		}*/
 		
 		return subgridCellValues;
 	}
