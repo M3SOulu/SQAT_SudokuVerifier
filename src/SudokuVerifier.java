@@ -85,7 +85,7 @@ public class SudokuVerifier {
 	public String generateColumn(int i, String str){
 		String column = "";
 		for (int j = 0; j < 9; j++) {
-			column += str.substring(9*j+i,9*j+i+1); // Char at jth row and ith column.
+			column += str.substring((9*j)+i,(9*j)+i+1); // Char at jth row and ith column.
 		}
 		return column;
 	}
