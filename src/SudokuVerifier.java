@@ -106,10 +106,13 @@ public class SudokuVerifier {
 		int subgridStartIndex = subgridStartIndex(globalRowIndex, subgridColumn);
 		
 		for (int i = 0; i < 3; i++) {
-			int k = 0;
-			while (k < 3) {
+			int column_offset = 0;
+			int row_offset = (SUBGRID_AND_ROW_SIZE * i);
+			while (column_offset < 3) {
 				//getRow subgridStartIndex + (SUBGRID_AND_ROW_SIZE * i) + k
-				k++;
+				int = index = subgridStartIndex +  + column_offset;
+				subgridCellValues[resultIndex] = Integer.parseInt(Character.toString(candidateSolution.charAt()));
+				row_offset++;
 			}
 		}
 		
@@ -118,7 +121,7 @@ public class SudokuVerifier {
 		// select from globalRow(globalRowNo)?
 		
 		
-		final int ROW_INDEX_AMOUNT = 9;
+		/*final int ROW_INDEX_AMOUNT = 9;
 		for (int i = 0; i < SUBGRID_ROW_AMOUNT; i++) {
 			int k = 0;
 			int cellIndex = (i * ROW_INDEX_AMOUNT) + (SUBGRID_AMOUNT_ON_ROW * (subgridNum % 3));
@@ -132,7 +135,7 @@ public class SudokuVerifier {
 			}
 			//use subgrid num in right way instead of int
 			//testSet[k] = Integer.parseInt(Character.toString(candidateSolution.charAt(i + k)));
-		}
+		}*/
 		
 		return subgridCellValues;
 	}
