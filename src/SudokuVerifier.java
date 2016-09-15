@@ -18,15 +18,7 @@ public class SudokuVerifier {
 	public final int GLOBAL_COLUMN_ERROR = -4;
 	
 	public int verify(String candidateSolution) {
-		// returns 0 if the candidate solution is correct
-		int error = 0;
-		
-		//check whole string length?
-		
-		//error = verifySubGrid(candidateSolution);
-		
-		//error = verifyGlobalRow(candidateSolution);
-		
+		int error = NO_ERROR;
 		error = verifyCellValues(candidateSolution);
 		if (0 != error)
 			return error;
