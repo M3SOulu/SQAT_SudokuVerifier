@@ -35,7 +35,7 @@ public class SudokuVerifierTest {
 							   
 							   + "825437169"
 							   + "791586432"
-							   + "346932758"
+							   + "346932758" // second 3 in middle subgrid
 							   
 							   + "289643571"
 							   + "573291684"
