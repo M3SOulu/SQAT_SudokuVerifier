@@ -8,6 +8,7 @@ public class SudokuVerifier {
 		Board board = new Board(candidateSolution);
 		
 		if (!board.hasValidCharacters()) return -1;
+		if (!board.hasUniqueSubGrids()) return -3;
 		if (!board.hasUniqueRowElements()) return -3;
 		if (!board.hasUniqueColumnElements()) return -4;
 		
