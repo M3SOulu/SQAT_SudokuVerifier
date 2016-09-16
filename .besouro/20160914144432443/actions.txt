@@ -1,0 +1,76 @@
+FileOpenedAction 1473853472714 SudokuVerifier.java 281 1 1 0
+FileOpenedAction 1473854180343 SudokuVerifierTest.java 562 1 3 1
+RefactoringAction 1473854202387 SudokuVerifierTest.java RENAME testVerify_numbersRead()=>void testVerify_numbersAreCorre() METHOD
+RefactoringAction 1473854205407 SudokuVerifierTest.java RENAME testVerify_numbersAreCorre()=>void testVerify_numbersAre() METHOD
+RefactoringAction 1473854211434 SudokuVerifierTest.java RENAME testVerify_numbersAre()=>void testVerify_StringIsNumerical() METHOD
+EditAction 1473854315768 SudokuVerifier.java 229 1 3 0
+EditAction 1473854316005 SudokuVerifierTest.java 568 1 3 1
+UnitTestCaseAction 1473854317106 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854317108 SudokuVerifierTest.java OK
+RefactoringAction 1473854355572 SudokuVerifierTest.java ADD void testVerify_StringIsNumerical()/2 METHOD
+RefactoringAction 1473854361594 SudokuVerifierTest.java RENAME testVerify_StringIsNumerical()/2=>void testVerify_String() METHOD
+RefactoringAction 1473854363624 SudokuVerifierTest.java RENAME testVerify_String()=>void testVerify_StringContains() METHOD
+RefactoringAction 1473854373145 SudokuVerifierTest.java RENAME testVerify_StringContains()=>void testVerify_StringContainsLe() METHOD
+RefactoringAction 1473854375664 SudokuVerifierTest.java RENAME testVerify_StringContainsLe()=>void testVerify_StringContainsLetters() METHOD
+RefactoringAction 1473854378183 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters()=>void testVerify_StringContainsLetters_Re() METHOD
+RefactoringAction 1473854383739 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Re()=>void testVerify_StringContainsLetters_Return_ FIELD
+RefactoringAction 1473854389763 SudokuVerifierTest.java RENAME testVerify_StringIsNumerical()=>void testVerify_StringIsNumerical_Return_0() METHOD
+EditAction 1473854407355 SudokuVerifierTest.java 842 1 3 1
+CompilationAction 1473854407433 SudokuVerifierTest.java
+CompilationAction 1473854407434 SudokuVerifierTest.java
+CompilationAction 1473854407434 SudokuVerifierTest.java
+CompilationAction 1473854407434 SudokuVerifierTest.java
+CompilationAction 1473854407434 SudokuVerifierTest.java
+CompilationAction 1473854407434 SudokuVerifierTest.java
+UnitTestCaseAction 1473854411681 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473854411682 SudokuVerifierTest.java FAIL
+RefactoringAction 1473854441476 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Return_1()=>void testVerify_StringContainsLetters_Return_minus1() METHOD
+RefactoringAction 1473854442497 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Return_minus1()=>void testVerify_StringContainsLetters_Return_minus_1() METHOD
+CompilationAction 1473854445602 SudokuVerifierTest.java
+CompilationAction 1473854445603 SudokuVerifierTest.java
+CompilationAction 1473854445603 SudokuVerifierTest.java
+UnitTestCaseAction 1473854445864 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854445865 SudokuVerifierTest.testVerify_StringContainsLetters_Return_minus_1 OK
+EditAction 1473854555374 SudokuVerifier.java 263 1 3 0
+UnitTestCaseAction 1473854555656 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854555657 SudokuVerifierTest.testVerify_StringContainsLetters_Return_minus_1 OK
+UnitTestCaseAction 1473854569894 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473854569895 SudokuVerifierTest.java OK
+EditAction 1473855904037 SudokuVerifier.java 384 1 4 0
+RefactoringAction 1473856022174 SudokuVerifierTest.java ADD void testVerify_StringContainsLetters_Return_minus_1()/2 METHOD
+RefactoringAction 1473856029682 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Return_minus_1()/2=>void testVerify_Subset() METHOD
+RefactoringAction 1473856035691 SudokuVerifierTest.java RENAME testVerify_Subset()=>void testVerify_SubsetString() METHOD
+RefactoringAction 1473856040197 SudokuVerifierTest.java RENAME testVerify_SubsetString()=>void testVerify_SubsetStringHasNine() METHOD
+RefactoringAction 1473856041203 SudokuVerifierTest.java RENAME testVerify_SubsetStringHasNine()=>void testVerify_SubsetStringHasNineV() METHOD
+RefactoringAction 1473856043713 SudokuVerifierTest.java RENAME testVerify_SubsetStringHasNineV()=>void testVerify_SubsetStringHasNine() METHOD
+RefactoringAction 1473856045725 SudokuVerifierTest.java RENAME testVerify_SubsetStringHasNine()=>void testVerify_SubsetStringHasNineNumbers() METHOD
+RefactoringAction 1473856104750 SudokuVerifierTest.java REMOVE testVerify_SubsetStringHasNineNumbers() METHOD
+RefactoringAction 1473856838018 SudokuVerifier.java ADD import java.util.* IMPORT
+RefactoringAction 1473858040401 SudokuVerifierTest.java ADD void testVerify_StringContainsLetters_Return_minus_1()/2 METHOD
+RefactoringAction 1473858048414 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Return_minus_1()/2=>void testVerify_C() METHOD
+RefactoringAction 1473858050929 SudokuVerifierTest.java RENAME testVerify_C()=>void testVerify_Columns() METHOD
+RefactoringAction 1473858055447 SudokuVerifierTest.java RENAME testVerify_Columns()=>void testVerify_ColumnsAreAccordingtoR3() METHOD
+RefactoringAction 1473858110011 SudokuVerifierTest.java ADD void testVerify_ColumnsAreAccordingtoR3()/2 METHOD
+RefactoringAction 1473858114524 SudokuVerifierTest.java RENAME testVerify_ColumnsAreAccordingtoR3()/2=>void testVerify_ColumnsAreAccordingtoR3_() METHOD
+RefactoringAction 1473858119036 SudokuVerifierTest.java RENAME testVerify_ColumnsAreAccordingtoR3_()=>void testVerify_ColumnsAreAccordingtoR3_DoubleValueIn() METHOD
+RefactoringAction 1473858122552 SudokuVerifierTest.java RENAME testVerify_ColumnsAreAccordingtoR3_DoubleValueIn()=>void testVerify_ColumnsAreAccordingtoR3()/2 METHOD
+RefactoringAction 1473858129565 SudokuVerifierTest.java RENAME testVerify_ColumnsAreAccordingtoR3()/2=>void testVerify_ColumnsHaveErrors() METHOD
+RefactoringAction 1473858138576 SudokuVerifierTest.java RENAME testVerify_ColumnsHaveErrors()=>void testVerify_Columsn() METHOD
+RefactoringAction 1473858142592 SudokuVerifierTest.java RENAME testVerify_Columsn()=>void testVerify_ColumsnAreAccordin() METHOD
+RefactoringAction 1473858145108 SudokuVerifierTest.java RENAME testVerify_ColumsnAreAccordin()=>void testVerify_ColumsnAreAccordingtoR34() METHOD
+RefactoringAction 1473858146622 SudokuVerifierTest.java RENAME testVerify_ColumsnAreAccordingtoR34()=>void testVerify_ColumsnAreAccordingtoR3_() METHOD
+RefactoringAction 1473858150148 SudokuVerifierTest.java RENAME testVerify_ColumsnAreAccordingtoR3_()=>void testVerify_ColumsnAreAccordingtoR3_IncorrectSudoku() METHOD
+EditAction 1473858182556 SudokuVerifier.java 548 1 5 0
+EditAction 1473858182629 SudokuVerifierTest.java 1378 4 12 4
+UnitTestCaseAction 1473858182937 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858182938 SudokuVerifierTest.java FAIL
+EditAction 1473858248352 SudokuVerifier.java 548 1 5 0
+UnitTestCaseAction 1473858248623 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858248623 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473858282091 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858282091 SudokuVerifierTest.java FAIL
+UnitTestCaseAction 1473858307899 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858307900 SudokuVerifierTest.java FAIL
+EditAction 1473858346519 SudokuVerifier.java 548 1 5 0
+UnitTestCaseAction 1473858346792 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1473858346792 SudokuVerifierTest.java FAIL
