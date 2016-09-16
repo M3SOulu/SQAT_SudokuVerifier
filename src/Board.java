@@ -1,6 +1,11 @@
+import java.util.ArrayList;
 
 public class Board {
-	Board(String data) {
-		mData = data;
+	private ArrayList<Integer> mCells;
+	
+	Board(String data) throws Exception {
+		if (data.length() != 81) {
+			throw new Exception("Invalid board dimensions");
+		}
 	}
 }

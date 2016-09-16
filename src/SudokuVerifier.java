@@ -5,6 +5,13 @@ public class SudokuVerifier {
 	public int verify(String candidateSolution) throws Exception {
 		// returns 0 if the candidate solution is correct
 		
+		Board board = new Board(candidateSolution);
+		
+		if (!board.hasValidCharacters()) return -1;
+		if (!board.hasUniqueRowElements()) return -3;
+		if (!board.hasUniqueColumnElements()) return -4;
+		
+		
 		if (candidateSolution.length() != 81)
 			throw new Exception("Invalid board dimensions");
 		
