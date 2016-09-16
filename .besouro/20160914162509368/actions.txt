@@ -1,0 +1,22 @@
+FileOpenedAction 1473859509432 SudokuVerifier.java 1194 1 6 0
+FileOpenedAction 1473859511674 StringCalculator.java 171 1 1 0
+FileOpenedAction 1473859514489 StringCalculatorException.java 63 0 0 0
+EditAction 1473859523407 SudokuVerifierTest.java 4208 10 31 8
+EditAction 1473859524714 SudokuVerifierTest.java 4207 10 31 8
+EditAction 1473859533042 SudokuVerifierTest.java 4587 11 34 8
+CompilationAction 1473859533129 SudokuVerifierTest.java
+EditAction 1473859537523 SudokuVerifierTest.java 4587 11 34 8
+CompilationAction 1473859537780 SudokuVerifierTest.java
+UnitTestCaseAction 1473859542276 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859542276 SudokuVerifierTest.java OK
+RefactoringAction 1473859547348 SudokuVerifierTest.java ADD void testCandidateContains_ShortString_Exception()/2 METHOD
+EditAction 1473859550004 SudokuVerifierTest.java 4596 11 34 8
+UnitTestCaseAction 1473859551555 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859551555 SudokuVerifierTest.testCandidateContains_ShortString_ExceptioTestn OK
+EditAction 1473859555099 SudokuVerifierTest.java 4206 10 31 8
+UnitTestCaseAction 1473859556388 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859556388 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473859588795 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859588795 SudokuVerifierTest.java OK
+UnitTestCaseAction 1473859594976 SudokuVerifierTest.java OK
+UnitTestSessionAction 1473859594976 SudokuVerifierTest.java OK

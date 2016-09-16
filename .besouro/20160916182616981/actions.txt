@@ -1,0 +1,301 @@
+FileOpenedAction 1474039577303 SudokuVerifier.java 1194 1 6 0
+RefactoringAction 1474039610804 SudokuVerifier.java ADD int verity FIELD
+RefactoringAction 1474039612357 SudokuVerifier.java REMOVE verity FIELD
+RefactoringAction 1474039622527 Board.java ADD Board.java CLASS
+FileOpenedAction 1474039622762 Board.java 25 0 0 0
+RefactoringAction 1474039627769 Board.java ADD Board() METHOD
+RefactoringAction 1474039632278 Board.java REMOVE Board() METHOD
+RefactoringAction 1474039633290 Board.java ADD Board() METHOD
+RefactoringAction 1474039639311 Board.java RENAME Board()=>Board(String) METHOD
+RefactoringAction 1474039666398 Board.java ADD ArrayList<Integer> board FIELD
+RefactoringAction 1474039671924 Board.java ADD void set FIELD
+RefactoringAction 1474039675938 Board.java RENAME set=>void setValue() METHOD
+RefactoringAction 1474039741578 Board.java REMOVE Board.java CLASS
+RefactoringAction 1474039753919 SudokuVerifier.java ADD boolean is FIELD
+RefactoringAction 1474039759941 SudokuVerifier.java RENAME is=>boolean isValidSize() METHOD
+EditAction 1474039764012 SudokuVerifier.java 1242 2 6 0
+CompilationAction 1474039764269 SudokuVerifier.java
+RefactoringAction 1474039786537 SudokuVerifier.java ADD boolean has FIELD
+RefactoringAction 1474039790562 SudokuVerifier.java RENAME has=>boolean hasValid FIELD
+RefactoringAction 1474039794592 SudokuVerifier.java RENAME hasValid=>boolean hasValidCharacters() METHOD
+RefactoringAction 1474039801641 SudokuVerifier.java RENAME hasValidCharacters()=>boolean hasValidCharacters(String) METHOD
+CompilationAction 1474039807033 SudokuVerifier.java
+CompilationAction 1474039807301 SudokuVerifier.java
+RefactoringAction 1474039823241 SudokuVerifier.java ADD boolean hasColumnDuplicates(String) METHOD
+CompilationAction 1474039828508 SudokuVerifier.java
+CompilationAction 1474039828688 SudokuVerifier.java
+CompilationAction 1474039828688 SudokuVerifier.java
+CompilationAction 1474039834475 SudokuVerifier.java
+CompilationAction 1474039834615 SudokuVerifier.java
+RefactoringAction 1474039867059 Board.java ADD Board.java CLASS
+FileOpenedAction 1474039867388 Board.java 25 0 0 0
+RefactoringAction 1474039872390 Board.java ADD Board() METHOD
+EditAction 1474039875670 Board.java 52 1 0 0
+EditAction 1474039880348 Board.java 65 1 1 0
+CompilationAction 1474039880433 Board.java
+CompilationAction 1474039893143 Board.java
+CompilationAction 1474039893290 Board.java
+CompilationAction 1474039893290 Board.java
+CompilationAction 1474039912331 Board.java
+CompilationAction 1474039912446 Board.java
+CompilationAction 1474039912446 Board.java
+CompilationAction 1474039912446 Board.java
+CompilationAction 1474039921670 Board.java
+CompilationAction 1474039921670 Board.java
+CompilationAction 1474039921785 Board.java
+CompilationAction 1474039921786 Board.java
+CompilationAction 1474039937947 Board.java
+CompilationAction 1474039938124 Board.java
+CompilationAction 1474039938124 Board.java
+CompilationAction 1474039939369 Board.java
+RefactoringAction 1474039942978 Board.java ADD import java.util.ArrayList IMPORT
+CompilationAction 1474039947839 Board.java
+CompilationAction 1474039964016 SudokuVerifier.java
+CompilationAction 1474039964143 SudokuVerifier.java
+CompilationAction 1474039973840 SudokuVerifier.java
+CompilationAction 1474039974017 SudokuVerifier.java
+CompilationAction 1474039974017 SudokuVerifier.java
+CompilationAction 1474039974017 SudokuVerifier.java
+CompilationAction 1474039974018 SudokuVerifier.java
+CompilationAction 1474040018838 SudokuVerifier.java
+CompilationAction 1474040018839 SudokuVerifier.java
+CompilationAction 1474040018839 SudokuVerifier.java
+CompilationAction 1474040018839 SudokuVerifier.java
+CompilationAction 1474040018964 SudokuVerifier.java
+CompilationAction 1474040018964 SudokuVerifier.java
+CompilationAction 1474040018965 SudokuVerifier.java
+CompilationAction 1474040019660 SudokuVerifier.java
+CompilationAction 1474040020002 SudokuVerifier.java
+CompilationAction 1474040020002 SudokuVerifier.java
+CompilationAction 1474040020002 SudokuVerifier.java
+CompilationAction 1474040021569 SudokuVerifier.java
+CompilationAction 1474040021698 SudokuVerifier.java
+CompilationAction 1474040021698 SudokuVerifier.java
+CompilationAction 1474040021698 SudokuVerifier.java
+CompilationAction 1474040028999 SudokuVerifier.java
+CompilationAction 1474040028999 SudokuVerifier.java
+CompilationAction 1474040029122 SudokuVerifier.java
+CompilationAction 1474040029122 SudokuVerifier.java
+CompilationAction 1474040029122 SudokuVerifier.java
+CompilationAction 1474040029122 SudokuVerifier.java
+CompilationAction 1474040035865 SudokuVerifier.java
+CompilationAction 1474040035866 SudokuVerifier.java
+CompilationAction 1474040035993 SudokuVerifier.java
+CompilationAction 1474040035994 SudokuVerifier.java
+CompilationAction 1474040035994 SudokuVerifier.java
+CompilationAction 1474040035994 SudokuVerifier.java
+CompilationAction 1474040068657 SudokuVerifier.java
+CompilationAction 1474040068812 SudokuVerifier.java
+CompilationAction 1474040068812 SudokuVerifier.java
+CompilationAction 1474040068812 SudokuVerifier.java
+CompilationAction 1474040068812 SudokuVerifier.java
+EditAction 1474040077976 SudokuVerifier.java 1673 5 10 0
+CompilationAction 1474040078222 SudokuVerifier.java
+CompilationAction 1474040078222 SudokuVerifier.java
+CompilationAction 1474040078222 SudokuVerifier.java
+CompilationAction 1474040078222 SudokuVerifier.java
+CompilationAction 1474040096352 SudokuVerifier.java
+CompilationAction 1474040096352 SudokuVerifier.java
+CompilationAction 1474040096352 SudokuVerifier.java
+CompilationAction 1474040096500 SudokuVerifier.java
+CompilationAction 1474040096500 SudokuVerifier.java
+CompilationAction 1474040096501 SudokuVerifier.java
+CompilationAction 1474040096501 SudokuVerifier.java
+CompilationAction 1474040096501 SudokuVerifier.java
+EditAction 1474040098145 SudokuVerifier.java 1718 5 11 0
+CompilationAction 1474040098378 SudokuVerifier.java
+CompilationAction 1474040098390 SudokuVerifier.java
+CompilationAction 1474040098390 SudokuVerifier.java
+CompilationAction 1474040098391 SudokuVerifier.java
+CompilationAction 1474040098391 SudokuVerifier.java
+EditAction 1474040104547 SudokuVerifier.java 1718 5 11 0
+CompilationAction 1474040104727 SudokuVerifier.java
+CompilationAction 1474040104728 SudokuVerifier.java
+CompilationAction 1474040104728 SudokuVerifier.java
+CompilationAction 1474040104728 SudokuVerifier.java
+CompilationAction 1474040104728 SudokuVerifier.java
+CompilationAction 1474040107144 SudokuVerifier.java
+CompilationAction 1474040107268 SudokuVerifier.java
+CompilationAction 1474040107268 SudokuVerifier.java
+CompilationAction 1474040107268 SudokuVerifier.java
+CompilationAction 1474040107269 SudokuVerifier.java
+CompilationAction 1474040107269 SudokuVerifier.java
+EditAction 1474040111667 Board.java 224 1 1 0
+CompilationAction 1474040111829 Board.java
+CompilationAction 1474040111829 Board.java
+CompilationAction 1474040112956 Board.java
+CompilationAction 1474040112957 Board.java
+CompilationAction 1474040113108 Board.java
+CompilationAction 1474040113109 Board.java
+CompilationAction 1474040114482 Board.java
+CompilationAction 1474040114639 Board.java
+CompilationAction 1474040114639 Board.java
+CompilationAction 1474040117917 SudokuVerifier.java
+CompilationAction 1474040118044 SudokuVerifier.java
+CompilationAction 1474040118044 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+RefactoringAction 1474040151754 Board.java ADD boolean hasUnique FIELD
+CompilationAction 1474040156697 Board.java
+CompilationAction 1474040156849 Board.java
+CompilationAction 1474040156849 Board.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+RefactoringAction 1474040158764 Board.java REMOVE hasValidCharacters FIELD
+RefactoringAction 1474040160272 Board.java ADD boolean L FIELD
+RefactoringAction 1474040162281 Board.java RENAME L=>boolean load() METHOD
+RefactoringAction 1474040164791 Board.java REMOVE load() METHOD
+RefactoringAction 1474040166798 Board.java ADD boolean hasUnique FIELD
+RefactoringAction 1474040167807 Board.java RENAME hasUnique=>boolean has FIELD
+RefactoringAction 1474040169816 Board.java RENAME has=>boolean hasValidCha FIELD
+RefactoringAction 1474040171825 Board.java RENAME hasValidCha=>boolean hasValidCharacters() METHOD
+CompilationAction 1474040173102 Board.java
+CompilationAction 1474040173332 Board.java
+CompilationAction 1474040173333 Board.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040178060 Board.java
+CompilationAction 1474040178061 Board.java
+CompilationAction 1474040178216 Board.java
+EditAction 1474040181572 Board.java 354 2 2 0
+CompilationAction 1474040181804 Board.java
+EditAction 1474040186709 Board.java 369 2 3 0
+CompilationAction 1474040186937 Board.java
+EditAction 1474040188062 Board.java 372 2 3 0
+CompilationAction 1474040188248 Board.java
+CompilationAction 1474040284939 Board.java
+CompilationAction 1474040285163 Board.java
+CompilationAction 1474040285163 Board.java
+CompilationAction 1474040285163 Board.java
+CompilationAction 1474040285163 Board.java
+CompilationAction 1474040285163 SudokuVerifier.java
+CompilationAction 1474040285164 SudokuVerifier.java
+CompilationAction 1474040285164 SudokuVerifier.java
+CompilationAction 1474040285164 SudokuVerifier.java
+RefactoringAction 1474040295023 Board.java ADD boolean areSub FIELD
+RefactoringAction 1474040298543 Board.java RENAME areSub=>boolean isSubgrids FIELD
+RefactoringAction 1474040301059 Board.java RENAME isSubgrids=>boolean isSubGrids FIELD
+RefactoringAction 1474040302574 Board.java RENAME isSubGrids=>boolean isSubGridsUnique FIELD
+CompilationAction 1474040304136 Board.java
+CompilationAction 1474040304136 Board.java
+CompilationAction 1474040304137 Board.java
+CompilationAction 1474040304394 Board.java
+CompilationAction 1474040304394 Board.java
+CompilationAction 1474040304394 Board.java
+CompilationAction 1474040304394 Board.java
+CompilationAction 1474040304394 SudokuVerifier.java
+CompilationAction 1474040304394 SudokuVerifier.java
+CompilationAction 1474040304395 SudokuVerifier.java
+CompilationAction 1474040304395 SudokuVerifier.java
+CompilationAction 1474040305948 Board.java
+CompilationAction 1474040305948 Board.java
+CompilationAction 1474040305948 Board.java
+CompilationAction 1474040306105 Board.java
+CompilationAction 1474040306105 Board.java
+CompilationAction 1474040306106 Board.java
+CompilationAction 1474040306106 Board.java
+RefactoringAction 1474040319593 SudokuVerifier.java RENAME hasColumnDuplicates(String)=>boolean coColumnDuplicates(String) METHOD
+CompilationAction 1474040330972 SudokuVerifier.java
+CompilationAction 1474040331168 SudokuVerifier.java
+CompilationAction 1474040331169 SudokuVerifier.java
+CompilationAction 1474040331169 SudokuVerifier.java
+CompilationAction 1474040331170 SudokuVerifier.java
+CompilationAction 1474040343333 SudokuVerifier.java
+CompilationAction 1474040343333 SudokuVerifier.java
+CompilationAction 1474040343333 SudokuVerifier.java
+CompilationAction 1474040343333 SudokuVerifier.java
+CompilationAction 1474040343451 SudokuVerifier.java
+CompilationAction 1474040343451 SudokuVerifier.java
+CompilationAction 1474040343451 SudokuVerifier.java
+CompilationAction 1474040343451 SudokuVerifier.java
+CompilationAction 1474040352366 SudokuVerifier.java
+CompilationAction 1474040352366 SudokuVerifier.java
+CompilationAction 1474040352366 SudokuVerifier.java
+CompilationAction 1474040352366 SudokuVerifier.java
+CompilationAction 1474040352486 SudokuVerifier.java
+CompilationAction 1474040352487 SudokuVerifier.java
+CompilationAction 1474040352487 SudokuVerifier.java
+CompilationAction 1474040352487 SudokuVerifier.java
+CompilationAction 1474040354205 SudokuVerifier.java
+CompilationAction 1474040354205 SudokuVerifier.java
+CompilationAction 1474040354205 SudokuVerifier.java
+CompilationAction 1474040354206 SudokuVerifier.java
+CompilationAction 1474040354318 SudokuVerifier.java
+CompilationAction 1474040354318 SudokuVerifier.java
+CompilationAction 1474040354318 SudokuVerifier.java
+CompilationAction 1474040354318 SudokuVerifier.java
+CompilationAction 1474040379404 SudokuVerifier.java
+CompilationAction 1474040379404 SudokuVerifier.java
+CompilationAction 1474040379404 SudokuVerifier.java
+CompilationAction 1474040379536 SudokuVerifier.java
+CompilationAction 1474040379537 SudokuVerifier.java
+CompilationAction 1474040379537 SudokuVerifier.java
+CompilationAction 1474040379537 SudokuVerifier.java
+CompilationAction 1474040390468 SudokuVerifier.java
+CompilationAction 1474040390468 SudokuVerifier.java
+CompilationAction 1474040390468 SudokuVerifier.java
+CompilationAction 1474040390469 SudokuVerifier.java
+CompilationAction 1474040390726 SudokuVerifier.java
+CompilationAction 1474040390727 SudokuVerifier.java
+CompilationAction 1474040390727 SudokuVerifier.java
+CompilationAction 1474040390727 SudokuVerifier.java
+CompilationAction 1474040390728 SudokuVerifier.java
+RefactoringAction 1474040414698 Board.java ADD boolean isAll FIELD
+CompilationAction 1474040421045 Board.java
+CompilationAction 1474040421045 Board.java
+CompilationAction 1474040421045 Board.java
+CompilationAction 1474040421045 Board.java
+CompilationAction 1474040421218 Board.java
+CompilationAction 1474040421219 Board.java
+CompilationAction 1474040421219 Board.java
+CompilationAction 1474040421219 Board.java
+CompilationAction 1474040421219 Board.java
+CompilationAction 1474040421219 SudokuVerifier.java
+CompilationAction 1474040421219 SudokuVerifier.java
+CompilationAction 1474040421220 SudokuVerifier.java
+CompilationAction 1474040421220 SudokuVerifier.java
+RefactoringAction 1474040425235 Board.java ADD boolean isAllRowElementsUnique()/2 METHOD
+CompilationAction 1474040429378 Board.java
+CompilationAction 1474040429378 Board.java
+CompilationAction 1474040429378 Board.java
+CompilationAction 1474040429378 Board.java
+CompilationAction 1474040429519 Board.java
+CompilationAction 1474040429519 Board.java
+CompilationAction 1474040429520 Board.java
+CompilationAction 1474040429520 Board.java
+CompilationAction 1474040429520 Board.java
+CompilationAction 1474040429520 SudokuVerifier.java
+CompilationAction 1474040429520 SudokuVerifier.java
+CompilationAction 1474040429520 SudokuVerifier.java
+CompilationAction 1474040433220 SudokuVerifier.java
+CompilationAction 1474040433371 SudokuVerifier.java
+CompilationAction 1474040433371 SudokuVerifier.java
+CompilationAction 1474040433371 SudokuVerifier.java
+CompilationAction 1474040436180 Board.java
+CompilationAction 1474040436180 Board.java
+CompilationAction 1474040436180 Board.java
+CompilationAction 1474040436180 Board.java
+CompilationAction 1474040436337 Board.java
+CompilationAction 1474040436338 Board.java
+CompilationAction 1474040436338 Board.java
+CompilationAction 1474040436338 Board.java
+CompilationAction 1474040436338 Board.java
+CompilationAction 1474040439586 Board.java
+CompilationAction 1474040439586 Board.java
+CompilationAction 1474040439586 Board.java
+CompilationAction 1474040439586 Board.java
+CompilationAction 1474040439586 Board.java
+CompilationAction 1474040439706 Board.java
+CompilationAction 1474040439706 Board.java
+CompilationAction 1474040439706 Board.java
+CompilationAction 1474040439707 Board.java
+CompilationAction 1474040439707 Board.java
+UnitTestCaseAction 1474040500306 GildedRoseTest.java FAIL
+UnitTestSessionAction 1474040500307 GildedRoseTest FAIL
+FileOpenedAction 1474040506028 GildedRoseTest.java 15474 33 306 33
