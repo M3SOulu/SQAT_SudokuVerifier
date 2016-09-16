@@ -9,9 +9,9 @@ public class SudokuVerifier {
 			throw new Exception("Invalid board dimensions");
 		
 		if (!isAllCharactersValid(candidateSolution))       return -1;
-		if (!isAllSubGridElementsUnique(candidateSolution)) return -2;
 		if (!isAllRowElementsUnique(candidateSolution))     return -3;
 		if (!isAllColumnElementsUnique(candidateSolution))  return -4;
+		if (!isAllSubGridElementsUnique(candidateSolution)) return -2;
 		
 		return 0;
 	}
