@@ -42,3 +42,5 @@ RefactoringAction 1474027461136 SudokuVerifierTest.java RENAME testVerify_checkI
 RefactoringAction 1474027490675 SudokuVerifierTest.java ADD void testVerify_checkIfRowCheckWorks_InvalidSudoku()/2 METHOD
 RefactoringAction 1474027497191 SudokuVerifierTest.java RENAME testVerify_checkIfRowCheckWorks_InvalidSudoku()/2=>void testVerify_checkIfRowCheckWorks_ValidSudoku() METHOD
 EditAction 1474027633992 SudokuVerifierTest.java 1663 5 15 5
+UnitTestCaseAction 1474027636132 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027636133 SudokuVerifierTest.java FAIL
