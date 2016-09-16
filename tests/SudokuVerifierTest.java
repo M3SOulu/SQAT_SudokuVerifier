@@ -25,7 +25,7 @@ public class SudokuVerifierTest {
 	public void testVerify_NumbersConvertedFromString() {
 		SudokuVerifier verifier = new SudokuVerifier();
 		int x = verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
-		assertEquals("81", 81, verifier.getSudoku().length);		
+		assertEquals("9", 9, verifier.getSudoku().length);		
 	}
 
 }

@@ -27,3 +27,6 @@ RefactoringAction 1474027084126 SudokuVerifier.java REMOVE helper FIELD
 RefactoringAction 1474027084129 SudokuVerifier.java REMOVE i/2 FIELD
 RefactoringAction 1474027140294 SudokuVerifier.java REMOVE i FIELD
 EditAction 1474027190731 SudokuVerifier.java 1101 4 11 0
+UnitTestCaseAction 1474027192800 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027192801 SudokuVerifierTest.java FAIL
+EditAction 1474027380496 SudokuVerifierTest.java 1131 3 9 3
