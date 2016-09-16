@@ -30,3 +30,15 @@ EditAction 1474027190731 SudokuVerifier.java 1101 4 11 0
 UnitTestCaseAction 1474027192800 SudokuVerifierTest.java FAIL
 UnitTestSessionAction 1474027192801 SudokuVerifierTest.java FAIL
 EditAction 1474027380496 SudokuVerifierTest.java 1131 3 9 3
+UnitTestCaseAction 1474027382829 SudokuVerifierTest.java FAIL
+UnitTestSessionAction 1474027382830 SudokuVerifierTest.java FAIL
+RefactoringAction 1474027444544 SudokuVerifierTest.java ADD void testVerify_NumbersConvertedFromString()/2 METHOD
+RefactoringAction 1474027450561 SudokuVerifierTest.java RENAME testVerify_NumbersConvertedFromString()/2=>void testVerify_c() METHOD
+RefactoringAction 1474027452577 SudokuVerifierTest.java RENAME testVerify_c()=>void testVerify_checkIf() METHOD
+RefactoringAction 1474027454093 SudokuVerifierTest.java RENAME testVerify_checkIf()=>void testVerify_checkIfRow() METHOD
+RefactoringAction 1474027457107 SudokuVerifierTest.java RENAME testVerify_checkIfRow()=>void testVerify_checkIfRowCheckWorks() METHOD
+RefactoringAction 1474027459622 SudokuVerifierTest.java RENAME testVerify_checkIfRowCheckWorks()=>void testVerify_checkIfRowCheckWorks_Invalid_() METHOD
+RefactoringAction 1474027461136 SudokuVerifierTest.java RENAME testVerify_checkIfRowCheckWorks_Invalid_()=>void testVerify_checkIfRowCheckWorks_InvalidSudoku() METHOD
+RefactoringAction 1474027490675 SudokuVerifierTest.java ADD void testVerify_checkIfRowCheckWorks_InvalidSudoku()/2 METHOD
+RefactoringAction 1474027497191 SudokuVerifierTest.java RENAME testVerify_checkIfRowCheckWorks_InvalidSudoku()/2=>void testVerify_checkIfRowCheckWorks_ValidSudoku() METHOD
+EditAction 1474027633992 SudokuVerifierTest.java 1663 5 15 5
