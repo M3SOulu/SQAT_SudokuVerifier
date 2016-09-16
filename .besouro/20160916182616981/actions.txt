@@ -121,3 +121,46 @@ CompilationAction 1474040107268 SudokuVerifier.java
 CompilationAction 1474040107269 SudokuVerifier.java
 CompilationAction 1474040107269 SudokuVerifier.java
 EditAction 1474040111667 Board.java 224 1 1 0
+CompilationAction 1474040111829 Board.java
+CompilationAction 1474040111829 Board.java
+CompilationAction 1474040112956 Board.java
+CompilationAction 1474040112957 Board.java
+CompilationAction 1474040113108 Board.java
+CompilationAction 1474040113109 Board.java
+CompilationAction 1474040114482 Board.java
+CompilationAction 1474040114639 Board.java
+CompilationAction 1474040114639 Board.java
+CompilationAction 1474040117917 SudokuVerifier.java
+CompilationAction 1474040118044 SudokuVerifier.java
+CompilationAction 1474040118044 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+CompilationAction 1474040118045 SudokuVerifier.java
+RefactoringAction 1474040151754 Board.java ADD boolean hasUnique FIELD
+CompilationAction 1474040156697 Board.java
+CompilationAction 1474040156849 Board.java
+CompilationAction 1474040156849 Board.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+CompilationAction 1474040156850 SudokuVerifier.java
+RefactoringAction 1474040158764 Board.java REMOVE hasValidCharacters FIELD
+RefactoringAction 1474040160272 Board.java ADD boolean L FIELD
+RefactoringAction 1474040162281 Board.java RENAME L=>boolean load() METHOD
+RefactoringAction 1474040164791 Board.java REMOVE load() METHOD
+RefactoringAction 1474040166798 Board.java ADD boolean hasUnique FIELD
+RefactoringAction 1474040167807 Board.java RENAME hasUnique=>boolean has FIELD
+RefactoringAction 1474040169816 Board.java RENAME has=>boolean hasValidCha FIELD
+RefactoringAction 1474040171825 Board.java RENAME hasValidCha=>boolean hasValidCharacters() METHOD
+CompilationAction 1474040173102 Board.java
+CompilationAction 1474040173332 Board.java
+CompilationAction 1474040173333 Board.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040173334 SudokuVerifier.java
+CompilationAction 1474040178060 Board.java
+CompilationAction 1474040178061 Board.java
+CompilationAction 1474040178216 Board.java
+EditAction 1474040181572 Board.java 354 2 2 0

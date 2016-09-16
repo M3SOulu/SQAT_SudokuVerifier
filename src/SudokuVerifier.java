@@ -12,7 +12,6 @@ public class SudokuVerifier {
 		if (!board.hasUniqueRowElements()) return -3;
 		if (!board.hasUniqueColumnElements()) return -4;
 		
-		
 		for (char c : candidateSolution.toCharArray())
 			if (c < '1' || c > '9') return -1;
 
