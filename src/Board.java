@@ -12,6 +12,7 @@ public class Board {
 	boolean hasValidCharacters() {
 		for (char c : candidateSolution.toCharArray())
 			if (c < '1' || c > '9') return false;
+		
 		return true;
 	}
 }
