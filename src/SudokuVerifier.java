@@ -50,4 +50,10 @@ public class SudokuVerifier {
 		
 		return 0;
 	}
+	
+	boolean isValidSize(String board)
+	{
+		
+	}
+	
 }

@@ -1,0 +1,16 @@
+FileOpenedAction 1474039577303 SudokuVerifier.java 1194 1 6 0
+RefactoringAction 1474039610804 SudokuVerifier.java ADD int verity FIELD
+RefactoringAction 1474039612357 SudokuVerifier.java REMOVE verity FIELD
+RefactoringAction 1474039622527 Board.java ADD Board.java CLASS
+FileOpenedAction 1474039622762 Board.java 25 0 0 0
+RefactoringAction 1474039627769 Board.java ADD Board() METHOD
+RefactoringAction 1474039632278 Board.java REMOVE Board() METHOD
+RefactoringAction 1474039633290 Board.java ADD Board() METHOD
+RefactoringAction 1474039639311 Board.java RENAME Board()=>Board(String) METHOD
+RefactoringAction 1474039666398 Board.java ADD ArrayList<Integer> board FIELD
+RefactoringAction 1474039671924 Board.java ADD void set FIELD
+RefactoringAction 1474039675938 Board.java RENAME set=>void setValue() METHOD
+RefactoringAction 1474039741578 Board.java REMOVE Board.java CLASS
+RefactoringAction 1474039753919 SudokuVerifier.java ADD boolean is FIELD
+RefactoringAction 1474039759941 SudokuVerifier.java RENAME is=>boolean isValidSize() METHOD
+EditAction 1474039764012 SudokuVerifier.java 1242 2 6 0
