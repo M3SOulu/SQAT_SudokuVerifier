@@ -14,3 +14,20 @@ RefactoringAction 1474039741578 Board.java REMOVE Board.java CLASS
 RefactoringAction 1474039753919 SudokuVerifier.java ADD boolean is FIELD
 RefactoringAction 1474039759941 SudokuVerifier.java RENAME is=>boolean isValidSize() METHOD
 EditAction 1474039764012 SudokuVerifier.java 1242 2 6 0
+CompilationAction 1474039764269 SudokuVerifier.java
+RefactoringAction 1474039786537 SudokuVerifier.java ADD boolean has FIELD
+RefactoringAction 1474039790562 SudokuVerifier.java RENAME has=>boolean hasValid FIELD
+RefactoringAction 1474039794592 SudokuVerifier.java RENAME hasValid=>boolean hasValidCharacters() METHOD
+RefactoringAction 1474039801641 SudokuVerifier.java RENAME hasValidCharacters()=>boolean hasValidCharacters(String) METHOD
+CompilationAction 1474039807033 SudokuVerifier.java
+CompilationAction 1474039807301 SudokuVerifier.java
+RefactoringAction 1474039823241 SudokuVerifier.java ADD boolean hasColumnDuplicates(String) METHOD
+CompilationAction 1474039828508 SudokuVerifier.java
+CompilationAction 1474039828688 SudokuVerifier.java
+CompilationAction 1474039828688 SudokuVerifier.java
+CompilationAction 1474039834475 SudokuVerifier.java
+CompilationAction 1474039834615 SudokuVerifier.java
+RefactoringAction 1474039867059 Board.java ADD Board.java CLASS
+FileOpenedAction 1474039867388 Board.java 25 0 0 0
+RefactoringAction 1474039872390 Board.java ADD Board() METHOD
+EditAction 1474039875670 Board.java 52 1 0 0

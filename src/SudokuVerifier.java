@@ -51,9 +51,19 @@ public class SudokuVerifier {
 		return 0;
 	}
 	
-	boolean isValidSize(String board)
-	{
+	private boolean isValidSize(String candidateSolution) {
 		
 	}
 	
+	private boolean hasValidCharacters(String candidateSolution) {
+		
+	}
+
+	private boolean hasColumnDuplicates(String candidateSolution) {
+		
+	}
+	
+	private boolean hasRowDuplicates(String candidateSolution) {
+		
+	}
 }
