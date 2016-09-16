@@ -1,0 +1,13 @@
+FileOpenedAction 1474025107508 SudokuVerifier.java 548 1 5 0
+FileOpenedAction 1474025505881 SudokuVerifierTest.java 1378 4 12 4
+RefactoringAction 1474025510922 SudokuVerifierTest.java REMOVE testVerify_ColumnsAreAccordingtoR3() METHOD
+RefactoringAction 1474025510925 SudokuVerifierTest.java REMOVE testVerify_ColumsnAreAccordingtoR3_IncorrectSudoku() METHOD
+RefactoringAction 1474026519093 SudokuVerifierTest.java ADD void testVerify_StringContainsLetters_Return_minus_1()/2 METHOD
+RefactoringAction 1474026528111 SudokuVerifierTest.java RENAME testVerify_StringContainsLetters_Return_minus_1()/2=>void testVerify_Numbers() METHOD
+RefactoringAction 1474026534626 SudokuVerifierTest.java RENAME testVerify_Numbers()=>void testVerify_NumbersConvertedFromString() METHOD
+RefactoringAction 1474026675588 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1474026753748 SudokuVerifier.java ADD int FIELD
+RefactoringAction 1474026755772 SudokuVerifier.java RENAME get=>int FIELD
+RefactoringAction 1474026756792 SudokuVerifier.java RENAME getSudok=>int FIELD
+RefactoringAction 1474026760308 SudokuVerifier.java RENAME getSudoku=>int METHOD
+EditAction 1474026837622 SudokuVerifierTest.java 1133 3 9 3
