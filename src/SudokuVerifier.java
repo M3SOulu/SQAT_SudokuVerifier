@@ -13,9 +13,6 @@ public class SudokuVerifier {
 		if (!board.hasUniqueColumnElements()) return -4;
 		
 		
-		if (candidateSolution.length() != 81)
-			throw new Exception("Invalid board dimensions");
-		
 		for (char c : candidateSolution.toCharArray())
 			if (c < '1' || c > '9') return -1;
 

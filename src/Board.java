@@ -4,8 +4,7 @@ public class Board {
 	private ArrayList<Integer> mCells;
 	
 	Board(String data) throws Exception {
-		if (data.length() != 81) {
+		
+		if (candidateSolution.length() != 81)
 			throw new Exception("Invalid board dimensions");
-		}
-	}
 }
