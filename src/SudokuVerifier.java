@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class SudokuVerifier {
 	
 	public int verify(String candidateSolution) throws Exception {
@@ -17,7 +15,7 @@ public class SudokuVerifier {
 	}
 	
 	private boolean isValidLength(String candidateSolution) {
-		return (candidateSolution.length() != 81);
+		return (candidateSolution.length() == 81);
 	}
 	
 	private boolean isAllCharactersValid(String candidateSolution) {
