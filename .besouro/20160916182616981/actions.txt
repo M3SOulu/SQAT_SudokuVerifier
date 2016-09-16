@@ -31,3 +31,4 @@ RefactoringAction 1474039867059 Board.java ADD Board.java CLASS
 FileOpenedAction 1474039867388 Board.java 25 0 0 0
 RefactoringAction 1474039872390 Board.java ADD Board() METHOD
 EditAction 1474039875670 Board.java 52 1 0 0
+EditAction 1474039880348 Board.java 65 1 1 0
