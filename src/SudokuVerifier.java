@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class SudokuVerifier {
@@ -10,7 +9,6 @@ public class SudokuVerifier {
 		int column[] = array[9].clone();
 		int num;
 		int substrnum = 0;
-		//ArrayList<E> arraylist = new ArrayList();
 		// returns 0 if the candidate solution is correct
 		for (int i = 0; i <= 8; i++){
 			for (int j = 0; j <=8; j++){
