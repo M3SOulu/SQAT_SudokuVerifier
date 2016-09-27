@@ -6,26 +6,29 @@ public class SudokuVerifier {
 		int array[][] = new int[9][9];
 		int row[] = new int[9];
 		int box[] = new int[9];
-		int column[] = array[9].clone();
+		int column[] = new int[9];
 		int num;
 		int substrnum = 0;
-		// returns 0 if the candidate solution is correct
-		for (int i = 0; i <= 8; i++){
-			for (int j = 0; j <=8; j++){
+
+		
+		//Parse the string into array[][]
+		for (int i = 0; i < 9; i++){
+			for (int j = 0; j < 9; j++){
 				// assign 9 values to the first row
 				num = Integer.parseInt(candidateSolution.substring(substrnum, substrnum+1));
 				array[i][j] = num;	
-				System.out.println(array[i][j]);
+				//System.out.println(array[i][j]);
 				substrnum++;
 				}
 			
 			}
 		//place the set of numbers to it's corresponding array
-		for (int i = 0; i <= 8; i++){
-			for (int j = 0; j < 9; i++)
+		for (int i = 0; i < 9; i++){
+			for (int j = 0; j < 9; j++)
 			{
-				row[j] = array[j][i];
+				row[j] = array[i][j];
 				box[j] = array[(i/3) * 3 + j / 3][i * 3 % 9 + j % 3];
+				column[j] = array[j][i];
 			}
 			//Check cells for positive digits
 			if (!checkPositive(array)){
@@ -67,30 +70,21 @@ public class SudokuVerifier {
 			if (number !=++i)
 				return false;
 		}
-			//int column[] = grid.
-
-
-
-		//	String sudokuline = candidateSolution.substring((i - 9), i);
-		//	arraylist.add()
-			
 
 		
-		
-		//check
+		return true;
+
 	}
-	
-	//private boolean
-	
+
 	private static void validate() {
 		
-		SudokuVerifier verifier = new SudokuVerifier();
-		verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
+		//SudokuVerifier verifier = new SudokuVerifier();
+		//verifier.verify("417369825632158947958724316825437169791586432346912758289643571573291684164875293");
 		
 	}
 	
 	public static void main(String[] args) {
-		validate();
+		//validate();
 	}
 	
 	
